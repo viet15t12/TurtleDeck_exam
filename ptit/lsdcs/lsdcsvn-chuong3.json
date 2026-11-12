@@ -1,0 +1,2713 @@
+{
+  "meta": {
+    "id": "lsdcsvn-chuong3",
+    "title": "Lịch sử Đảng - Chương 3",
+    "kind": "quiz",
+    "lang": "vi",
+    "format": "studydeck",
+    "formatVersion": 1,
+    "description": "Trắc nghiệm Lịch sử Đảng Cộng sản Việt Nam - Chương 3"
+  },
+  "items": [
+    {
+      "id": "ch3_q001",
+      "type": "single",
+      "question": "Chọn phương án trả lời đúng nhất: Các thành phần kinh tế dựa trên chế độ công hữu ở Việt Nam là?",
+      "choices": [
+        "Kinh tế tư nhân và kinh tế có vốn đầu tư nước ngoài",
+        "Kinh tế nhà nước và kinh tế tư nhân",
+        "Kinh tế nhà nước và kinh tế tập thể",
+        "Kinh tế tập thể và kinh tế tư nhân"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q002",
+      "type": "single",
+      "question": "Chọn phương án trả lời đúng nhất: Kinh tế thị trường định hướng XHCN ở Việt Nam là nền kinh tế…?",
+      "choices": [
+        "Có nhiều hình thức sở hữu, nhiều thành phần kinh tế",
+        "Có nhiều hình thức sở hữu, một thành phần kinh tế",
+        "Có một hình thức sở hữu, nhiều thành phần kinh tế",
+        "Có nhiều hình thức sở hữu, một thành phần kinh tế"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q003",
+      "type": "single",
+      "question": "Từ khi nào Đảng ta không dùng khái niệm \"hệ thống chuyên chính vô sản\"?",
+      "choices": [
+        "Từ Đại hội VI",
+        "Từ Hội nghị Trung ương 6, khoá VI",
+        "Từ Đại hội VII",
+        "Từ Đại hội VIII"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q004",
+      "type": "single",
+      "question": "Việt Nam gia nhập Hội đồng Tương trợ kinh tế (khối SEV) vào năm nào?",
+      "choices": [
+        "Năm 1975",
+        "Năm 1976",
+        "Năm 1977",
+        "Năm 1978"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q005",
+      "type": "single",
+      "question": "Việt Nam tiếp nhận ghế thành viên tại Liên Hợp quốc vào năm nào?",
+      "choices": [
+        "Năm 1975",
+        "Năm 1976",
+        "Năm 1977",
+        "Năm 1978"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q006",
+      "type": "single",
+      "question": "\"Đề cương văn hoá Việt Nam\" do đồng chí Trường Chinh soạn thảo được Ban Thường vụ Trung ương Đảng thông qua vào năm nào?",
+      "choices": [
+        "Năm 1941",
+        "Năm 1943",
+        "Năm 1944",
+        "Năm 1945"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q007",
+      "type": "single",
+      "question": "Khái niệm \"hệ thống chính trị\" lần đầu tiên được Đảng ta sử dụng khi nào?",
+      "choices": [
+        "Tại Đại hội VI",
+        "Tại Hội nghị Trung ương 6, khoá VI",
+        "Tại Đại hội VII",
+        "Tại Đại hội VIII"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q008",
+      "type": "single",
+      "question": "Chọn phương án trả lời đúng nhất: Thành phần kinh tế tư nhân dựa trên chế độ sở hữu nào?",
+      "choices": [
+        "Công hữu",
+        "Tư nhân",
+        "Tập thể",
+        "Hỗn hợp"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q009",
+      "type": "single",
+      "question": "Thành phần kinh tế giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN ở Việt Nam là …?",
+      "choices": [
+        "Kinh tế nhà nước",
+        "Kinh tế tư nhân",
+        "Kinh tế tập thể",
+        "Kinh tế có vốn đầu tư nước ngoài"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q010",
+      "type": "single",
+      "question": "Điểm nào dưới đây không phải là nguyên tắc của nền văn hoá mới đã được xác định trong \"Đề cương văn hoá Việt Nam\" do đồng chí Trường Chinh soạn thảo?",
+      "choices": [
+        "Dân tộc hoá",
+        "Đại chúng hoá",
+        "Khoa học hoá",
+        "Văn hoá hoá"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q011",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây đã triệt tiêu các yếu tố của thị trường?",
+      "choices": [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát\", \"giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q012",
+      "type": "single",
+      "question": "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, \"Kết quả cải tạo xã hội chủ nghĩa đối với các thành phần kinh tế phi xã hội chủ nghĩa\" đã trực tiếp tạo ra cơ sở nào?",
+      "choices": [
+        "Cơ sở lý luận Mác - Lênin",
+        "Đường lối chung của cách mạng Việt Nam",
+        "Cơ sở kinh tế kế hoạch hóa tập trung quan liêu, bao cấp",
+        "Cơ sở giai cấp xã hội: chỉ còn giai cấp công nhân, nông dân và tầng lớp trí thức"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q013",
+      "type": "single",
+      "question": "Chủ tịch Hồ Chí Minh viết tài liệu \"Đời sống mới\" vào năm nào?",
+      "choices": [
+        "Năm 1945",
+        "Năm 1946",
+        "Năm 1947",
+        "Năm 1948"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q014",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây làm cho các chủ thể kinh tế không có tính độc lập trong thị trường?",
+      "choices": [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q015",
+      "type": "single",
+      "question": "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, \"Việc Nhà nước ta trở thành một chủ thể kinh tế bao trùm\" là do cơ sở nào quy định?",
+      "choices": [
+        "Cơ sở lý luận Mác - Lênin",
+        "Đường lối chung của cách mạng Việt Nam",
+        "Cơ sở kinh tế kế hoạch hóa tập trung quan liêu, bao cấp",
+        "Cơ sở giai cấp xã hội: chỉ còn giai cấp công nhân, nông dân và tầng lớp trí thức"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q016",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây tạo ra tâm lý ỷ lại, thụ động, tiêu cực trong hoạt động kinh tế?",
+      "choices": [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q017",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây sinh ra nhiều yếu kém, khuyết điểm trong bộ máy quản lý?",
+      "choices": [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh, giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q018",
+      "type": "single",
+      "question": "Đường lối xây dựng và phát triển Văn hoá trong giai đoạn cách mạng xã hội chủ nghĩa được hình thành bắt đầu từ Đại hội nào của Đảng?",
+      "choices": [
+        "Đại hội III",
+        "Đại hội IV",
+        "Đại hội V",
+        "Đại hội VI"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q019",
+      "type": "single",
+      "question": "Chủ trương hợp tác bình đẳng và cùng có lợi với tất cả các nước, không phân biệt chế độ chính trị - xã hội khác nhau trên cơ sở các nguyên tắc cùng tồn tại hòa bình là xuất phát trực tiếp từ cơ sở nào trong các cơ sở dưới đây?",
+      "choices": [
+        "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+        "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+        "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+        "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q020",
+      "type": "single",
+      "question": "Nghị quyết Hội nghị Trung ương mấy khoá XI đã nêu ra 5 quan điểm cơ bản chỉ đạo quá trình phát triển văn hoá, con người Việt Nam đáp ứng yêu cầu phát triển bền vững đất nước?",
+      "choices": [
+        "Nghị quyết Hội nghị Trung ương 6 khoá XI",
+        "Nghị quyết Hội nghị Trung ương 7 khoá XI",
+        "Nghị quyết Hội nghị Trung ương 8 khoá XI",
+        "Nghị quyết Hội nghị Trung ương 9 khoá XI"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q021",
+      "type": "single",
+      "question": "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, các biểu hiện quan liêu, độc đoán, mất dân chủ trong hệ thống chuyên chính vô sản ở nước ta là sự phản ánh cơ sở nào của hệ thống chuyên chính vô sản này?",
+      "choices": [
+        "Cơ sở lý luận Mác - Lênin",
+        "Đường lối chung của cách mạng Việt Nam",
+        "Cơ sở kinh tế kế hoạch hóa tập trung quan liêu, bao cấp",
+        "Cơ sở giai cấp xã hội: chỉ còn giai cấp công nhân, nông dân và tầng lớp trí thức"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q022",
+      "type": "single",
+      "question": "Chủ trương thúc đẩy bình thường hóa quan hệ Việt - Trung, quan hệ Việt - Mỹ là xuất phát trực tiếp từ cơ sở nào trong các cơ sở dưới đây?",
+      "choices": [
+        "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+        "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+        "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+        "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q023",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào rất khó đẩy lùi và vẫn còn kéo dài đến nay?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q024",
+      "type": "single",
+      "question": "Quan điểm nào trong các quan điểm sau đây nói về chức năng, vị trí vai trò đặc biệt quan trọng của văn hóa đối với sự phát triển xã hội?",
+      "choices": [
+        "Văn hóa là nền tảng tinh thần của xã hội, là mục tiêu, động lực phát triển bền vững đất nước. Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội",
+        "Xây dựng nền văn hoá Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam, với các đặc trưng dân tộc, nhân văn, dân chủ và khoa học",
+        "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+        "Xây dựng và phát triển văn hoá là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý, nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q025",
+      "type": "single",
+      "question": "Chính sách đối ngoại rộng đa phương hóa, đa dạng hóa các quan hệ kinh tế của Đảng ta là trực tiếp xuất phát từ cơ sở nào trong các cơ sở dưới đây?",
+      "choices": [
+        "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+        "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+        "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+        "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q026",
+      "type": "single",
+      "question": "Quan điểm nào trong các quan điểm sau đây nói về xây dựng con người Việt Nam?",
+      "choices": [
+        "Văn hóa là nền tảng tinh thần của xã hội, vừa là mục tiêu, vừa là động lực thúc đẩy sự phát triển kinh tế - xã hội và hội nhập quốc tế",
+        "Xây dựng nền văn hoá Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam, với các đặc trưng dân tộc, nhân văn, dân chủ và khoa học",
+        "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+        "Xây dựng và phát triển văn hóa là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý, nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q027",
+      "type": "single",
+      "question": "Chủ trương chủ động và tích cực hội nhập kinh tế quốc tế là trực tiếp xuất phát từ cơ sở nào trong các cơ sở dưới đây?",
+      "choices": [
+        "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+        "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+        "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+        "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q028",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào rất khó đẩy lùi và vẫn còn kéo dài đến nay?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q029",
+      "type": "single",
+      "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Điểm nào dưới đây xác định mục đích của các hoạt động kinh tế?",
+      "choices": [
+        "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những mục tiêu xã hội lại là mục đích của các hoạt động kinh tế",
+        "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+        "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+        "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, đồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q030",
+      "type": "single",
+      "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Điểm nào dưới đây xác định chính sách xã hội cần có mặt ngay trong khuôn khổ các hoạt động kinh tế?",
+      "choices": [
+        "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những mục tiêu xã hội lại là mục đích của các hoạt động kinh tế",
+        "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+        "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+        "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, đồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q031",
+      "type": "single",
+      "question": "Trong các quan điểm xây dựng hệ thống chính trị trong thời kỳ đổi mới, quan điểm nào dưới đây bị viết sai?",
+      "choices": [
+        "Kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới chính trị làm trọng tâm, đồng thời từng bước đổi mới kinh tế",
+        "Đổi mới tổ chức và phương thức hoạt động của hệ thống chính trị, làm cho hệ thống chính trị hoạt động năng động hơn, có hiệu quả hơn, phù hợp với đường lối đổi mới toàn diện, đồng bộ đất nước",
+        "Đổi mới hệ thống chính trị một cách toàn diện, đồng bộ, có kế thừa, có bước đi, hình thức và cách làm phù hợp",
+        "Đổi mới mối quan hệ giữa các bộ phận cấu thành của hệ thống chính trị với nhau và với xã hội, tạo ra sự vận động cùng chiều của cả hệ thống để thúc đẩy xã hội phát triển"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q032",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào lớn nhất?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q033",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào đã bị viết nhầm?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Gây ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q034",
+      "type": "single",
+      "question": "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta \"Việc Đại hội IV của Đảng nhận định rằng, muốn đưa sự nghiệp cách mạng đến toàn thắng thì điều kiện quyết định trước tiên là phải thiết lập chuyên chính vô sản\" đã tạo ra cơ sở nào cho hệ thống chuyên chính vô sản ở nước ta?",
+      "choices": [
+        "Cơ sở lý luận Mác - Lênin",
+        "Đường lối chung của cách mạng Việt Nam",
+        "Cơ sở kinh tế",
+        "Cơ sở xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q035",
+      "type": "single",
+      "question": "Hội nghị nào của BCH Trung ương Đảng đề ra chủ trương hoàn thành thống nhất nước nhà về mặt nhà nước, đưa cả nước tiến lên chủ nghĩa xã hội?",
+      "choices": [
+        "Hội nghị TW 24 Khoá III - 9-1975",
+        "Hội nghị TƯ 24 Khoá III - 11-1975",
+        "Hội nghị TƯ 24 Khoá III - 4-1976",
+        "Hội nghị TƯ 24 Khoá III - 5-1976"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q036",
+      "type": "single",
+      "question": "Nội dung trọng tâm của đường lối đổi mới ở Việt Nam (từ tháng 12/1986) phù hợp với xu thế phát triển của thế giới là",
+      "choices": [
+        "mở rộng hợp tác, đối thoại, thỏa hiệp.",
+        "thiết lập quan hệ đồng minh với các nước lớn.",
+        "lấy phát triển kinh tế làm trọng điểm.",
+        "tham gia mọi tổ chức khu vực và quốc tế."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q037",
+      "type": "single",
+      "question": "Bộ Chính trị đã ra chỉ thị về việc lãnh đạo tổng tuyển cử trong cả nước vào ngày nào?",
+      "choices": [
+        "30/12/1975",
+        "2/1/1976",
+        "3/1/1976",
+        "30/1/1976"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q038",
+      "type": "single",
+      "question": "Hội nghị hiệp thương chính trị giữa đoàn đại biểu miền Bắc và đoàn đại biểu miền Nam đã họp ở đâu?",
+      "choices": [
+        "Hà Nội",
+        "Sài Gòn",
+        "Huế",
+        "Đà Nẵng"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q039",
+      "type": "single",
+      "question": "Trong đường lối đổi mới (1986), Đảng ta chủ trương lấy đổi mới kinh tế là trọng tâm vì…",
+      "choices": [
+        "hàng hóa trên thị trường khan hiếm.",
+        "nhu cầu giải quyết việc làm cho nhân dân.",
+        "đất nước đang khủng hoảng kinh tế trầm trọng.",
+        "đất nước đang thiếu lương thực trầm trọng."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q040",
+      "type": "single",
+      "question": "Kỳ họp thứ nhất của Quốc hội nước Việt Nam thống nhất (Quốc hội khoá VI) được tổ chức trong thời gian nào?",
+      "choices": [
+        "Từ 24/6 - 3/7/1976",
+        "Từ 24/7 - 3/8/1976",
+        "Từ 24/9 - 3/10/1976",
+        "Từ 20/9 - 1/10/1976"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q041",
+      "type": "single",
+      "question": "Nhân tố hàng đầu đảm bảo thắng lợi của cách mạng Việt Nam từ năm 1930 đến nay là",
+      "choices": [
+        "sự lãnh đạo của Đảng Cộng sản Việt Nam.",
+        "kết hợp sức mạnh dân tộc và sức mạnh thời đại.",
+        "nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội.",
+        "không ngừng củng cố tăng cường khối đại đoàn kết dân tộc"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q042",
+      "type": "single",
+      "question": "Kế hoạch 5 năm lần thứ II (1976 - 1980) do đại hội IV thông qua đã đề ra bao nhiêu mục tiêu được xem là cơ bản, vừa là cấp bách?",
+      "choices": [
+        "2 mục tiêu",
+        "3 mục tiêu",
+        "4 mục tiêu",
+        "5 mục tiêu"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q043",
+      "type": "single",
+      "question": "Nguyên nhân khách quan nào sau đây thúc đẩy Đảng và Nhà Việt Nam phải tiến hành đổi mới?",
+      "choices": [
+        "Tình trạng khủng hoảng kinh tế - xã hội ở Việt Nam.",
+        "Tác động của cách mạng khoa học - kỹ thuật.",
+        "Đời sống nhân dân Việt Nam khó khăn.",
+        "Tác động của cuộc khủng hoảng dầu mỏ."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q044",
+      "type": "single",
+      "question": "Đại hội IV của Đảng đã rút ra bao nhiêu bài học kinh nghiệm?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q045",
+      "type": "single",
+      "question": "Một trong những mục tiêu của đường lối đổi mới ở Việt Nam được đề ra từ tháng 12/1986 là…",
+      "choices": [
+        "bước đầu khắc phục hậu quả chiến tranh.",
+        "hoàn thiện cơ chế quản lý đất nước.",
+        "đưa đất nước ra khỏi tình trạng khủng hoảng.",
+        "hoàn thành công cuộc cải cách ruộng đất."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q046",
+      "type": "single",
+      "question": "Ngày 14/7/1986, tại Hội nghị Ban chấp hành TW đặc biệt ai được bầu làm Tổng Bí thư?",
+      "choices": [
+        "Đỗ Mười",
+        "Nguyễn Văn Linh",
+        "Lê Khả Phiêu",
+        "Trường Chinh"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q047",
+      "type": "single",
+      "question": "Nguyên nhân khách quan nào sau đây thúc đẩy Đảng và Nhà Việt Nam phải tiến hành đổi mới?",
+      "choices": [
+        "Tình trạng khủng hoảng kinh tế - xã hội ở Việt Nam.",
+        "Sự khủng hoảng, trì trệ của Liên Xô và các nước Đông Âu.",
+        "Đời sống nhân dân Việt Nam khó khăn.",
+        "Tác động của cuộc khủng hoảng dầu mỏ."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q048",
+      "type": "single",
+      "question": "Chủ trương đổi mới công tác kế hoạch hoá và cải tiến một cách cơ bản chính sách kinh tế để làm cho sản xuất \"bung ra\" được nêu lên ở Hội nghị nào của Trung ương Đảng, khoá IV?",
+      "choices": [
+        "Hội nghị lần thứ năm (12-1978)",
+        "Hội nghị lần thứ sáu (8-1979)",
+        "Hội nghị lần thứ bảy (3-1980)",
+        "Hội nghị lần thứ bảy (9-1980)"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q049",
+      "type": "single",
+      "question": "Quan điểm đổi mới đất nước của Đảng Cộng sản Việt Nam (từ tháng 12/1986) không có nội dung nào dưới đây?",
+      "choices": [
+        "Lấy đổi mới chính trị làm trọng tâm.",
+        "Đi lên chủ nghĩa xã hội bằng những biện pháp phù hợp.",
+        "Không thay đổi mục tiêu của chủ nghĩa xã hội.",
+        "Đổi mới toàn diện và đồng bộ."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q050",
+      "type": "single",
+      "question": "Chỉ thị 100 CT/TW của ban Bí thư Trung ương Đảng về khoán sản phẩm đến nhóm và người lao động trong hợp tác xã được ban hành năm nào?",
+      "choices": [
+        "1980",
+        "1981",
+        "1988",
+        "1989"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q051",
+      "type": "single",
+      "question": "Những thành tựu Việt Nam đạt được trong việc thực hiện kế hoạch 5 năm 1986 - 1990 chứng tỏ điều gì?",
+      "choices": [
+        "Đường lối đổi mới là đúng, bước đi của công cuộc đổi mới cơ bản là phù hợp.",
+        "Việt Nam đã thoát khỏi tình trạng khủng hoảng kinh tế - xã hội.",
+        "Việt Nam đã giải quyết được sự mất cân đối của nền kinh tế.",
+        "Đường lối đổi mới về cơ bản là đúng đắn, cần phải có những bước đi phù hợp."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q052",
+      "type": "single",
+      "question": "Chỉ thị 100 CT/TW của ban Bí thư Trung ương Đảng (1-1981) đưa ra chủ trương nào sau đây:",
+      "choices": [
+        "Phát huy quyền sản xuất kinh doanh của các xí nghiệp quốc doanh",
+        "Mở rộng hình thức trả lương khoán, lương sản phẩm",
+        "Khoán sản phẩm đến nhóm và người lao động trong hợp tác xã nông nghiệp",
+        "Cải tiến công tác phân phối lưu thông"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q053",
+      "type": "single",
+      "question": "Tình hình thế giới và trong nước những năm 80 của thế kỉ XX đặt ra yêu cầu cấp bách nào đối với Việt Nam?",
+      "choices": [
+        "Hoàn thành tập thể hóa nông nghiệp.",
+        "Tập trung phát triển công nghiệp nặng.",
+        "Hoàn thành công nghiệp hóa, hiện đại hóa.",
+        "Tiến hành công cuộc đổi mới toàn diện."
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q054",
+      "type": "single",
+      "question": "Đại hội nào của Đảng đã chủ trương coi nông nghiệp là mặt trận hàng đầu?",
+      "choices": [
+        "Đại hội III",
+        "Đại hội IV",
+        "Đại hội V",
+        "Đại hội VI"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q055",
+      "type": "single",
+      "question": "Nội dung nào không thuộc đường lối đổi mới kinh tế của Đảng Cộng sản Việt Nam đề ra trong Đại hội Đảng toàn quốc lần thứ VI (1986)?",
+      "choices": [
+        "Xóa bỏ cơ chế quản lí tập trung quan liêu bao cấp.",
+        "Xây dựng nền kinh tế quốc dân với cơ cấu nhiều ngành nghề.",
+        "Phát triển nền kinh tế với hai thành phần nhà nước và tập thể.",
+        "Xây dựng nền kinh tế thị trường theo định hướng xã hội chủ nghĩa."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q056",
+      "type": "single",
+      "question": "Hội nghị nào của Ban Chấp hành Trung ương Đảng khoá V đã quyết định phải dứt khoát xoá bỏ cơ chế tập trung quan liêu bao cấp, thực hiện hạch toán kinh doanh xã hội chủ nghĩa?",
+      "choices": [
+        "Hội nghị lần thứ tám (6 - 1985)",
+        "Hội nghị lần thứ chín (12 - 1985)",
+        "Hội nghị lần thứ mười (5 - 1986)",
+        "Hội nghị lần thứ năm"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q057",
+      "type": "single",
+      "question": "Nội dung nào không phản ánh đúng những mục tiêu Đảng Cộng sản Việt Nam đề ra trong Kế hoạch 5 năm (1996 - 2000)?",
+      "choices": [
+        "Cải thiện đời sống nhân dân",
+        "Nâng cao tích lũy nội bộ nền kinh tế",
+        "Đảm bảo quốc phòng, an ninh",
+        "Đưa đất nước thoát khỏi tình trạng khủng hoảng"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q058",
+      "type": "single",
+      "question": "Đại hội nào của Đảng được gọi là Đại hội \"Trí tuệ, đổi mới, dân chủ, kỷ cương và đoàn kết\"?",
+      "choices": [
+        "Đại hội lần thứ V",
+        "Đại hội lần thứ VI",
+        "Đại hội lần thứ VII",
+        "Đại hội lần thứ VIII"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q059",
+      "type": "single",
+      "question": "Nền kinh tế hàng hóa nhiều thành phần, vận hành theo cơ chế thị trường có sự quản lí của nhà nước bước đầu hình thành sau khi thực hiện…",
+      "choices": [
+        "kế hoạch 5 năm (1991-1995).",
+        "kế hoạch 5 năm (1980-1985).",
+        "kế hoạch 5 năm (1986-1990).",
+        "kế hoạch 5 năm (1996-2000)."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q060",
+      "type": "single",
+      "question": "\"Nước ta đã ra khỏi khủng hoảng kinh tế - xã hội, nhưng một số mặt còn chưa vững chắc\" là đánh giá tổng quát của Đại hội nào?",
+      "choices": [
+        "Đại hội VI",
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q061",
+      "type": "single",
+      "question": "Nội dung đổi mới về kinh tế ở Việt Nam (từ tháng 12/1986) và Chính sách kinh tế mới (NEP, 1921) ở nước Nga có điểm tương đồng là",
+      "choices": [
+        "ưu tiên phát triển công nghiệp nặng và giao thông vận tải.",
+        "xây dựng nền kinh tế nhiều thành phần có sự quản lý của nhà nước.",
+        "xây dựng kinh tế thị trường xã hội chủ nghĩa, kiểm soát bằng pháp luật.",
+        "thay chế độ trung thu lương thực thừa bằng thuế lương thực."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q062",
+      "type": "single",
+      "question": "Trong các nguồn lực để công nghiệp hóa, hiện đại hóa ở nước ta đến năm 2020, Đại hội VIII của Đảng đã xác định nguồn lực nào là yếu tố cơ bản cho sự phát triển nhanh và bền vững?",
+      "choices": [
+        "Khoa học công nghệ",
+        "Tài nguyên đất đai",
+        "Con người",
+        "Cả A, B và C"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q063",
+      "type": "single",
+      "question": "Thực tiễn lịch sử nào là yếu tố quyết định Việt Nam phải tiến hành sự nghiệp đổi mới đất nước (từ năm 1986)?",
+      "choices": [
+        "Các nước công nghiệp mới đạt nhiều thành tựu sau cải cách.",
+        "Xu thế quốc tế hóa diễn ra ngày càng mạnh mẽ trên thế giới.",
+        "Cuộc khủng hoảng kinh tế - xã hội ở Việt Nam diễn ra trầm trọng.",
+        "Liên Xô và các nước Đông Âu tiến hành công cuộc cải tổ, cải cách."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q064",
+      "type": "single",
+      "question": "Đại hội nào của Đảng khẳng định: Tư tưởng Hồ Chí Minh không chỉ là kết quả của sự vận dụng sáng tạo mà còn phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta?",
+      "choices": [
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX",
+        "Đại hội X"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q065",
+      "type": "single",
+      "question": "Đại hội nào của Đảng có chủ trương: \"tạo nền tảng để đến năm 2020 Việt Nam cơ bản trở thành một nước công nghiệp hiện đại\"?",
+      "choices": [
+        "Đại hội IX (2001)",
+        "Đại hội VI (1986)",
+        "Đại hội VIII (1996)",
+        "Đại hội V (1982)"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q066",
+      "type": "single",
+      "question": "Từ khi ra đời đến nay Đảng ta có bao nhiêu cương lĩnh?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q067",
+      "type": "single",
+      "question": "Việt Nam có thể rút ra kinh nghiệm gì từ sự phát triển kinh tế của các nước tư bản sau Chiến tranh thế giới thứ hai để đẩy mạnh sự nghiệp công nghiệp hóa, hiện đại hóa đất nước?",
+      "choices": [
+        "Ứng dụng các thành tựu khoa học - kĩ thuật.",
+        "Khai thác và sử dụng hợp lí nguồn tài nguyên.",
+        "Tăng cường xuất khẩu công nghệ phần mềm.",
+        "Nâng cao trình độ tập trung vốn và lao động."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q068",
+      "type": "single",
+      "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội được thông qua trong Đại hội nào của Đảng?",
+      "choices": [
+        "Đại hội VI",
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q069",
+      "type": "single",
+      "question": "Điểm tương đồng trong công cuộc cải cách - mở cửa ở Trung Quốc (từ 1978) với công cuộc cải tổ của Liên Xô (1985 - 1991) và đổi mới đất nước ở Việt Nam (từ 1986) là gì?",
+      "choices": [
+        "Củng cố và nâng cao vai trò lãnh đạo của Đảng Cộng sản.",
+        "Tiến hành khi đất nước lâm vào tình trạng khủng hoảng kéo dài.",
+        "Lấy cải tổ chính trị làm trọng tâm; thực hiện đa nguyên, đa đảng.",
+        "Lấy phát triển kinh tế làm trọng tâm, tiến hành cải cách, mở cửa."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q070",
+      "type": "single",
+      "question": "Vấn đề đổi mới đất nước đi lên chủ nghĩa xã hội đã được Đảng Cộng sản Việt Nam nhận thức như thế nào?",
+      "choices": [
+        "Là một thời kì lịch sử khó khăn, lâu dài, gồm nhiều bước",
+        "Là đưa đất nước vượt ra khỏi khủng hoảng, tiến nhanh, mạnh, vững chắc lên CNXH",
+        "Không phải là thay đổi mục tiêu CNXH mà làm mục tiêu ấy được thực hiện bằng những biện pháp phù hợp",
+        "Là xây dựng một xã hội dân chủ, công bằng, văn minh"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q071",
+      "type": "single",
+      "question": "Tại Đại hội nào của Đảng Cộng sản Việt Nam coi: \"Giáo dục là quốc sách hàng đầu\" ?",
+      "choices": [
+        "Đại hội lần thứ V",
+        "Đại hội lần thứ VI",
+        "Đại hội lần thứ VII",
+        "Đại hội lần thứ VIII"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q072",
+      "type": "single",
+      "question": "Đường lối đổi mới của Đảng và Nhà nước Việt Nam được thông qua tại…",
+      "choices": [
+        "Đại hội lần thứ VI (12-1986).",
+        "Đại hội lần thứ VII (6-1991).",
+        "Đại hội lần thứ VIII (6-1996).",
+        "Đại hội lần thứ IX (4 - 2001)."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q073",
+      "type": "single",
+      "question": "Nội dung trọng tâm đường lối đổi mới của Đảng và Nhà nước được nêu ra tại Đại hội lần thứ VI là đổi mới về…",
+      "choices": [
+        "kinh tế.",
+        "chính trị.",
+        "tư tưởng.",
+        "giáo dục."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q074",
+      "type": "single",
+      "question": "Nhiệm vụ chiến lược của Đảng, Nhà nước và nhân dân Việt Nam từ sau năm 1986 đến nay là gì?",
+      "choices": [
+        "Đổi mới, phát triển và hội nhập.",
+        "Xây dựng cơ chế quản lí quan liêu, bao cấp.",
+        "Thống nhất đất nước về mặt nhà nước.",
+        "Thống nhất đất nước về mặt lãnh thổ."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q075",
+      "type": "single",
+      "question": "Đại hội đại biểu toàn quốc lần thứ VI (1986) của Đảng đã bầu ai làm Tổng Bí thư?",
+      "choices": [
+        "Nguyễn Văn Linh",
+        "Đỗ Mười",
+        "Phạm Văn Đồng",
+        "Trường Chinh"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q076",
+      "type": "single",
+      "question": "Điểm giống nhau cơ bản giữa công cuộc cải tổ của Liên Xô (từ năm 1983) với cải cách mở cửa của Trung Quốc (từ năm 1978) và đổi mới ở Việt Nam (từ năm 1986)?",
+      "choices": [
+        "Hoàn cảnh lịch sử và yêu cầu cải cách",
+        "Trọng tâm cải cách",
+        "Vai trò của Đảng cộng sản",
+        "Kết quả cải cách"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q077",
+      "type": "single",
+      "question": "Đại hội đại biểu toàn quốc lần thứ VI (1986) của Đảng đã xác định nhiệm vụ, mục tiêu trước mắt của kế hoạch 5 năm 1986 - 1990 là thực hiện",
+      "choices": [
+        "Chính sách đại đoàn kết dân tộc, chính sách đối ngoại hòa bình, hữu nghị, hợp tác",
+        "Ba chương trình kinh tế: lương thực - thực phẩm, hàng tiêu dùng, hàng xuất khẩu",
+        "Xóa bỏ cơ chế quản lí kinh tế tập trung, bao cấp, hình thành cơ chế thị trường.",
+        "Tập trung phát triển công nghiệp đặc biệt là công nghiệp nặng."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q078",
+      "type": "single",
+      "question": "Thuận lợi cơ bản Việt Nam sẽ nhận được khi mở cửa, hội nhập với thế giới là gì?",
+      "choices": [
+        "Tranh thủ được nguồn vốn, khoa học kĩ thuật",
+        "Khai thác có hiệu quả những tiềm năng vốn có của đất nước",
+        "Áp dụng khoa học kĩ thuật vào sản xuất",
+        "Nhận được sự giúp đỡ của quốc tế"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q079",
+      "type": "single",
+      "question": "Thách thức lớn nhất mà Việt Nam sẽ gặp phải khi mở cửa, hội nhập với thế giới?",
+      "choices": [
+        "Đánh mất bản sắc dân tộc",
+        "Nguy cơ tụt hậu",
+        "Vi phạm chủ quyền quốc gia dân tộc",
+        "Giải quyết hài hòa mối quan hệ giữa các nước mới"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q080",
+      "type": "single",
+      "question": "Đại hội Đảng lần thứ VI (12/1986) là đại hội…",
+      "choices": [
+        "xây dựng chủ nghĩa xã hội.",
+        "xây dựng và phát triển kinh tế.",
+        "xây dựng và chỉnh đốn Đảng.",
+        "mở đầu công cuộc đổi mới."
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q081",
+      "type": "single",
+      "question": "Chủ trương xây dựng Nhà nước pháp quyền xã hội chủ nghĩa, Nhà nước của dân, do dân và vì dân là nội dung trong đường lối đổi mới của Đảng Cộng sản Việt Nam (từ tháng 12/1986) về…",
+      "choices": [
+        "chính trị.",
+        "văn hóa.",
+        "pháp luật.",
+        "đối ngoại."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q082",
+      "type": "single",
+      "question": "Bài học kinh nghiệm cơ bản nào được rút ra cho Đảng Cộng sản Việt Nam trong quá trình tổ chức và lãnh đạo cách mạng từ công cuộc đổi mới đất nước (từ tháng 12-1986)?",
+      "choices": [
+        "Nhạy bén trước sự chuyển biến của tình hình thế giới",
+        "Tôn trọng các quy luật kinh tế- xã hội, bám sát tình hình thực tiễn để đề ra chủ trương phù hợp",
+        "Quan tâm đến nguyện vọng của quần chúng nhân dân",
+        "Tăng cường sự lãnh đạo của Đảng đối với cách mạng Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q083",
+      "type": "single",
+      "question": "Từ năm 1996 - 2000, ba mặt hàng xuất khẩu chủ lực của Việt Nam là…",
+      "choices": [
+        "gạo, cà phê và thủy sản.",
+        "gạo, hàng dệt may và nông sản.",
+        "gạo, cà phê và điều.",
+        "gạo, hàng diệt may và thủy sản."
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q084",
+      "type": "single",
+      "question": "Mục tiêu của đường lối đổi mới ở Việt Nam được đề ra từ đại hội đảng VI (12-1986) là…",
+      "choices": [
+        "Đưa đất nước thoát khỏi khủng hoảng.",
+        "Hoàn thành công cuộc cải cách ruộng đất.",
+        "Hoàn thành xây dựng chủ nghĩa xã hội.",
+        "Bước đầu khắc phục hậu quả chiến tranh."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q085",
+      "type": "single",
+      "question": "Ngày 20-9-1977, Việt Nam là thành viên thứ mấy của Liên hợp quốc?",
+      "choices": [
+        "Thàng viên thứ 110.",
+        "Thành viên thứ 149.",
+        "Thành viên thứ 150.",
+        "Thành viên thứ 160."
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q086",
+      "type": "single",
+      "question": "Tên nước Cộng hòa xã hội chủ nghĩa Việt Nam được Quốc hội thông qua vào thời gian nào?",
+      "choices": [
+        "21-11-1975.",
+        "25-4-1976.",
+        "2-7-1976.",
+        "18-12-1980."
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q087",
+      "type": "single",
+      "question": "Đảng Lao động Việt Nam đã đề ra nhiệm vụ hoàn thành thống nhất đất nước về mặt Nhà nước tại Hội nghị lần thứ bao nhiêu?",
+      "choices": [
+        "Hội nghị lần thứ 19.",
+        "Hội nghị lần thứ 20.",
+        "Hội nghị lần thứ 22.",
+        "Hội nghị lần thứ 24."
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q088",
+      "type": "single",
+      "question": "Ngày 25-4-1976 Tổng tuyển cử bầu Quốc Hội chung trong cả nước có bao nhiêu cử tri tham gia?",
+      "choices": [
+        "Hơn 20 triệu.",
+        "Hơn 21 triệu.",
+        "Hơn 22 triệu.",
+        "Hơn 23 triệu"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q089",
+      "type": "single",
+      "question": "Hội nghị Hiệp thương chính trị thống nhất đất nước giữa hai miền Nam - Bắc Việt Nam (tháng 11/1975), đã thông qua vấn đề gì?",
+      "choices": [
+        "Lấy tên là nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+        "Chủ trương, biện pháp nhằm thống nhất đất nước về mặt nhà nước.",
+        "Quốc kỳ là cờ đỏ sao vàng, Quốc ca là bài Tiến quân ca.",
+        "Đổi tên thành phố Sài Gòn - Gia Định là Thành phố Hồ Chí Minh."
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q090",
+      "type": "single",
+      "question": "Biện pháp cải cách hành chính là nhằm xây dựng thành tố nào trong hệ thống chính trị Việt Nam?",
+      "choices": [
+        "Đảng Cộng sản Việt Nam",
+        "Nhà nước pháp quyền xã hội chủ nghĩa",
+        "Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trị - xã hội",
+        "Cả A và B"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q091",
+      "type": "single",
+      "question": "Biện pháp tiếp tục đổi mới tổ chức và hoạt động của Quốc hội là nhằm xây dựng thành tố nào trong hệ thống chính trị Việt Nam?",
+      "choices": [
+        "Đảng Cộng sần Việt Nam",
+        "Nhà nước pháp quyền xã hội chủ nghĩa",
+        "Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trí - xã hội",
+        "Cả B và C"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q092",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu sau đây của kinh tế thị trường, đặc điểm nào trái với chủ trương \"Nhà nước quản lý nền kinh tế chủ yếu bằng mệnh lệnh hành chính dựa trên hệ thống chỉ tiêu pháp lệnh áp đặt từ trên xuống\"?",
+      "choices": [
+        "Các chủ thể kinh tế phải có tính độc lập",
+        "Giá cả cơ bản do cung - cầu điều tiết",
+        "Hệ thống thị trường phát triển hoàn hảo",
+        "Có hệ thống pháp quy kiện toàn"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q093",
+      "type": "single",
+      "question": "Việt Nam gia nhập ASEAN vào năm nào?",
+      "choices": [
+        "Năm 1993",
+        "Năm 1994",
+        "Năm 1995",
+        "Năm 1996"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q094",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Đa dạng hóa các loại hình cứu trợ xã hội, tạo nhiều việc làm ở trong nước và đẩy mạnh xuất khẩu lao động\" là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q095",
+      "type": "single",
+      "question": "Trong các thành tố của hệ thống chính trị ở Việt Nam hiện nay, vai trò giám sát và phản biện xã hội là thuộc thành tố nào trong hệ thống chính trị Việt Nam?",
+      "choices": [
+        "Đảng Cộng sản Việt Nam",
+        "Nhà nước pháp quyền xã hội chủ nghĩa",
+        "Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trị - xã hội",
+        "Cả A và B"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q096",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Xây dựng chiến lược quốc gia về nâng cao sức khỏe và cải thiện giống nòi\" là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q097",
+      "type": "single",
+      "question": "Việt Nam bắt đầu thực hiện các cam kết khi gia nhập Khu vực Mậu dịch tự do ASEAN (AFTA) vào năm nào?",
+      "choices": [
+        "Năm 1995",
+        "Năm 1996",
+        "Năm 1997",
+        "Năm 1998"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q098",
+      "type": "single",
+      "question": "Văn kiện Đại hội nào của Đảng bắt đầu sử dụng khái niệm kinh tế thị trường định hướng xã hội chủ nghĩa?",
+      "choices": [
+        "Đại hội VI",
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q099",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Đẩy mạnh công tác bảo vệ giống nòi, kiên trì phòng chống HIV/AIDS và các tệ nạn xã hội\" là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa công hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q100",
+      "type": "single",
+      "question": "Đại hội IX của Đảng đã xác định nền kinh tế nước ta có mấy thành phần?",
+      "choices": [
+        "Có 3 thành phần",
+        "Có 4 thành phần",
+        "Có 5 thành phần",
+        "Có 6 thành phần"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q101",
+      "type": "single",
+      "question": "Đại hội X của Đảng đã xác định nền kinh tế nước ta có mấy thành phần?",
+      "choices": [
+        "Có 3 thành phần",
+        "Có 4 thành phần",
+        "Có 5 thành phần",
+        "Có 6 thành phần"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q102",
+      "type": "single",
+      "question": "Việt Nam bình thường hoá quan hệ với Hoa Kỳ vào năm nào?",
+      "choices": [
+        "Năm 1992",
+        "Năm 1993",
+        "Năm 1994",
+        "Năm 1995"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q103",
+      "type": "single",
+      "question": "Yếu tố nào trong các yếu tố sau đây không thuộc thể chế kinh tế thị trường?",
+      "choices": [
+        "Các quy tắc về hành vi kinh tế diễn ra trên thị trường - các bên tham gia thị trường với tư cách là các chủ thể thị trường",
+        "Cách thực hiện các quy tắc nhằm đạt mục tiêu hay kết quả mà các bên tham gia thị trường mong muốn",
+        "Các thị trường - nơi hàng hoá được giao dịch, trao đổi trên cơ sở yêu cầu, quy định của luật lệ (các thị trường quan trọng như hàng hoá và dịch vụ, vốn, lao động, công nghệ, bất động sản,...)",
+        "Các quy luật kinh tế"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q104",
+      "type": "single",
+      "question": "Việt Nam gia nhập tổ chức Diễn đàn Hợp tác kinh tế châu Á - Thái Bình Dương (APEC) vào năm nào?",
+      "choices": [
+        "Năm 1996",
+        "Năm 1997",
+        "Năm 1998",
+        "Năm 1999"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q105",
+      "type": "single",
+      "question": "Biện pháp \"Xử lý triệt để những điểm ô nhiễm môi trường nghiêm trọng và ngăn chặn để không phát sinh thêm\" phù hợp với chủ trương nào dưới đây?",
+      "choices": [
+        "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa",
+        "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế",
+        "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường",
+        "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q106",
+      "type": "single",
+      "question": "Biện pháp \"Đổi mới cơ chế quản lý khoa học và công nghệ\" phù hợp với chủ trương nào dưới đây?",
+      "choices": [
+        "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa",
+        "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế",
+        "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường",
+        "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q107",
+      "type": "single",
+      "question": "Biện pháp \"Phát triển đa dạng các hình thức hoạt động nhân đạo không vì mục tiêu lợi nhuận\" phù hợp với chủ trương nào dưới đây?",
+      "choices": [
+        "Thống nhất nhận thức về kinh tế thị trường định hướng xã hội chủ nghĩa",
+        "Hoàn thiện thể chế về sở hữu và các thành phần kinh tế",
+        "Hoàn thiện thể chế bảo đảm đồng bộ các yếu tố thị trường và phát triển đồng bộ các loại thị trường",
+        "Hoàn thiện thể chế gắn tăng trưởng kinh tế với tiến bộ, công bằng xã hội và bảo vệ môi trường"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q108",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Xây dựng gia đình no ấm, tiến bộ, hạnh phúc; bảo đảm bình đẳng giới; chống nạn bạo hành trong quan hệ gia đình là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q109",
+      "type": "single",
+      "question": "Vai trò tập hợp, đoàn kết rộng rãi các tầng lớp nhân dân là thuộc thành tố nào trong hệ thống chính trị Việt Nam?",
+      "choices": [
+        "Đảng Cộng sản Việt Nam",
+        "Nhà nước pháp quyền xã hội chủ nghĩa",
+        "Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trị - xã hội",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q110",
+      "type": "single",
+      "question": "Đại hội nào của Đảng ta đã xác định: Đảng Cộng sản Việt Nam là đội tiên phong của giai cấp công nhân, đồng thời là đội tiên phong của nhân dân lao động và của dân tộc Việt Nam; đại biểu trung thành lợi ích của giai cấp công nhân, nhân dân lao động và của dân tộc?",
+      "choices": [
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX",
+        "Đại hội X"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q111",
+      "type": "single",
+      "question": "Nghị quyết Hội nghị Trung ương mấy khoá XI đã nêu ra 5 quan điểm cơ bản chỉ đạo quá trình phát triển văn hoá, con người Việt Nam đáp ứng yêu cầu phát triển bền vững đất nước?",
+      "choices": [
+        "Nghị quyết Hội nghị Trung ương 6 khoá XI",
+        "Nghị quyết Hội nghị Trung ương 7 khoá XI",
+        "Nghị quyết Hội nghị Trung ương 8 khoá XI",
+        "Nghị quyết Hội nghị Trung ương 9 khoá XI"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q112",
+      "type": "single",
+      "question": "Bắt đầu từ Đại hội nào Đảng ta khẳng định: \"Việt Nam sẵn sàng là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế, phấn đấu vì hoà bình, độc lập và phát triển\"?",
+      "choices": [
+        "Đại hội VI",
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q113",
+      "type": "single",
+      "question": "Bắt đầu từ Đại hội nào Đảng ta khẳng định: \"Việt Nam là bạn, đối tác tin cậy của các nước trong cộng đồng quốc tế, tham gia tích cực vào tiến trình hợp tác quốc tế và khu vực\"?",
+      "choices": [
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX",
+        "Đại hội X"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q114",
+      "type": "single",
+      "question": "Nhận thức về kinh tế thị trường thời kỳ đổi mới có sự thay đổi căn bản và sâu sắc khi cho rằng kinh tế thị trường không phải là cái riêng có của chủ nghĩa tư bản, mà nó còn tồn tại trong thời kỳ quá độ lên chủ nghĩa xã hội. Lập luận nào dưới đây là minh chứng chắc chắn nhất cho nhận thức trên",
+      "choices": [
+        "Kinh tế thị trường đã có mầm mống từ trong xã hội nô lệ",
+        "Kinh tế thị trường đã hình thành trong xã hội phong kiến",
+        "Kinh tế thị trường có lịch sử phát triển lâu dài, nhưng biểu hiện rõ rệt nhất trong chủ nghĩa tư bản đến mức chi phối toàn bộ cuộc sống con người trong xã hội đó",
+        "Kinh tế thị trường vừa có thể liên hệ với chế độ tư hữu, vừa có thể liên hệ với chế độ công hữu và phục vụ cho chúng"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q115",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Phát triển hài hòa, không chạy theo số lượng, tăng trưởng bằng mọi giá\" phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q116",
+      "type": "single",
+      "question": "Thành phần kinh tế giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN ở Việt Nam là …?",
+      "choices": [
+        "Kinh tế nhà nước",
+        "Kinh tế tư nhân",
+        "Kinh tế tập thể",
+        "Kinh tế có vốn đầu tư nước ngoài"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q117",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu sau đây của kinh tế thị trường, đặc điểm nào trái với chủ trương \"Giá sản phẩm của doanh nghiệp phải trình Chính phủ phê duyệt\"",
+      "choices": [
+        "Các chủ thể kinh tế phải có tính độc lập",
+        "Giá cả cơ bản do cung - cầu điều tiết",
+        "Hệ thống thị trường phát triển hoàn hảo",
+        "Có hệ thống pháp quy kiện toàn"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q118",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Xây dựng và thực hiện có kết quả cao chương trình xóa đói, giảm nghèo; đề phòng tái đói, tái nghèo\" là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hơàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội."
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q119",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Bảo đảm cung ứng dịch vụ công thiết yếu, bình đẳng cho mọi người dân, tạo việc làm và thu nhập, chăm sóc sức khỏe cộng đồng\" là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tê với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chì số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q120",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Xây dựng hệ thống an sinh xã hội đa dạng; phát triển mạnh hệ thống bảo hiểm\" là phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển.",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn vởi Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q121",
+      "type": "single",
+      "question": "Trong những đặc điểm chủ yếu sau đây của kinh tế thị trường, đặc điểm nào trái với chủ trương \"Sản phẩm nghiên cứu khoa học của cơ quan và cá nhân do Nhà nước đặt hàng và Nhà nước nghiệm thu\"?",
+      "choices": [
+        "Các chủ thể kinh tế phải có tính độc lập",
+        "Giá cả cơ bản do cung - cầu điều tiết",
+        "Hệ thống thị trường phát triển hoàn hảo",
+        "Có hệ thống pháp quy kiện toàn"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q122",
+      "type": "single",
+      "question": "Trong các thành tố của hệ thống chính trị ở Việt Nam hiện nay, thành tố nào sau đây vừa lãnh đạo hệ thống chính trị, vừa là bộ phận của hệ thống đó?",
+      "choices": [
+        "Đảng Cộng sản Việt Nam",
+        "Nhà nước pháp quyền xã hội chủ nghĩa",
+        "Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trị - xã hội",
+        "Cả A và B"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q123",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào làm cho đất nước nghèo đi, kinh tế khủng hoảng?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q124",
+      "type": "single",
+      "question": "Nhận thức về kinh tế thị trường thời kỳ đổi mới có sự thay đổi căn bản và sâu sắc khi cho rằng kinh tế thị trường không phải là cái riêng có của chủ nghĩa tư bản, mà nó còn tồn tại trong thời kỳ quá độ lên chủ nghĩa xã hội. Lập luận nào dưới đây đã khiến cho không ít người nghĩ rằng kinh tế thị trường là sản phẩm riêng của chủ nghĩa tư bản?",
+      "choices": [
+        "Kinh tế thị trường đã có mầm mống từ trong xã hội nô lệ",
+        "Kinh tế thị trường đã hình thành trong xã hội phong kiến",
+        "Kinh tế thị trường có lịch sử phát triển lâu dài nhưng biểu hiện rõ rệt nhất trong chủ nghĩa tư bản đến mức chi phối toàn bộ cuộc sống con người trong xã hội đó",
+        "Kinh tế thị trường vừa có thể liên hệ với chế độ tư hữu, vừa có thể liên hệ với chế độ công hữu và phục vụ cho chúng"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q125",
+      "type": "single",
+      "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Hỏi \"Một số doanh nghiệp ở các khu công nghiệp đã quan tâm xây nhà ở cho công nhân từ địa phương khác đến làm việc cho doanh nghiệp khiến cho họ yên tâm sản xuất, phấn khởi làm tốt công việc\" là minh chứng cho điểm nào dưới đây?",
+      "choices": [
+        "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những mục tiêu xã hội lại là mục đích của các hoạt dộng kinh tế",
+        "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+        "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+        "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, dồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q126",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Mục tiêu phát triển kinh tế phải tính đến các tác động và hậu quả xã hội có thể xảy ra để chủ động xử lý\" phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kinh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q127",
+      "type": "single",
+      "question": "Bắt đầu từ Đại hội nào Đảng ta khẳng định: \"Việt Nam muốn là bạn với tất cả các nước trong cộng đồng thế giới, phấn đấu vì hoà bình, độc lập và phát triển\"?",
+      "choices": [
+        "Đại hội VI",
+        "Đại hội VII",
+        "Đại hội VIII",
+        "Đại hội IX"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, nên đối chiếu lại với giáo trình.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q128",
+      "type": "single",
+      "question": "Nhận thức về kinh tế thị trường thời kỳ đổi mới có sự thay đổi căn bản và sâu sắc khi cho rằng kinh tế thị trường không phải là cái riêng có của chủ nghĩa tư bản, mà nó còn tồn tại trong thời kỳ quá độ lên chủ nghĩa xã hội. Lập luận nào dưới đây cho đến nay mới chỉ được lịch sử xác nhận một nửa?",
+      "choices": [
+        "Kinh tế thị trường đã có mầm mống từ trong xã hội nô lệ",
+        "Kinh tế thị trường đã hình thành trong xã hội phong kiến",
+        "Kinh tế thị trường có lịch sử phát triển lâu dài, nhưng biểu hiện rõ rệt nhất trong chủ nghĩa tư bản đến mức chi phối toàn bộ cuộc sống con người trong xã hội đó",
+        "Kinh tế thị trường vừa có thể liên hệ với chế độ tư hữu, vừa có thể liên hệ với chế độ công hữu và phục vụ cho chúng"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q129",
+      "type": "single",
+      "question": "Trong các quan điểm chỉ đạo giải quyết các vấn đề xã hội, chủ trương: \"Xóa bỏ quan điểm bao cấp, cào bằng; chấm dứt cơ chế xin - cho trong chính sách xã hội\" phù hợp với quan điểm nào?",
+      "choices": [
+        "Kết hợp các mục tiêu kinh tế với các mục tiêu xã hội",
+        "Xây dựng và hoàn thiện thể chế gắn kết tăng trưởng kỉnh tế với tiến bộ, công bằng xã hội trong từng bước và từng chính sách phát triển",
+        "Chính sách xã hội được thực hiện trên cơ sở phát triển kinh tế, gắn bó hữu cơ giữa quyền lợi và nghĩa vụ, giữa cống hiến và hưởng thụ",
+        "Coi trọng chỉ tiêu GDP bình quân đầu người gắn với Chỉ số phát triển con người (HDI) và chỉ tiêu phát triển các lĩnh vực xã hội"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Lưu ý: tài liệu gốc không có đáp án cho câu này (bảng đáp án chương 3 bị thiếu); đáp án do Claude tự xác định, độ tin cậy thấp, nên kiểm tra lại.",
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q130",
+      "type": "single",
+      "question": "Quan điểm nào trong các quan điểm sau đây nói về chức năng, vị trí vai trò đặc biệt quan trọng của văn hóa đối với sự phát triển xã hội?",
+      "choices": [
+        "Văn hóa là nền tảng tinh thần của xã hội, là mục tiêu, động lực phát triển bền vững đất nước. Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội",
+        "Xây dựng nền văn hoá Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam, với các đặc trưng dân tộc, nhân văn, dân chủ và khoa học",
+        "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+        "Xây dựng và phát triển văn hoá là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý, nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q131",
+      "type": "single",
+      "question": "Chính sách đối ngoại rộng đa phương hóa, đa dạng hóa các quan hệ kinh tế của Đảng ta là trực tiếp xuất phát từ cơ sở nào trong các cơ sở dưới đây?",
+      "choices": [
+        "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+        "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+        "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+        "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q132",
+      "type": "single",
+      "question": "Quan điểm nào trong các quan điểm sau đây nói về xây dựng con người Việt Nam?",
+      "choices": [
+        "Văn hóa là nền tảng tinh thần của xã hội, vừa là mục tiêu, vừa là động lực thúc đẩy sự phát triển kinh tế - xã hội và hội nhập quốc tế",
+        "Xây dựng nền văn hoá Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam, với các đặc trưng dân tộc, nhân văn, dân chủ và khoa học",
+        "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+        "Xây dựng và phát triển văn hóa là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý, nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q133",
+      "type": "single",
+      "question": "Chủ trương chủ động và tích cực hội nhập kinh tế quốc tế là trực tiếp xuất phát từ cơ sở nào trong các cơ sở dưới đây?",
+      "choices": [
+        "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+        "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+        "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+        "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q134",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào rất khó đẩy lùi và vẫn còn kéo dài đến nay?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q135",
+      "type": "single",
+      "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Điểm nào dưới đây xác định mục đích của các hoạt động kinh tế?",
+      "choices": [
+        "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những mục tiêu xã hội lại là mục đích của các hoạt động kinh tế",
+        "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+        "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+        "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, đồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q136",
+      "type": "single",
+      "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Điểm nào dưới đây xác định chính sách xã hội cần có mặt ngay trong khuôn khổ các hoạt động kinh tế?",
+      "choices": [
+        "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những mục tiêu xã hội lại là mục đích của các hoạt động kinh tế",
+        "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+        "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+        "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, đồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q137",
+      "type": "single",
+      "question": "Trong các quan điểm xây dựng hệ thống chính trị trong thời kỳ đổi mới, quan điểm nào dưới đây bị viết sai?",
+      "choices": [
+        "Kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới chính trị làm trọng tâm, đồng thời từng bước đổi mới kinh tế",
+        "Đổi mới tổ chức và phương thức hoạt động của hệ thống chính trị, làm cho hệ thống chính trị hoạt động năng động hơn, có hiệu quả hơn, phù hợp với đường lối đổi mới toàn diện, đồng bộ đất nước",
+        "Đổi mới hệ thống chính trị một cách toàn diện, đồng bộ, có kế thừa, có bước đi, hình thức và cách làm phù hợp",
+        "Đổi mới mối quan hệ giữa các bộ phận cấu thành của hệ thống chính trị với nhau và với xã hội, tạo ra sự vận động cùng chiều của cả hệ thống để thúc đẩy xã hội phát triển"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q138",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào lớn nhất?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q139",
+      "type": "single",
+      "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào đã bị viết nhầm?",
+      "choices": [
+        "Không tạo được động lực phát triển",
+        "Không thúc đẩy sản xuất",
+        "Làm giảm năng suất, chất lượng, hiệu quả",
+        "Gây ra nhiều hiện tượng tiêu cực trong xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    },
+    {
+      "id": "ch3_q140",
+      "type": "single",
+      "question": "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, \"Việc Đại hội IV của Đảng nhận định rằng, muốn đưa sự nghiệp cách mạng đến toàn thắng thì điều kiện quyết định trước tiên là phải thiết lập chuyên chính vô sản\" đã tạo ra cơ sở nào cho hệ thống chuyên chính vô sản ở nước ta?",
+      "choices": [
+        "Cơ sở lý luận Mác - Lênin",
+        "Đường lối chung của cách mạng Việt Nam",
+        "Cơ sở kinh tế",
+        "Cơ sở xã hội"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 3",
+      "tags": [
+        "lsdcsvn",
+        "chuong3"
+      ]
+    }
+  ]
+}

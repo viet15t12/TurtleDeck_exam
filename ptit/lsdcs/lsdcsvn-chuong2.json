@@ -1,0 +1,5789 @@
+{
+  "meta": {
+    "id": "lsdcsvn-chuong2",
+    "title": "Lịch sử Đảng - Chương 2",
+    "kind": "quiz",
+    "lang": "vi",
+    "format": "studydeck",
+    "formatVersion": 1,
+    "description": "Trắc nghiệm Lịch sử Đảng Cộng sản Việt Nam - Chương 2"
+  },
+  "items": [
+    {
+      "id": "ch2_q001",
+      "type": "single",
+      "question": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến vào thời điểm nào?",
+      "choices": [
+        "Đêm ngày 18-9-1946",
+        "Đêm ngày 19-12-1946",
+        "Ngày 20-12-1946",
+        "Ngày 2 – 9 - 1945"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q002",
+      "type": "single",
+      "question": "Quân đội Đồng minh nào dưới danh nghĩa giải giáp quân Nhật kéo vào Việt Nam từ vĩ tuyến 16 trở ra Bắc ?",
+      "choices": [
+        "Pháp",
+        "Anh",
+        "Trung Hoa Dân Quốc",
+        "Mĩ"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q003",
+      "type": "single",
+      "question": "Hội nghị Ban thường vụ Trung Đảng họp mở rộng quyết định phát động cuộc kháng chiến toàn quốc họp vào thời gian nào?",
+      "choices": [
+        "Ngày 18-12-1946",
+        "Ngày 19-12-1946",
+        "Ngày 20-12-1946",
+        "Ngày 22-12-1946"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q004",
+      "type": "single",
+      "question": "Quân đội Đồng minh nào dưới đây dưới danh nghĩa giải giáp quân Nhật kéo vào nước Việt Nam từ vĩ tuyến 16 trở vào Nam?",
+      "choices": [
+        "Pháp",
+        "Anh",
+        "Trung Hoa Dân Quốc",
+        "Mĩ."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q005",
+      "type": "single",
+      "question": "Cuộc tổng giao chiến lịch sử mở đầu của kháng chiến chống thực dân Pháp của quân và dân ta ở Hà Nội đã diễn ra trong…?",
+      "choices": [
+        "60 ngày đêm",
+        "30 ngày đêm",
+        "12 ngày đêm",
+        "90 ngày đêm"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q006",
+      "type": "single",
+      "question": "Sau Cách mạng tháng Tám năm 1945, ngân sách nhà nước trống rỗng, kho bạc của nhà nước Việt Nam còn khoảng…",
+      "choices": [
+        "hơn 3,1 triệu đồng",
+        "hơn 1,2 triệu đồng",
+        "hơn 2,1 triệu đồng",
+        "hơn 2,2 triệu đồng"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q007",
+      "type": "single",
+      "question": "Những văn kiện nào dưới đây được coi như Cương lĩnh kháng chiến của Đảng ta",
+      "choices": [
+        "Lời kêu gọi toàn quốc kháng chiến của chủ tịch Hồ Chí Minh",
+        "Chỉ thị toàn dân kháng chiến của Trung ương Đảng",
+        "Tác phẩm \"Kháng chiến nhất định thắng lợi\" của Tổng Bí thư Trường Chinh",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q008",
+      "type": "single",
+      "question": "Sau cách mạng tháng Tám năm 1945, khó khăn lớn nhất đưa nước Việt Nam vào tình thế \"ngàn cân treo sợi tóc\" là gì?",
+      "choices": [
+        "Khó khăn về thù trong, giặc ngoài",
+        "Hơn 90% dân số không biết chữ",
+        "Ngân sách nhà nước trống rỗng, tài chính nước Việt Nam rối loạn",
+        "Nạn đói, nạn dốt đe dọa nghiêm trọng đến nhân dân Việt Nam"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q009",
+      "type": "single",
+      "question": "Nhiệm vụ hàng đầu của nhân dân ta trong quá trình kháng chiến chống thực dân Pháp",
+      "choices": [
+        "Chống đế quốc giành độc lập dân tộc",
+        "Xoá bỏ những tàn tích phong kiến đem lại ruộng đất cho nông dân",
+        "Xây dựng chế độ dân chủ mới",
+        "Cả ba phương án trên"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q010",
+      "type": "single",
+      "question": "Sau Cách mạng tháng Tám năm 1945, tàn dư văn hóa lạc hậu của chế độ thực dân, phong kiến để lại hết sức nặng nề…",
+      "choices": [
+        "hơn 60% dân số không biết chữ",
+        "hơn 90% dân số không biết chữ",
+        "hơn 70% dân số không biết chữ",
+        "hơn 80% dân số không biết chữ"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q011",
+      "type": "single",
+      "question": "Đầu năm 1948, TW Đảng đã đề ra cách thức thực hiện cách mạng ruộng đất theo đường lối riêng biệt của cách mạng Việt Nam, đó là",
+      "choices": [
+        "Cải cách ruộng đất",
+        "Cải cách từng bước để dần dần thu hẹp phạm vi bóc lột của địa chủ",
+        "Sửa đổi chế độ ruộng đất trong phạm vi không có hại cho nông dân.",
+        "Cả A, B và C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q012",
+      "type": "single",
+      "question": "Cuộc tổng tuyển cử đầu tiên bầu Quốc hội nước Việt Nam Dân chủ Cộng hòa diễn ra vào thời gian nào?",
+      "choices": [
+        "Ngày 6/1/1945",
+        "Ngày 6/1/1946",
+        "Ngày 6/1/1947",
+        "Ngày 6/1/1948"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q013",
+      "type": "single",
+      "question": "Trong Hiệp định Sơ bộ ngày 6/3/1946, Chính phủ Pháp công nhận nước Việt Nam Dân chủ Cộng hòa là một quốc gia…",
+      "choices": [
+        "tự do",
+        "độc lập",
+        "tự trị",
+        "độc lập và tự do"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q014",
+      "type": "single",
+      "question": "Theo hội nghị Pốtđam, quân Trung Hoa Dân Quốc vào Việt Nam để…",
+      "choices": [
+        "giải giáp quân đội Nhật",
+        "giúp Việt Nam đanh đuổi thực dân Pháp",
+        "giúp đỡ chính quyền cách mạng Việt Nam",
+        "giúp Việt Nam đuổi quân Anh"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q015",
+      "type": "single",
+      "question": "Ban Thường vụ TƯ Đảng đã ra chỉ thị phát động phong trào thi đua ái quốc vào thời gian nào?",
+      "choices": [
+        "27/3/1946",
+        "28/3/1946",
+        "27/3/1948",
+        "28/4/1949"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q016",
+      "type": "single",
+      "question": "Trong thời kỳ kháng chiến chống Pháp, khẩu hiệu \"Tích cực cầm cự và chuẩn bị tổng phản công\" được nêu ra khi nào?",
+      "choices": [
+        "1948",
+        "1949",
+        "1950",
+        "1951"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q017",
+      "type": "single",
+      "question": "Trong kháng chiến chống Pháp, Đảng đã chủ trương mở rộng khối đại đoàn kết dân tộc với việc…",
+      "choices": [
+        "Thống nhất Việt Minh và Liên Việt",
+        "Thành lập Mặt trận Liên Việt",
+        "Mở rộng Mặt trận Việt Minh",
+        "Thành lập Mặt trận Việt Minh"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q018",
+      "type": "single",
+      "question": "Đại hội thống nhất Mặt trận Việt Minh và Liên Việt được tổ chức vào thời gian nào?",
+      "choices": [
+        "3/1951",
+        "2/1952",
+        "3/1953",
+        "1/1953"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q019",
+      "type": "single",
+      "question": "Trong tạm ước 14/9/1946, Việt Nam tiếp tục nhân nhượng cho Pháp một số quyền lợi về",
+      "choices": [
+        "kinh tế và văn hoá",
+        "kinh tế, chính trị",
+        "chính trị, quân sự",
+        "kinh tế và quân sự"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q020",
+      "type": "single",
+      "question": "Tháng 3-1951, Đại Hội thống nhất Việt Minh và Liên Việt thành…",
+      "choices": [
+        "Mặt trận Việt Nam cách mạng thanh niên",
+        "Mặt trận Việt Minh",
+        "Mặt trận Tổ Quốc",
+        "Mặt trận Liên hiệp quốc dân Việt Nam (Liên Việt)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q021",
+      "type": "single",
+      "question": "Việt Nam kí với Pháp Hiệp định Sơ bộ ngày 6/3/1946 nhằm mục đích gì?",
+      "choices": [
+        "Chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam",
+        "Tạo điều kiện xây dựng đất nước sau cách mạng",
+        "Phân hóa kẻ thù, tập trung đánh kẻ thù chủ yếu",
+        "Hoàn hoãn với Pháp để đấu tranh quân sự với Trung Hoa dân quốc"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q022",
+      "type": "single",
+      "question": "Hiến pháp đầu tiên của nước Việt Nam Dân chủ Cộng hòa được Quốc hội thông qua vào thời gian nào?",
+      "choices": [
+        "9/1946",
+        "10/1946",
+        "11/1946",
+        "12/1946"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q023",
+      "type": "single",
+      "question": "Việt Nam đã bắt đầu đặt quan hệ ngoại giao với Trung Quốc, Liên Xô và một số nước khác vào thời điểm nào?",
+      "choices": [
+        "Năm 1945",
+        "Năm 1948",
+        "Năm 1950",
+        "Năm 1953"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q024",
+      "type": "single",
+      "question": "Nội dung nào không phản ánh đúng thuận lợi của Việt Nam sau Cách mạng tháng Tám 1945?",
+      "choices": [
+        "Nhân dân giành quyền làm chủ, phấn khởi, gắn bó với chế độ",
+        "Có sự ủng hộ, giúp đỡ tích cực của lực lượng Đồng minh",
+        "Phong trào giải phóng dân tộc dâng cao; hệ thống xã hội chủ nghĩa hình thành",
+        "Có Đảng, đứng đầu là Chủ tịch Hồ Chí Minh sáng suốt lãnh đạo"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q025",
+      "type": "single",
+      "question": "Nhằm xây dựng và củng cố chính quyền cách mạng, tháng 5/1946 lực lượng vũ trang của Việt Nam được đổi tên thành…",
+      "choices": [
+        "Việt Nam giải phóng quân",
+        "Quân đội nhân dân Việt Nam",
+        "Vệ quốc đoàn",
+        "Quân đội quốc gia Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q026",
+      "type": "single",
+      "question": "Để phá thế bao vây cô lập, phát triển lực lượng và giành thế chủ động, tháng 6-1950, lần đầu tiên TW Đảng đã chủ trương mở chiến dịch tiến công quy mô lớn. Đó là",
+      "choices": [
+        "Chiến dịch Việt Bắc",
+        "Chiến dịch Tây Bắc",
+        "Chiến dịch Biên Giới",
+        "Chiến dịch Thượng Lào"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q027",
+      "type": "single",
+      "question": "Quân Trung Hoa Dân Quốc vào nước Việt Nam nhằm âm mưu gì?",
+      "choices": [
+        "Giúp Việt Nam đánh đuổi thực dân Pháp",
+        "Lật đổ chính quyền cách mạng của Việt Nam",
+        "Giúp đỡ chính quyền cách mạng nước Việt Nam",
+        "Giúp Việt Nam đánh đuổi quân Anh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q028",
+      "type": "single",
+      "question": "Trong thời gian từ tháng 8/1945 – tháng 3/1946, chủ trương của Đảng Cộng sản Đông Dương khi đấu tranh với quân Trung Hoa Dân Quốc và bọn phản cách mạng ở miền Bắc là gì?",
+      "choices": [
+        "Kiên quyết chống trả những hành động của quân Trung Hoa Dân Quốc",
+        "Tạm thời hòa hoãn, tránh xung đột với quân Trung Hoa Dân Quốc",
+        "Nhân nhượng toàn bộ các yêu sách của chúng",
+        "Tạm hòa hoãn với Pháp ở Nam Bộ để đấu tranh quân sự với Trung Hoa dân quốc"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q029",
+      "type": "single",
+      "question": "Ngày 8/9/1945 Chủ tịch Hồ Chí Minh kí sắc lệnh thành lập Nha Bình dân học vụ, đây là cơ quan chuyên trách về việc gì?",
+      "choices": [
+        "Giải quyết giặc dốt",
+        "Giải quyết giặc đói",
+        "Chống giặc ngoại xâm",
+        "Khó khăn về tài chính"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q030",
+      "type": "single",
+      "question": "Trong Hiệp định Sơ bộ ngày 6/3/1946, Chính phủ Pháp công nhận nước Việt Nam Dân chủ Cộng hòa là…",
+      "choices": [
+        "một quốc gia tự do, nhưng vẫn thuộc khối liên hiệp Pháp",
+        "một quốc gia độc lập tự do, nhưng vẫn thuộc khối liên hiệp Pháp",
+        "một quốc gia tự trị, nằm trong liên bang Đông Dương thuộc Pháp",
+        "một quốc gia độc lập, nằm trong liên bang Đông Dương thuộc Pháp"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q031",
+      "type": "single",
+      "question": "Ý nghĩa của chiến thắng Biên Giới Thu - Đông đối với cách mạng Việt Nam…",
+      "choices": [
+        "Giáng một đòn nặng nề vào ý chí xâm lược của địch, đập tan tuyến phòng thủ và giải phóng hoàn toàn khu vực biên giới, nối liền Việt Nam với thế giới",
+        "Đánh dấu sự trưởng thành vượt bậc về trình độ chiến đấu của quân đội Việt Nam",
+        "Quân ta đã giành được thế chủ động chiến lược trên chiến trường chính Bắc Bộ, tạo bước chuyển biến lớn của kháng chiến vào giai đoạn mới",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q032",
+      "type": "single",
+      "question": "Để khắc phục tình trạng khó khăn về tài chính sau Cách mạng tháng Tám năm 1945, Chính phủ nước Việt Nam Dân chủ Cộng hòa kêu gọi…",
+      "choices": [
+        "cải cách ruộng đất và thực hành tiết kiệm",
+        "nhân dân cả nước thực hiện \"Ngày đồng tâm\"",
+        "nhân dân thực hiện phong trào tăng gia sản xuất",
+        "tinh thần tự nguyện đóng góp của nhân dân"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q033",
+      "type": "single",
+      "question": "Việc giải quyết thành công nạn đói, nạn dốt và khó khăn về tài chính sau Cách mạng tháng Tám năm 1945 ở Việt Nam có ý nghĩa gì?",
+      "choices": [
+        "Đánh dấu hoàn thành nhiệm vụ đánh đổ chế độ phong kiến",
+        "Tạo cơ sở để các nước xã hội chủ nghĩa công nhận Việt Nam",
+        "Tạo cơ sở thực lực để ký Hiệp định Sơ bộ với Pháp",
+        "Góp phần tạo ra sức mạnh để bảo vệ chế độ mới"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q034",
+      "type": "single",
+      "question": "Thời gian và địa điểm diễn ra Đại hội Đảng toàn quốc lần thứ hai là…",
+      "choices": [
+        "Tháng 3-1935, tại Ma Cao, Trung Quốc",
+        "Tháng 2-1950, tại Tân Trào, Tuyên Quang",
+        "Tháng 2-1951, tại Vinh Quang, Chiêm Hoá, Tuyên Quang",
+        "Tháng 3-1951, tại Việt Bắc"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q035",
+      "type": "single",
+      "question": "Hãy điền đáp án đúng vào câu sau đây: \"Bằng việc kí Hiệp định Sơ bộ 6/3/1946 và Tạm ước 14/9/1946, Việt Nam đã đập Việt Nam âm mưu của……\"",
+      "choices": [
+        "Mĩ cấu kết với Trung Hoa Dân Quốc",
+        "Pháp cấu kết với Trung Hoa Dân Quốc",
+        "Trung Hoa Dân Quốc cấu kết với Anh",
+        "Pháp cấu kết với Anh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q036",
+      "type": "single",
+      "question": "Tại Đại hội đại biểu toàn quốc lần thứ hai, Đảng quyết định đổi tên thành…",
+      "choices": [
+        "Đảng Cộng sản Đông Dương",
+        "Đảng Cộng sản Việt Nam",
+        "Hội nghiên cứu Chủ nghĩa Mác",
+        "Đảng Lao Động Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q037",
+      "type": "single",
+      "question": "Sau cách mạng tháng Tám năm 1945, Chính phủ đã phát động phong trào gì để giải quyết khó khăn về tài chính?",
+      "choices": [
+        "\"Nhường cơm sẻ áo\", \" Hũ gạo cứu đói\"…",
+        "\"Tăng gia sản xuất! Tăng gia sản xuất ngay!\".",
+        "Xây dựng \"Quỹ độc lập\", \"Tuần lễ vàng\".",
+        "Tổ chức \"Ngày đồng tâm\", \"Hũ gạo cứu đói\"."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q038",
+      "type": "single",
+      "question": "Đại hội Đảng toàn quốc lần thứ hai của Đảng Lao Động Việt Nam đã thông qua một văn kiện mang tính chất cương lĩnh. Đó là:",
+      "choices": [
+        "Cương lĩnh cách mạng Việt Nam.",
+        "Chính cương của Đảng Lao động Việt Nam",
+        "Luận cương về cách mạng Việt Nam",
+        "Cương lĩnh của Đảng Lao Động Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q039",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Biện pháp của Đảng để đối phó với quân Trung Hoa Dân Quốc và bọn phản cách mạng ở miền Bắc là nhân nhượng cho chúng một số yêu sách về…",
+      "choices": [
+        "kinh tế, chính trị",
+        "kinh tế, văn hóa",
+        "chính trị, quân sự",
+        "kinh tế, quân sự."
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q040",
+      "type": "single",
+      "question": "Tác phẩm \"Kháng chiến nhất định thắng lợi\" được phát hành khi nào?",
+      "choices": [
+        "6/1946",
+        "7/1946",
+        "7/1947",
+        "9/1947"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q041",
+      "type": "single",
+      "question": "Sau Cách mạng tháng Tám năm 1945, Đảng và nhân dân đã thực hiện biện pháp mang tính chất hàng đầu và lâu dài để giải quyết căn bản nạn đói là…",
+      "choices": [
+        "quyên góp, điều hòa thóc gạo giữa các địa phương trong cả nước",
+        "nghiêm trị những người đầu cơ, tích trữ gạo",
+        "kêu gọi \"tăng gia sản xuất! tăng gia sản xuất ngay! tăng gia sản xuất nữa!\"",
+        "phát động phong trào \"nhường cơm sẻ áo\", \" hũ gạo cứu đói\"…"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q042",
+      "type": "single",
+      "question": "Tác giả tác phẩm \"Kháng chiến nhất định thắng lợi\" là của ai?",
+      "choices": [
+        "Hồ Chí Minh",
+        "Lê Duẩn",
+        "Trường Chinh",
+        "Phạm Văn Đồng"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q043",
+      "type": "single",
+      "question": "Đâu là nơi được coi là căn cứ địa cách mạng của cả nước trong kháng chiến chống Pháp?",
+      "choices": [
+        "Tây Bắc",
+        "Việt Bắc",
+        "Hà Nội",
+        "Điện Biên Phủ"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q044",
+      "type": "single",
+      "question": "Chiến thắng nào đã căn bản đánh bại âm mưu đánh nhanh, thắng nhanh của thực dân Pháp?",
+      "choices": [
+        "Việt Bắc",
+        "Trung Du",
+        "Biên Giới",
+        "Hà Nam Ninh"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q045",
+      "type": "single",
+      "question": "Khi bắt đầu tiến hành xâm lược Việt Nam, thực dân Pháp đã thực hiện chiến lược",
+      "choices": [
+        "Dùng người Việt đánh người Việt",
+        "Lấy chiến tranh nuôi chiến tranh",
+        "Đánh nhanh thắng nhanh",
+        "Cả A và B"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q046",
+      "type": "single",
+      "question": "Ngày 15-10-1947, để đối phó với cuộc tấn công của thực dân Pháp lên căn cứ địa Việt Bắc, Ban thường vụ Trung ương Đảng đã đề ra…",
+      "choices": [
+        "Chỉ thị kháng chiến, kiến quốc",
+        "Chỉ thị \"Phá tan cuộc tấn công mùa Đông của giặc Pháp\"",
+        "Chủ trương tiến công quân Pháp ở vùng sau lưng chúng",
+        "Lời kêu gọi đánh tan cuộc tấn công lên Việt Bắc của thực dân Pháp"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q047",
+      "type": "single",
+      "question": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến chống thực dân Pháp vào đêm…",
+      "choices": [
+        "18/12/1946",
+        "19/12/1946",
+        "20/12/1946",
+        "21/12/1946"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q048",
+      "type": "single",
+      "question": "Bài học kinh nghiệm từ việc kí kết Hiệp định Sơ bộ (6-3-1946) được Đảng Cộng sản Đông Dương vận dụng như thế nào trong chính sách đối ngoại hiện nay?",
+      "choices": [
+        "Sự ủng hộ của các tổ chức quốc tế",
+        "Nhận nhượng mọi yêu sách của đối phương",
+        "Giải quyết tranh chấp bằng quân sự",
+        "Cứng rắn về nguyên tắc, mềm dẻo về sách lược"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q049",
+      "type": "single",
+      "question": "Ở Việt Nam, tín hiệu kháng chiến toàn quốc chống thực dân Pháp nổ ra đầu tiên ở đâu?",
+      "choices": [
+        "Hà Nội",
+        "Hải Phòng",
+        "Nam Bộ",
+        "Lạng Sơn"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q050",
+      "type": "single",
+      "question": "Để thúc đẩy cuộc kháng chiến tiến lên, theo sáng kiến của Chủ tịch Hồ Chí Minh, ngày 27-3-1948, Ban Thường vụ TW Đảng ra chỉ thị…",
+      "choices": [
+        "Chống lại âm mưu thâm độc dùng người Việt đánh người Việt",
+        "Phát động phong trào thi đua ái quốc",
+        "Tiến hành chiến tranh du kích trên cả nước",
+        "Tất cả các phương án trên"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q051",
+      "type": "single",
+      "question": "Cuộc chiến đấu chống Pháp ở đô thị của quân và dân Hà Nội diễn ra trong bao nhiêu ngày đêm?",
+      "choices": [
+        "40 ngày đêm",
+        "50 ngày đêm",
+        "60 ngày đêm",
+        "70 ngày đêm"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q052",
+      "type": "single",
+      "question": "Chiến dịch nào còn có tên là chiến dịch Hoàng Hoa Thám?",
+      "choices": [
+        "Trung Du",
+        "Đường 18",
+        "Hà Nam Ninh",
+        "Biên giới"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q053",
+      "type": "single",
+      "question": "Sau Cách mạng tháng Tám đến 1954 kẻ thù chính của nhân dân Việt Nam là…",
+      "choices": [
+        "Pháp",
+        "Anh",
+        "Mĩ",
+        "Nhật Bản"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q054",
+      "type": "single",
+      "question": "Căn cứ địa cách mạng của Việt Nam trong cuộc kháng chiến chống Pháp xâm lược lần thứ hai là…",
+      "choices": [
+        "Hà Nội",
+        "Đông Khê",
+        "Việt Bắc",
+        "Điện Biên Phủ"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q055",
+      "type": "single",
+      "question": "Hội nghị văn hoá toàn quốc lần thứ hai diễn ra khi nào?",
+      "choices": [
+        "6/1948",
+        "7/1948",
+        "7/1949",
+        "8/1949"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q056",
+      "type": "single",
+      "question": "Ý nào sau đây là nguyên tắc quan trọng nhất của Đảng Cộng sản Đông Dương trong chính sách đối ngoại giai đoạn 1945-1946?",
+      "choices": [
+        "Tránh một lúc phải đối đầu với nhiều kẻ thù",
+        "Mềm dẻo về sách lược, cứng rắn về nguyên tắc",
+        "Không chủ động khơi mào đối đầu quân sự với đối phương",
+        "Tranh thủ thời gian hòa bình để xây dựng, củng cố lực lượng"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q057",
+      "type": "single",
+      "question": "Đại hội Văn hoá toàn quốc lần thứ hai xác định phương châm xây dựng nền văn hoá mới",
+      "choices": [
+        "Dân tộc hoá",
+        "Đại chúng hoá",
+        "Khoa học hoá",
+        "Cả ba phương án trên"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q058",
+      "type": "single",
+      "question": "Chính phủ và Chủ tịch Hồ Chí Minh kêu gọi đồng bào thực hiện \"Tuần lễ vàng\", \"Quỹ độc lập\" nhằm mục đích gì?",
+      "choices": [
+        "Giải quyết khó khăn về tài chính",
+        "Xây dựng chính quyền cách mạng",
+        "Hỗ trợ giải quyết nạn đói",
+        "Giải quyết nạn mù chữ"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q059",
+      "type": "single",
+      "question": "Tại sao Đảng lại lựa chọn giải pháp thương lượng với Pháp?",
+      "choices": [
+        "Chấm dứt cuộc kháng chiến ở Nam Bộ",
+        "Buộc quân Tưởng phải rút ngay về nước, tránh được tình trạng cùng một lúc phải đối phó với nhiều kẻ thù",
+        "Phối hợp với Pháp tấn công Tưởng",
+        "Lực lượng của ta còn yếu"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q060",
+      "type": "single",
+      "question": "Việc kí Hiệp định Sơ bộ ngày 6/3/1946 chứng tỏ…",
+      "choices": [
+        "sự mềm dẻo của Việt Nam trong việc phân hóa kẻ thù",
+        "sự thỏa hiệp của Đảng và Chính phủ Việt Nam Dân chủ Cộng hòa",
+        "Việt Nam không có khả năng đánh bại quân Pháp",
+        "sự non yếu trong lãnh đạo của Đảng Cộng sản Đông Dương"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q061",
+      "type": "single",
+      "question": "Văn kiện nào dưới đây KHÔNG được coi như Cương lĩnh kháng chiến của Đảng ta:",
+      "choices": [
+        "Lời kêu gọi toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh",
+        "Chỉ thị toàn dân kháng chiến của Trung ương Đảng",
+        "Tác phẩm \"Kháng chiến nhất định thắng lợi\" của Tổng Bí thư Trường Chinh",
+        "Đường cách mệnh của Nguyễn Ái Quốc"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q062",
+      "type": "single",
+      "question": "Trận đánh tiêu biểu nhất của Việt Nam trên đường số 4 trong chiến dịch Việt Bắc thu – đông năm 1947 là…",
+      "choices": [
+        "Thất Khê",
+        "Đông Khê",
+        "Đèo Bông Lau",
+        "Đoan Hùng"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q063",
+      "type": "single",
+      "question": "Để chuẩn bị tấn công lên Việt Bắc lần thứ hai, Pháp – Mĩ thực hiện kế hoạch nào?",
+      "choices": [
+        "Kế hoạch Rơve",
+        "Kế hoạch Đờ Lát đơ Tátxinhi",
+        "Kế hoạch Nava",
+        "Kế hoạch \"đánh nhanh thắng nhanh\""
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q064",
+      "type": "single",
+      "question": "Cụm cứ điểm nào được Việt Nam chọn làm nơi mở đầu cho chiến dịch Biên giới thu - đông năm 1950?",
+      "choices": [
+        "Cao Bằng",
+        "Thất Khê",
+        "Đông Khê",
+        "Đình Lập"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q065",
+      "type": "single",
+      "question": "Nhiệm vụ hàng đầu của nhân dân ta trong quá trình kháng chiến chống thực dân Pháp",
+      "choices": [
+        "Chống đế quốc giành độc lập dân tộc",
+        "Xoá bỏ những tàn tích phong kiến đem lại ruộng đất cho nông dân",
+        "Xây dựng chế độ dân chủ mới",
+        "Xây dựng chính quyền mới"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q066",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Phương châm chiến lược của cuộc kháng chiến chống Pháp là",
+      "choices": [
+        "Toàn dân",
+        "Toàn diện",
+        "Lâu dài và dựa vào sức mình là chính",
+        "Toàn dân, toàn diện, lâu dài và dựa vào sức mình là chính"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q067",
+      "type": "single",
+      "question": "Khi bắt đầu tiến hành xâm lược Việt Nam, thực dân Pháp đã thực hiện chiến lược",
+      "choices": [
+        "Dùng người Việt đánh người Việt",
+        "Lấy chiến tranh nuôi chiến tranh",
+        "Đánh nhanh, thắng nhanh",
+        "Dùng người Việt đánh người Việt, lấy chiến tranh nuôi chiến tranh"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q068",
+      "type": "single",
+      "question": "Ngày 15-10-1947, để đối phó với cuộc tấn công của thực dân Pháp lên căn cứ địa Việt Bắc, Ban Thường vụ Trung ương Đảng đã đề ra",
+      "choices": [
+        "Chỉ thị kháng chiến, kiến quốc",
+        "Chỉ thị \"Phá tan cuộc tấn công mùa Đông của giặc Pháp\"",
+        "Chủ trương tiến công quân Pháp ở vùng sau lưng chúng",
+        "Lời kêu gọi đánh tan cuộc tấn công lên Việt Bắc của thực dân Pháp"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q069",
+      "type": "single",
+      "question": "Đầu năm 1948, TW Đảng đã đề ra cách thức thực hiện cách mạng ruộng đất theo đường lối riêng biệt của cách mạng Việt Nam, đó là",
+      "choices": [
+        "Cải cách ruộng đất",
+        "Cải cách từng bước để dần dần thu hẹp phạm vi bóc lột của địa chủ",
+        "Sửa đổi chế độ ruộng đất trong phạm vi không có hại cho nông dân",
+        "Cải cách ruộng đất, sửa đổi chế độ ruộng đất trong phạm vi không có hại cho nông dân"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q070",
+      "type": "single",
+      "question": "Tại sao Đảng lại lựa chọn giải pháp thương lượng với Pháp…",
+      "choices": [
+        "Chấm dứt cuộc kháng chiến ở Nam Bộ",
+        "Buộc quân Tưởng phải rút ngay về nước, tránh được tình trạng cùng một lúc phải đối phó với nhiều kẻ thù",
+        "Phối hợp với Pháp tấn công Tưởng",
+        "Cả A, B và C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q071",
+      "type": "single",
+      "question": "Sự kiện mở đầu cho sự hoà hoãn giữa Việt Nam và Pháp…",
+      "choices": [
+        "Pháp ngừng bắn ở miền Nam",
+        "Việt Nam với Pháp nhân nhượng quyền lợi ở miền Bắc",
+        "Ký kết hiệp định Sơ bộ 6-3-1946 giữa Việt Nam với Pháp",
+        "Pháp và Tưởng ký hiệp ước Trùng Khánh trao đổi quyền lợi cho nhau"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q072",
+      "type": "single",
+      "question": "Sau khi ký bản Hiệp định Sơ bộ, ngày 9-3-1946, Ban thường vụ Trung ương Đảng đã ra…",
+      "choices": [
+        "Chỉ thị kháng chiến kiến quốc",
+        "Chỉ thị Hoà để tiến",
+        "Chỉ thị Toàn quốc kháng chiến",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q073",
+      "type": "single",
+      "question": "Sau bản Hiệp định sơ bộ, ngày 14-9 Chủ tịch Hồ Chí Minh đã thay mặt Chính phủ ký bản Tạm ước với Chính phủ Pháp với nội dung",
+      "choices": [
+        "Pháp thừa nhận các quyền dân tộc cơ bản của nước Việt Nam",
+        "Chấm dứt chiến tranh ở Việt Nam",
+        "Đình chỉ xung đột ở miền Nam và sẽ tiếp tục đàm phán vào 1-1947",
+        "Cả A, B và C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q074",
+      "type": "single",
+      "question": "Cuối năm 1946, thực dân Pháp đã bội ước, liên tục tăng cường khiêu khích và lấn chiếm thêm một số địa điểm như",
+      "choices": [
+        "Thành phố Hải Phòng, thị xã Lạng Sơn",
+        "Đà Nẵng, Sài Gòn",
+        "Hải Phòng, Hải Dương, Lào Cai, Yên Bái",
+        "Thành phố Hải phòng, thị xã Lạng Sơn, Đà Nẵng, Hà Nội"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q075",
+      "type": "single",
+      "question": "Hiệp ước Hoa - Pháp được ký kết ở đâu?",
+      "choices": [
+        "Pari",
+        "Trùng Khánh",
+        "Hương Cảng",
+        "Ma Cao"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q076",
+      "type": "single",
+      "question": "Đại hội Đại biểu toàn quốc lần thứ hai của Đảng họp tại đâu?",
+      "choices": [
+        "Bà Điểm – Hóc Môn – Gia Định",
+        "Cao Bằng",
+        "Tuyên Quang",
+        "Bắc Ninh"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q077",
+      "type": "single",
+      "question": "Tác phẩm \"Kháng chiến nhất định thắng lợi\" do ai soạn thảo?",
+      "choices": [
+        "Trường Chinh",
+        "Võ Nguyên Giáp",
+        "Hồ Chí Minh",
+        "Trần Phú"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q078",
+      "type": "single",
+      "question": "Tại Đại hội đại biểu toàn quốc lần thứ hai, Đảng ta quyết định đổi tên thành:",
+      "choices": [
+        "Đảng Cộng sản Đông Dương",
+        "Hội nghiên cứu Chủ nghĩa Mác",
+        "Đảng Cộng sản Việt Nam",
+        "Đảng Lao động Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q079",
+      "type": "single",
+      "question": "Nước đầu tiên công nhận và đặt quan hệ ngoại giao với Chính phủ Việt Nam Dân chủ Cộng hòa là…",
+      "choices": [
+        "Liên Xô",
+        "Cu ba",
+        "Trung Quốc",
+        "Lào"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q080",
+      "type": "single",
+      "question": "Đại hội Đảng toàn quốc lần thứ hai của Đảng Lao động Việt Nam đã thông qua một văn kiện mang tính chất cương lĩnh. Đó là",
+      "choices": [
+        "Cương lĩnh cách mạng Việt Nam",
+        "Chính cương của Đảng Lao động Việt Nam",
+        "Luận cương về cách mạng Việt Nam",
+        "Cương lĩnh của Đảng Lao động Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q081",
+      "type": "single",
+      "question": "Tài liệu nào dưới đây lần đầu tiên khẳng định sự nhân nhượng của nhân dân Việt Nam đối với thực dân Pháp xâm lược đã đến giới hạn cuối cùng?",
+      "choices": [
+        "\"Kháng chiến nhất định thắng lợi\" của Tổng Bí thư Trường Chinh",
+        "\"Tuyên ngôn Độc lập\" của nước Việt Nam Dân chủ Cộng hòa",
+        "\"Toàn dân kháng chiến\" của BTV Trung ương Đảng Cộng sản Đông Dương",
+        "\"Lời kêu gọi toàn quốc kháng chiến\" của Chủ tịch Hồ Chí Minh"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q082",
+      "type": "single",
+      "question": "Đường lối kháng chiến chống thực dân Pháp của Đảng KHÔNG được thể hiện văn kiện lịch sử nào dưới đây?",
+      "choices": [
+        "Chỉ thị Toàn dân kháng chiến",
+        "Tác phẩm Kháng chiến nhất định thắng lợi",
+        "Lời kêu gọi toàn quốc kháng chiến",
+        "Tác phẩm \"vấn đề dân cày\""
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q083",
+      "type": "single",
+      "question": "\"Chúng ta thà hi sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ… \" là đoạn trích trong văn kiện nào?",
+      "choices": [
+        "Chỉ thị Toàn dân kháng chiến của Ban Thường vụ Trung ương Đảng",
+        "Lời kêu gọi toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh",
+        "Tác phẩm Kháng chiến nhất định thắng lợi của Tổng Bí thư Trường Chinh",
+        "Chỉ thị sửa soạn khởi nghĩa của Tổng bộ Việt Minh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q084",
+      "type": "single",
+      "question": "Chính cương Đảng Lao động Việt Nam tháng 2-1951 đã nêu ra các tính chất của xã hội Việt Nam",
+      "choices": [
+        "Dân chủ nhân dân, một phần thuộc địa và nửa phong kiến",
+        "Dân chủ và dân tộc",
+        "Thuộc địa nửa phong kiến",
+        "Dân tộc và dân chủ mới"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q085",
+      "type": "single",
+      "question": "Hai đối tượng của cách mạng Việt Nam được nêu ra tại Chính cương Đảng Lao động Việt Nam",
+      "choices": [
+        "Đối tượng chính là chủ nghĩa đế quốc xâm lược, cụ thể là thực dân Pháp",
+        "Đối tượng phụ là phong kiến, cụ thể là phong kiến phản động",
+        "Thực dân Pháp và phong kiến phản động",
+        "Đế quốc và phong kiến Việt Nam"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q086",
+      "type": "single",
+      "question": "Con đường đi lên chủ nghĩa xã hội được nêu ra tại Chính cương Đảng Lao động Việt Nam trải qua mấy giai đoạn?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q087",
+      "type": "single",
+      "question": "Lực lượng tạo nên động lực cho cách mạng Việt Nam được nêu ra trong Chính cương Đảng Lao động Việt Nam",
+      "choices": [
+        "Công nhân, nông dân, tiểu tư sản, tư sản dân tộc, địa chủ yêu nước (nhân dân)",
+        "Công nhân, nông dân, lao động trí thức",
+        "Công nhân, trí thức, tư sản dân tộc",
+        "Nhân dân, địa chủ, tư sản dân tộc"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q088",
+      "type": "single",
+      "question": "Sau thất bại ở Việt Bắc thu – đông năm 1947, Pháp buộc phải chuyển từ \"đánh nhanh, thắng nhanh\" sang…",
+      "choices": [
+        "\"đánh thần tốc\"",
+        "\"chắc thắng mới đánh\"",
+        "\"đánh lâu dài\"",
+        "\"vừa đánh vừa đàm phán\""
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q089",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Đường lối kháng chiến chống thực dân Pháp của Đảng Cộng sản Đông Dương (1945-1954) là",
+      "choices": [
+        "toàn diện, tự lực cánh sinh và tranh thủ sự ủng hộ quốc tế",
+        "trường kì, tự lực cánh sinh và tranh thủ sự ủng hộ quốc tế",
+        "toàn dân, tự lực cánh sinh và tranh thủ sự ủng hộ quốc tế",
+        "toàn dân, toàn diện, trường kì, tự lực cánh sinh và tranh thủ sự ủng hộ quốc tế"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q090",
+      "type": "single",
+      "question": "Thắng lợi của quân dân Việt Nam trong cuộc chiến đấu chống thực dân Pháp ở các đô thị phía Bắc vĩ tuyến 16 (từ tháng 12/1946 đến tháng 2/1947) đã…",
+      "choices": [
+        "làm thất bại ý chí xâm lược của thực dân Pháp",
+        "làm phá sản kế hoạch \"đánh nhanh thắng nhanh\" của thực dân Pháp",
+        "mở ra bước phát triển lớn trong cuộc kháng chiến chống thực dân Pháp",
+        "làm thất bại bước đầu kế hoạch \"đánh nhanh thắng nhanh\" của Pháp"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q091",
+      "type": "single",
+      "question": "Thực chất của chính sách dùng người Việt đánh người Việt, lấy chiến tranh nuôi chiến tranh của thực dân Pháp sau 1947 là gì?",
+      "choices": [
+        "tiến hành chiến tranh tổng lực",
+        "Chuyển sang chiến lược đánh lâu dài",
+        "tiến hành chiến tranh xâm lược kiểu mới",
+        "tiến hành chiến tranh đánh nhanh thắng nhanh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q092",
+      "type": "single",
+      "question": "\"Bất kì đàn ông, đàn bà, người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc\". Đoạn trích trên trong \"Lời kêu gọi toàn quốc kháng chiến\" đã thể hiện rõ tư tưởng…",
+      "choices": [
+        "kháng chiến toàn diện",
+        "trường kì kháng chiến",
+        "kháng chiến toàn dân",
+        "kháng chiến nhất định thắng lợi"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q093",
+      "type": "single",
+      "question": "Lực lượng tạo nên động lực cho cách mạng Việt Nam được nêu ra trong Chính cương Đảng Lao Động Việt Nam…",
+      "choices": [
+        "Công nhân, nông dân, tiểu tư sản, tư sản dân tộc, địa chủ yêu nước (nhân dân)",
+        "Công nhân, nông dân, lao động trí thức",
+        "Công nhân, trí thức, tư sản dân tộc",
+        "Nhân dân, địa chủ, tư sản dân tộc"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q094",
+      "type": "single",
+      "question": "Nền tảng của khối đại đoàn kết dân tộc được đảng Lao Động Việt Nam xác định tại Đại hội II…",
+      "choices": [
+        "Công nhân và nông dân",
+        "Công nhân, nông dân và tư sản dân tộc",
+        "Công nhân, nông dân, lao động trí thức",
+        "Công nhân, nông dân và tiểu tư sản"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q095",
+      "type": "single",
+      "question": "Thắng lợi nào của Việt Nam đã đánh bại hoàn toàn kế hoạch \"đánh nhanh thắng nhanh\" của Pháp buộc chúng phải chuyển sang đánh lâu dài với Việt Nam?",
+      "choices": [
+        "Việt Bắc thu - đông (1947)",
+        "Biên giới thu - đông 1950",
+        "Chiến dịch Tây Bắc (1953)",
+        "Chiến dịch Tây Nguyên (1954)"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q096",
+      "type": "single",
+      "question": "Trong kháng chiến chống Pháp, Đảng chủ trương \"vừa đánh vừa bồi dưỡng sức dân, vừa đánh vừa chuyển hóa lực lượng giữa Việt Nam và địch, tận dụng chuyển biến của tình hình thế giới có lợi cho cuộc kháng chiến, giành thắng lợi từng bước,…\". Điều này chứng tỏ nội dung nào trong đường lối kháng chiến chống Pháp của Đảng Cộng sản Đông Dương?",
+      "choices": [
+        "Toàn dân",
+        "Toàn diện",
+        "Trường kì",
+        "Tự lực cánh sinh"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q097",
+      "type": "single",
+      "question": "Âm mưu của Pháp trong cuộc tấn công quy mô lên Việt Bắc năm 1947 là gì?",
+      "choices": [
+        "Mở rộng vùng chiếm đóng",
+        "Nhanh chóng kết thúc chiến tranh",
+        "Giành lại thế chủ động trên chiến trường",
+        "Buộc Việt Nam ngồi vào bàn đàm phán Pa-ri"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q098",
+      "type": "single",
+      "question": "Điều lệ mới của Đảng Lao Động đã xác định Đảng đại diện cho quyền lợi của…",
+      "choices": [
+        "Giai cấp công nhân Việt Nam",
+        "Nhân dân Việt Nam",
+        "Dân tộc Việt Nam",
+        "Giai cấp công nhân và nhân dân lao động Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q099",
+      "type": "single",
+      "question": "Chủ trương của Đảng Cộng sản Đông Dương khi Pháp tấn công lên Việt Bắc năm 1947 là…",
+      "choices": [
+        "tiêu diệt sinh lực địch",
+        "mở rộng căn cứ địa Việt Bắc",
+        "chiến tranh du kích, nhằm tiêu diệt sinh lực địch",
+        "phải phá tan cuộc tấn công mùa đông của Pháp"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q100",
+      "type": "single",
+      "question": "Nền tảng tư tưởng và kim chỉ nam được Đảng ta xác định tại Đại hội II là:",
+      "choices": [
+        "Chủ nghĩa Mác - Lênin",
+        "Tư tưởng Hồ Chí Minh",
+        "Truyền thống dân tộc",
+        "Phật giáo"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q101",
+      "type": "single",
+      "question": "Đai hội Đảng toàn quốc lần thứ hai đã bầu ai làm Tổng Bí thư Đảng Lao Động Việt Nam?",
+      "choices": [
+        "Hồ Chí Minh",
+        "Trần Phú",
+        "Trường Chinh",
+        "Lê Duẩn"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q102",
+      "type": "single",
+      "question": "Hiệp định phòng thủ chung Đông Dương ngày 23/12/1950 được kí kết bởi những nước nào?",
+      "choices": [
+        "Anh và Nhật",
+        "Mĩ và Nhật",
+        "Mĩ và Pháp",
+        "Anh và Pháp"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q103",
+      "type": "single",
+      "question": "Trong tiến trình hình thành và phát triển từ năm 1930-1951, Đảng Cộng sản Việt Nam đã đề ra bao nhiêu Cương lĩnh chính trị và vào thời điểm nào?",
+      "choices": [
+        "Cương lĩnh năm 1930",
+        "2 cương lĩnh vào năm 1930 và 1945",
+        "3 cương lĩnh vào năm 1930, 1945, 1951",
+        "3 cương lĩnh vào năm 1930, 1951 (năm 1930 ra đời 2 cương lĩnh)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q104",
+      "type": "single",
+      "question": "Trong cương lĩnh thứ ba (2-1951), Đảng ta đã khẳng định nhận thức của mình về con đường cách mạng Việt Nam. Đó là",
+      "choices": [
+        "Con đường cách mạng vô sản",
+        "Con đường cách mạng tư sản dân quyền và thổ địa cách mạng",
+        "Con đường cách mạng tư sản dân quyền",
+        "Con đường cách mạng dân tộc, dân chủ, nhân dân"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q105",
+      "type": "single",
+      "question": "Chọn câu trả lời đúng nhất: Ngày 23/12/1950, Mĩ kí với Pháp Hiệp định phòng thủ chung Đông Dương nhằm viện trợ cho Pháp về….",
+      "choices": [
+        "quân sự",
+        "kinh tế - tài chính",
+        "kinh tế - tài chính, y tế",
+        "quân sự, kinh tế - tài chính"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q106",
+      "type": "single",
+      "question": "Đến năm 1951, Đảng ta đã tiến hành bao nhiêu kỳ Đại hội và trong khoảng thời gian nào?",
+      "choices": [
+        "1 kỳ Đại hội vào năm 1930",
+        "2 kỳ Đại hội vào tháng 3-1935 và tháng 2-1951",
+        "3 kỳ Đại hội vào tháng 2-1930, 3-1935, 2-1951",
+        "4 kỳ Đại hội và tháng 2-1930, 10-1930, 3-1935, 2-1951"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q107",
+      "type": "single",
+      "question": "Đại hội đại biểu lần thứ II của Đảng (2/1951) diễn ra ở đâu?",
+      "choices": [
+        "Pác Bó (Cao Bằng)",
+        "Hóc Môn (Gia Định).",
+        "Hương Cảng (Trung Quốc).",
+        "Chiêm Hóa (Tuyên Quang)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q108",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Nhiệm vụ cách mạng được nêu ra tại Chính cương Đảng Lao động Việt Nam",
+      "choices": [
+        "Đánh đuổi bọn đế quốc xâm lược, giành độc lập và thống nhất thật sự cho dân tộc",
+        "Xoá bỏ những di tích phong kiến và nửa phong kiến",
+        "Làm cho người cày có ruộng, phát triển chế độ dân chủ nhân dân, gây cơ sở cho chủ nghĩa xã hội",
+        "Đánh đuổi bọn đế quốc xâm lược, giành độc lập và thống nhất thật sự cho dân tộc, xoá bỏ những di tích phong kiến và nửa phong kiến, làm cho người cày có ruộng, phát triển chế độ dân chủ nhân dân, gây cơ sở cho chủ nghĩa xã hội"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q109",
+      "type": "single",
+      "question": "Đại hội đại biểu lần thứ II của Đảng (tháng 2/1951) quyết định đưa Đảng ra hoạt động công khai ở Việt Nam với tên gọi…",
+      "choices": [
+        "Đảng Dân chủ Việt Nam",
+        "Đảng Lao động Việt Nam",
+        "Đảng Dân chủ Đông Dương",
+        "Đảng Cộng sản Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q110",
+      "type": "single",
+      "question": "Điều lệ mới của Đảng Lao động đã xác định Đảng đại diện cho quyền lợi của",
+      "choices": [
+        "Giai cấp công nhân Việt Nam",
+        "Nhân dân Việt Nam",
+        "Dân tộc Việt Nam",
+        "Giai cấp công nhân và nhân dân lao động Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q111",
+      "type": "single",
+      "question": "Đại hội II của Đảng Cộng sản Đông Dương đã lấy tờ báo nào làm cơ quan ngôn luận của Trung ương Đảng?",
+      "choices": [
+        "Báo Tuổi trẻ",
+        "Báo Nhân dân",
+        "Báo Thanh niên",
+        "Báo An ninh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q112",
+      "type": "single",
+      "question": "Nền tảng tư tưởng và kim chỉ nam được Đảng ta xác định tại Đại hội II là…",
+      "choices": [
+        "Chủ nghĩa Mác - Lênin",
+        "Tư tưởng Hồ Chí Minh",
+        "Truyền thống dân tộc",
+        "Nho giáo"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q113",
+      "type": "single",
+      "question": "Trong Cương lĩnh thứ 3 được thông qua tại Đại hội Đảng toàn quốc lần thứ hai (2-1951), Đảng ta đã phát triển và hoàn thiện nhận thức về lực lượng cách mạng không chỉ là công nhân và nông dân mà bao gồm nhiều lực lượng dân tộc khác. Các lực lượng đó được gọi chung là",
+      "choices": [
+        "Công dân",
+        "Nhân dân",
+        "Dân chủ",
+        "Vô Sản"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q114",
+      "type": "single",
+      "question": "Năm 1951, Mặt trận Việt Minh và Hội Liên Việt thống nhất thành một mặt trận duy nhất lấy tên là…",
+      "choices": [
+        "Liên minh Việt – Miên – Lào",
+        "Mặt trận phản đế Đông Dương",
+        "Mặt trận dân chủ Đông Dương",
+        "Mặt trận Liên Việt"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q115",
+      "type": "single",
+      "question": "Đại hội nào của Đảng đã quyết định tách 3 Đảng bộ Đảng Cộng sản ở 3 nước Việt Nam, Lào và Campuchia?",
+      "choices": [
+        "Đại hội I",
+        "Đại hội II",
+        "Đại hội III",
+        "Đại hội IV"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q116",
+      "type": "single",
+      "question": "Đến 7/1954, Đảng và Chính phủ Việt Nam Dân chủ cộng hòa đã tiến hành được bao nhiêu đợt giảm tô và cải cách ruộng đất",
+      "choices": [
+        "4 đợt giảm tô và 1 đợt cải cách ruộng đất",
+        "5 đợt giảm tô và 1 đợt cải cách ruộng đất",
+        "6 đợt giảm tô và 1 đợt cải cách ruộng đất",
+        "7 đợt giảm tô và 1 đợt cải cách ruộng đất"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q117",
+      "type": "single",
+      "question": "Khối liên minh nhân dân 3 nước Việt Nam - Lào và Campuchia được thành lập khi nào?",
+      "choices": [
+        "2/1951",
+        "3/1951",
+        "4/1951",
+        "5/1951"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q118",
+      "type": "single",
+      "question": "Đại hội Đảng nào sau đây được coi là \"Đại hội kháng chiến thắng lợi\"?",
+      "choices": [
+        "Đại hội lần thứ VI của Đảng (1986)",
+        "Đại hội Quốc dân ở Tân Trào (1945)",
+        "Đại hội lần thứ II của Đảng (1951)",
+        "Đại hội Đại biểu lần thứ III của Đảng (1960)"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q119",
+      "type": "single",
+      "question": "\"Đánh đuổi bọn đế quốc xâm lược, giành độc lập và thống nhất hoàn toàn cho dân tộc, xóa bỏ những tàn tích phong kiến…\" đó là nhiệm vụ được nêu ra trong văn kiện nào?",
+      "choices": [
+        "Báo cáo chính trị do Chủ tịch Hồ Chí Minh trình bày tại đại hội",
+        "Báo cáo Bàn về cách mạng Việt Nam của Tổng Bí thư Trường Chinh",
+        "Cương lĩnh chính trị đầu tiên của Đảng",
+        "Bản đề cương văn hóa Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q120",
+      "type": "single",
+      "question": "Đại đoàn quân chủ lực đầu tiên của quân đội nhân dân Việt Nam (đại đoàn 308) được thành lập khi nào?",
+      "choices": [
+        "Năm 1945",
+        "Năm 1947",
+        "Năm 1949",
+        "Năm 1950"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q121",
+      "type": "single",
+      "question": "\"Là mốc đánh dấu bước phát triển mới trong quá trình trưởng thành và lãnh đạo cách mạng của Đảng, là \"Đại hội kháng chiến thắng lợi\". đó là ý nghĩa của…",
+      "choices": [
+        "Hội nghị lần I Ban chấp hành Trung ương Đảng 1935",
+        "Đại hội lần thứ II của Đảng Cộng sản Đông Dương 1951",
+        "Hội nghị thành lập Đảng 1930",
+        "Đại hội lần thứ III của Đảng 1960"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q122",
+      "type": "single",
+      "question": "Ý nào KHÔNG phản ánh đúng nội dung của Đại hội đại biểu lần thứ II Đảng Cộng sản Đông Dương (tháng 2/1950)?",
+      "choices": [
+        "Thành lập Mặt trận Việt Nam Độc lập đồng minh",
+        "Bầu Ban Chấp hành Trung ương và Bộ Chính trị của Đảng",
+        "Thông qua bản \"Báo cáo chính trị\" và \"Bàn về cách mạng Việt Nam\"",
+        "Đưa Đảng ra hoạt động công khai với tên gọi Đảng Lao động Việt Nam"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q123",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: 3 vùng tự do là hậu phương chủ yếu trong kháng chiến chống Pháp của cách mạng Việt Nam…",
+      "choices": [
+        "Việt Bắc, Thanh - Nghệ - Tĩnh, Liên khu V",
+        "Việt Bắc, Thanh- Nghệ -Tĩnh",
+        "Liên khu V, Nam Bộ, Thừa Thiên Huế",
+        "Liên khu III, Liên khu IV, Liên khu V"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q124",
+      "type": "single",
+      "question": "Trong giai đoạn cuối cuộc kháng chiến chống Pháp, nhằm thực hiện nhiệm vụ dân chủ, Đảng ta đã chủ trương thực hiện một số giải pháp. Phương án nào sau đây không phải chủ trương của Đảng ta lúc đó",
+      "choices": [
+        "Cải cách ruộng đất",
+        "Triệt để giảm tô, giảm tức",
+        "Thí điểm và cải cách ruộng đất",
+        "Cả B và C"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q125",
+      "type": "single",
+      "question": "Nhằm đẩy mạnh thực hiện khẩu hiệu \"người cày có ruộng\", tháng 11-1953, Hội Nghị BCH TW lần thứ V đã thông qua…",
+      "choices": [
+        "Cương lĩnh ruộng đất",
+        "Chỉ thị giảm tô, giảm tức",
+        "Chính sách cải cách ruộng đất",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q126",
+      "type": "single",
+      "question": "Ý nghĩa của quá trình thực hiện khẩu hiệu \"người cày có ruộng\" đối với cuộc kháng chiến chống Pháp…",
+      "choices": [
+        "Huy động mạnh mẽ nguồn lực con người vật chất cho kháng chiến",
+        "Thúc đẩy mạnh mẽ tinh thần chiến đấu của quân và dân ta",
+        "Chi viện trực tiếp cho chiến dịch Điện Biên Phủ",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q127",
+      "type": "single",
+      "question": "Một số hạn chế trong chính sách ruộng đất của Đảng ta từ 1953-1954",
+      "choices": [
+        "Không thấy hết được thực tiễn chuyển biến mới của sở hữu ruộng đất trong nông thôn Việt Nam trước 1953",
+        "Không kế thừa kinh nghiệm của quá trình cải cách từng phần",
+        "Học tập giáo điều kinh nghiệm cải cách ruộng đất của nước ngoài",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q128",
+      "type": "single",
+      "question": "Từ những nam 1950 trở đi, đế quốc Mỹ đã can thiệp ngày càng sâu vào cuộc chiến tranh ở Đông Dương. Theo đó đến năm 1954, viện trợ của Mỹ cho Pháp đã tăng bao nhiêu % trong ngân sách chiến tranh ở Đông Dương?",
+      "choices": [
+        "50%",
+        "60%",
+        "73%",
+        "80%"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q129",
+      "type": "single",
+      "question": "Với thế chủ động trên chiến trường, từ cuối 1950 đến đầu 1953 quân ta đã tổ chức nhiều chiến dịch tiêu diệt, tiêu hao sinh lực địch. Đó là",
+      "choices": [
+        "Chiến dịch Trung Du, chiến dịch Đường 18, chiến dịch Hà Nam Ninh đáp án",
+        "Chiến dịch Hoà Bình, chiến dịch Tây Bắc, chiến dịch Thượng Lào",
+        "Chiến dịch Trung Lào, chiến dịch Tây Nguyên, chiến dịch Điện Biên Phủ",
+        "Cả hai phương án A và B"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q130",
+      "type": "single",
+      "question": "Nội dung nào KHÔNG phản ánh đúng âm mưu của Mĩ ở Đông Dương trong những năm 1951 - 1953?",
+      "choices": [
+        "Ngăn chặn ảnh hưởng của chủ nghĩa xã hội",
+        "Đưa quân đội tham chiến trực tiếp",
+        "Từng bước thay chân quân Pháp",
+        "Quốc tế hóa cuộc chiến tranh Đông Dương"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q131",
+      "type": "single",
+      "question": "Điểm mạnh của kế hoạch Nava của Pháp Mỹ trên chiến trường Đông Dương…",
+      "choices": [
+        "Tập trung một đội quân cơ động mạnh nhất và phương tiện chiến tranh nhiều nhất",
+        "Phân tán và giải đều lực lượng ra khắp các chiến trường",
+        "Tập trung tối đa lực lượng chủ lực ở đồng bằng Bắc Bộ",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q132",
+      "type": "single",
+      "question": "Hội nghi Giơnevơ được triệu tập theo quyết định của Hội nghị ngoại trưởng 4 nước nào?",
+      "choices": [
+        "Mĩ, Anh Pháp, Trung Quốc",
+        "Liên Xô, Mĩ, Anh, Pháp",
+        "Đức, Mĩ, Anh, Pháp",
+        "Liên Xô, Mĩ, Đức, Anh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q133",
+      "type": "single",
+      "question": "Sự kiện nào dưới đây thể hiện tình đoàn kết giữa ba nước Đông Dương trong đấu tranh chống Pháp và can thiệp Mĩ?",
+      "choices": [
+        "Thành lập tổ chức Liên minh nhân dân Việt – Miên – Lào (1951)",
+        "Phối hợp để phá Việt Namn chiến dịch Thượng Lào xuân hè (1953)",
+        "Phối hợp để phá Việt Namn chiến dịch Tây Bắc thu – đông (1952)",
+        "Thành lập tổ chức Liên minh Việt - Miên - Lào (1951)"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q134",
+      "type": "single",
+      "question": "Trên cơ sở nắm bắt những chuyển biến của tình hình, BCH TW Đảng đã đề ra chủ trương quân sự trong Đông Xuân 1953 - 1954",
+      "choices": [
+        "Tăng cường chiến tranh du kích ở vùng sau lưng địch nhằm phân tán chủ lực địch",
+        "Quân chủ lực của ta tập trung tiêu diệt sinh lực địch ở những vùng chiến lược quan trọng mà địch tương đối yếu, tranh thủ tiêu diệt địch ở những hướng địch đánh ra",
+        "Thực hiện phương châm \"tích cực, chủ động, cơ động linh hoạt\"",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q135",
+      "type": "single",
+      "question": "Mĩ can thiệp sâu và dính líu trực tiếp vào cuộc chiến tranh của Pháp ở Đông Dương (1945 – 1954) vì…",
+      "choices": [
+        "muốn giúp Pháp hoàn thành xâm lược Đông Dương",
+        "cả Pháp và Mĩ cùng trong phe tư bản chủ nghĩa",
+        "muốn từng bước thay chân Pháp ở Đông Dương",
+        "muốn thúc đẩy tự do dân chủ ở khu vực Đông Dương"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q136",
+      "type": "single",
+      "question": "Ngày 20-11-1953, giữa lúc quân ta tiến quân lên Tây Bắc, Nava vội vàng phân tán lực lượng cho quân nhảy dù, tập trung một khối chủ lực mạnh ở…",
+      "choices": [
+        "Lai Châu",
+        "Điện Biên Phủ",
+        "Thượng Lào",
+        "Hạ Lào và Đông Bắc Campuchia"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q137",
+      "type": "single",
+      "question": "Mục đích Mĩ kí \"Hiệp định phòng thủ chung Đông Dương\" với Pháp năm 1950 và \"Hiệp ước hợp tác kinh tế Việt – Mĩ\" với Bảo Đại năm 1951 là gì?",
+      "choices": [
+        "Từng bước can thiệp sâu vào cuộc chiến tranh Đông Dương",
+        "Viện trợ kinh tế, tài chính cho Pháp và Bảo Đại",
+        "Tạo sự ràng buộc về kinh tế, quân sự với Pháp",
+        "Trực tiếp ràng buộc chính phủ Bảo Đại"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q138",
+      "type": "single",
+      "question": "\"Kháng chiến hóa văn hóa, văn hóa hóa kháng chiến\" là lời dạy của Chủ tịch Hồ Chí Minh đối với đội ngũ nào?",
+      "choices": [
+        "Nhà báo Việt Nam",
+        "Văn nghệ sĩ Việt Nam",
+        "Trí thức Việt Nam.",
+        "Nhà giáo Việt Nam."
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q139",
+      "type": "single",
+      "question": "Trưởng đoàn đại diện cho phái đoàn Chính phủ Việt Nam Dân chủ Cộng hòa tại Hội nghị Giơnevơ là ai?",
+      "choices": [
+        "Hồ Chí Minh",
+        "Trường Chinh",
+        "Phạm Văn Đồng",
+        "Võ Nguyên Giáp"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q140",
+      "type": "single",
+      "question": "Chiến thắng quân sự nào của Việt Nam quyết định đến thắng lợi tại hội nghị Giơnevơ 1954?",
+      "choices": [
+        "Việt Bắc thu - đông 1947",
+        "Biên giới thu - đông 1950",
+        "Điện Biên Phủ 1954",
+        "Đông xuân 1953-1954"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q141",
+      "type": "single",
+      "question": "Các tướng lĩnh Pháp – Mĩ đã coi tập đoàn cứ điểm Điện Biên Phủ là…",
+      "choices": [
+        "\"một tập đoàn quân chủ lực\"",
+        "\"một pháo đài bất khả xâm phạm\"",
+        "\"một pháo đài bất khả chiến bại\"",
+        "\"một sở chỉ huy vùng tây bắc\""
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q142",
+      "type": "single",
+      "question": "Nava đã đưa tổng số binh lực lên Điện Biên Phủ lúc cao nhất là 16.200 quân; bố trí thành 3 phân khu, 49 cứ điểm. Mục đích là nhằm biến Điện Biên Phủ thành…",
+      "choices": [
+        "Một tập đoàn cứ điểm mạnh nhất Đông Dương",
+        "Một nơi tập trung đông nhất khối quân chủ lực",
+        "Căn cứ quân sự phòng thủ Đông Dương",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q143",
+      "type": "single",
+      "question": "Ngay sau khi quyết định chọn chiến dịch Điện Biên Phủ là trận quyết chiến, chiến lược, ban đầu TW Đảng đã xác định phương châm",
+      "choices": [
+        "Đánh chắc, tiến chắc",
+        "Đánh nhanh, thắng nhanh",
+        "Chắc thắng mới đánh, không chắc thắng không đánh",
+        "Đánh lâu dài"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q144",
+      "type": "single",
+      "question": "Ai đã được cử làm Tư lệnh kiêm Bí thư Đảng uỷ chiến dịch Điện Biên Phủ…",
+      "choices": [
+        "Hoàng Văn Thái",
+        "Văn Tiến Dũng",
+        "Phạm Văn Đồng",
+        "Võ Nguyên Giáp"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q145",
+      "type": "single",
+      "question": "Trên cơ sở theo dõi tình hình địch ở Điện Biên Phủ, Đại tướng Võ Nguyên Giáp đã quyết định thay đổi để thực hiện phương châm",
+      "choices": [
+        "Đánh nhanh, thắng nhanh",
+        "Chắc thắng mới đánh, không chắc thắng không đánh",
+        "Đánh chắc, tiến chắc",
+        "Cơ động, chủ động, linh hoạt"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q146",
+      "type": "single",
+      "question": "Lá cờ \"Quyết chiến, quyết thắng\" trong chiến dịch Điện Biên Phủ được trao cho đơn vị nào?",
+      "choices": [
+        "Đại đoàn 308",
+        "Đại đoàn 312",
+        "Đại đoàn 316",
+        "Đại đoàn 320"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q147",
+      "type": "single",
+      "question": "Kết thúc chiến dịch Điện Biên Phủ, quân và dân ta giành nhiều thắng lợi to lớn. Kết quả đã",
+      "choices": [
+        "Tiêu diệt và bắt sống 16.200 tên địch, trong đó có viên tổng chỉ huy Đờ Catxtơri",
+        "Thu toàn bộ vũ khí, cơ sở vật chất của địch ở Điện Biên Phủ",
+        "Thủ tiêu toàn bộ vũ khí, phương tiện chiến tranh và bắt sống toàn bộ quân địch",
+        "Cả hai phương án A và B"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q148",
+      "type": "single",
+      "question": "Đối với cách mạng Việt Nam, chiến thắng Điện Biên Phủ đã có ý nghĩa hết sức to lớn. Đó là",
+      "choices": [
+        "Thắng lợi lớn nhất của cuộc đọ sức toàn diện và quyết liệt của quân dân Việt Nam với thực dân Pháp",
+        "Chiến công đi vào lịch sử dân tộc như một Bạch Đằng, một Chi Lăng hay một Đống Đa trong thế kỷ XX",
+        "Thắng lợi này đã giải phóng hoàn toàn miền Bắc, chấm dứt gần 1 thế kỷ ách thống trị của thực dân Pháp, đưa cách mạng Việt Nam chuyển sang xây dựng XHCN và giành độc lập, thống nhất hoàn toàn",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q149",
+      "type": "single",
+      "question": "Đối với cách mạng thế giới, thắng lợi của quân và dân ta trong kháng chiến chống Pháp và can thiệp Mỹ, đặc biệt là chiến thắng Điện Biên Phủ đã",
+      "choices": [
+        "Góp phần làm sụp đổ hoàn toàn hệ thống thực dân kiểu cũ trên thế giới",
+        "Cổ vũ mạnh mẽ nhân dân các dân tộc bị áp bức trên thế giới vùng lên đấu tranh giành độc lập",
+        "Lần đầu tiên trong lịch sử một nước thuộc địa nhỏ yếu đã đánh thắng một nước thực dân hùng mạnh, đó là thắng lợi của các lực lượng hoà bình, dân chủ và XHCN trên toàn thế giới",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q150",
+      "type": "single",
+      "question": "Nêu một số nguyên nhân thắng lợi của cuộc kháng chiến chống thực dân Pháp của Việt Nam",
+      "choices": [
+        "Nhân dân Việt Nam giàu truyền thống yêu nước; được sự lãnh đạo tài tình của Đảng Cộng sản Việt Nam",
+        "Có lực lượng đại đoàn kết toàn dân tộc, có chính quyền cách mạng dân chủ nhân dân và hậu phương kháng chiến vững chắc",
+        "Sự liên minh chiến đấu của 3 nước Đông Dương, sự giúp đỡ của các nước Trung Quốc, Liên Xô, các nước XHCN",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q151",
+      "type": "single",
+      "question": "Ngay sau khi chiến dịch Điện Biên Phủ kết thúc, Hội nghị quốc tế về chấm dứt chiến tranh Đông Dương đã diễn ra tại",
+      "choices": [
+        "Pari",
+        "Giơnevơ",
+        "Postdam",
+        "New York"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q152",
+      "type": "single",
+      "question": "Ngày 8-5-1954, Hội nghị Giơnevơ bàn về chấm dứt cuộc chiến tranh ở Đông Dương khai mạc và kết thúc ngày",
+      "choices": [
+        "19-7-1954",
+        "20-7-1954",
+        "21-7-1954",
+        "22-7-1954"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q153",
+      "type": "single",
+      "question": "Hiệp định Giơnevơ về chấm dứt chiến tranh, lập lại hoà bình ở Đông Dương đã quy định",
+      "choices": [
+        "Các nước tham dự Hội nghị cam kết tôn trọng các quyền dân tộc cơ bản là độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của nhân dân Việt Nam và nhân dân Lào, Campuchia",
+        "Pháp rút quân ra khỏi 3 nước Đông Dương, vĩ tuyến 17 là giới tuyến quân sự tạm thời ở Việt Nam và sẽ tổng tuyển cử thống nhất đất nước vào tháng 7-1956",
+        "Pháp tuyên bố công nhận Việt Nam là một nước tự do",
+        "Cả hai phương án A và B"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q154",
+      "type": "single",
+      "question": "Trong cuộc kháng chiến chống thực dân Pháp (1945 - 1954), thắng lợi nào của quân dân Việt Nam đã làm phá sản hoàn toàn kế hoạch Nava?",
+      "choices": [
+        "Chiến dịch Việt Bắc thu - đông năm 1947",
+        "Chiến dịch Thượng Lào xuân - hè năm 1953",
+        "Chiến dịch Biên giới thu - đông năm 1950",
+        "Chiến dịch Điện Biên Phủ năm 1954"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q155",
+      "type": "single",
+      "question": "Giải pháp ký kết hiệp định Giơnevơ, lập lại hoà bình ở Đông Dương (21-7-1954) đã thể hiện rằng:",
+      "choices": [
+        "Tương quan so sánh lực lượng giữa ta và địch là chênh lệch lớn",
+        "Việt Nam là một nước nhỏ, lại phải đương đầu với các nước đế quốc xâm lược lớn trong bối cảnh quan hệ quốc tế vô cùng phức tạp",
+        "Cuộc đấu tranh giành độc lập dân tộc và tự do của Việt Nam là lâu dài, gian khổ, quanh co, giành thắng lợi từng bước là vấn đề có tính chất quy luật",
+        "Cả hai phương án B và C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q156",
+      "type": "single",
+      "question": "Nội dung nào dưới đây là nguyên nhân khách quan làm nên thắng lợi của cuộc Kháng chiến toàn quốc chống thực dân Pháp (1946 – 1954)?",
+      "choices": [
+        "Xây dựng được hậu phương rộng lớn, vững chắc về mọi mặt",
+        "Liên minh chiến đấu chống Pháp giữa nhân dân ba nước Đông Dương",
+        "Sự lãnh đạo sáng suốt của Đảng với đường lối kháng chiến đúng đắn, sáng tạo",
+        "Lực lượng vũ trang ba thứ quân sớm được xây dựng và không ngừng lớn mạnh"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q157",
+      "type": "single",
+      "question": "Cuộc kháng chiến chống thực dân Pháp kéo dài bao nhiêu năm?",
+      "choices": [
+        "7 năm",
+        "8 năm",
+        "9 năm",
+        "10 năm"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q158",
+      "type": "single",
+      "question": "Nội dung nào không phải là ý nghĩa của chiến dịch lịch sử Điện Biên Phủ 1954?",
+      "choices": [
+        "Làm phá sản hoàn toàn kế hoạch Nava của thực dân Pháp",
+        "Giáng đòn quyết định vào ý chí xâm lược của Pháp",
+        "Làm xoay chuyển cục diện chiến tranh ở Đông Dương",
+        "Buộc thực dân Pháp phải chuyển sang \"đánh lâu dài\" với Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q159",
+      "type": "single",
+      "question": "Nguyên nhân quyết định sự thắng lợi cuộc kháng chiến chống thực dân Pháp 1945-1954 của nhân dân Việt Nam là gì?",
+      "choices": [
+        "Sự liên minh chiến đấu của 3 nước Đông Dương",
+        "Sự ủng hộ và giúp đỡ của các nước xã hội chủ nghĩa",
+        "Truyền thống yêu nước ý chí chống giặc bất khuất của nhân dân",
+        "Sự lãnh đạo sáng suốt của Đảng, với đường lối đúng đắn sáng tạo"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q160",
+      "type": "single",
+      "question": "Quân ta vào tiếp quản Thủ đô Hà Nội ngày nào?",
+      "choices": [
+        "10-10-1954",
+        "10-10-1955",
+        "10-10-1956",
+        "1-10-1954"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q161",
+      "type": "single",
+      "question": "Mĩ can thiệp sâu và dính líu trực tiếp vào cuộc chiến tranh của Pháp ở Đông Dương (1945 – 1954) vì…",
+      "choices": [
+        "muốn giúp Pháp hoàn thành xâm lược Đông Dương",
+        "cả Pháp và Mĩ cùng trong phe tư bản chủ nghĩa",
+        "muốn từng bước thay chân Pháp ở Đông Dương",
+        "muốn thúc đẩy tự do dân chủ ở khu vực Đông Dương"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q162",
+      "type": "single",
+      "question": "Điểm tương đồng về mục tiêu mở các chiến dịch trong kháng chiến chống Pháp (1945 – 1954) của quân dân Việt Nam là",
+      "choices": [
+        "mở rộng căn cứ địa Việt Bắc",
+        "tiêu diệt một phần quan trọng sinh lực quân Pháp",
+        "giải phóng vùng Tây Bắc Việt Nam",
+        "phá vỡ âm mưu bình định, lấn chiếm của Pháp"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q163",
+      "type": "single",
+      "question": "Nhằm đẩy mạnh thực hiện khẩu hiệu \"người cày có ruộng\", tháng 11- 1953, Hội Nghị BCH TW lần thứ V đã thông qua…",
+      "choices": [
+        "Cương lĩnh ruộng đất",
+        "Chỉ thị giảm tô, giảm tức",
+        "Chính sách cải cách ruộng đất",
+        "Cương lĩnh ruộng đất, Chỉ thị giảm tô, giảm tức, Chính sách cải cách ruộng đất"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q164",
+      "type": "single",
+      "question": "Chủ trương cơ bản của Việt Nam trong cuộc tiến công chiến lược Đông – Xuân 1953-1954 là",
+      "choices": [
+        "Tiến công vào những hướng quan trọng về chiến lược mà địch tương đối yếu",
+        "Giam chân địch trong thành phố, bảo vệ cơ quan đầu não kháng chiến",
+        "Xây dựng và phát triển bộ độ chủ lực",
+        "Mở rộng vùng chiếm đóng, giải phóng đất đai"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q165",
+      "type": "single",
+      "question": "Với thế chủ động trên chiến trường, từ cuối 1950 đến đầu 1953 quân ta đã tổ chức nhiều chiến dịch tiêu diệt, tiêu hao sinh lực địch. Đó là",
+      "choices": [
+        "Chiến dịch Trung Du, chiến dịch Đường 18, chiến dịch Hà Nam Ninh",
+        "Chiến dịch Hoà Bình, chiến dịch Tây Bắc, chiến dịch Thượng Lào",
+        "Chiến dịch Trung Lào, chiến dịch Tây Nguyên, chiến dịch Điện Biên Phủ",
+        "Chiến dịch Trung Du, chiến dịch Đường 18, chiến dịch Hà Nam Ninh, Chiến dịch Hoà Bình, chiến dịch Tây Bắc, chiến dịch Thượng Lào"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q166",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Cuộc tiến công chiến lược của Việt Nam trong Đông - Xuân 1953 – 1954 đã buộc Pháp phải phân tán lực lượng từ Đồng Bằng Bắc Bộ cho những khu vực nào ?",
+      "choices": [
+        "Điện Biên Phủ, Xênô, Thất Khê, Cao Bằng",
+        "Điện Biên Phủ, Xênô, Luông Phabang và Mường Sài, Plâyku",
+        "Điện Biên Phủ, Luông Phabang và Mường Sài, Plâyku, Phongxalì",
+        "Đông Khê, Luông Phabang và Mường Sài, Plâyku, Phong xalì"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q167",
+      "type": "single",
+      "question": "Những khó khăn, thách thức đối với Việt Nam sau cách mạng tháng Tám – 1945…",
+      "choices": [
+        "Các thế lực đế quốc, phản động bao vây, chống phá",
+        "Kinh tế kiệt quệ và nạn đói hoành hành",
+        "Hơn 90% dân số không biết chữ",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q168",
+      "type": "single",
+      "question": "Những thuận lợi cơ bản của đất nước sau cách mạng tháng Tám – 1945 đó là…",
+      "choices": [
+        "Cách mạng thế giới phát triển mạnh mẽ",
+        "Hệ thống chính quyền cách mạng nhân dân được thiết lập",
+        "Nhân dân có quyết tâm bảo vệ chế độ mới",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q169",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Sau ngày tuyên bố độc lập Chính phủ lâm thời đã xác định các nhiệm vụ cấp bách cần giải quyết",
+      "choices": [
+        "Chống ngoại xâm",
+        "Chống ngoại xâm và nội phản",
+        "Diệt giặc đói, giặc dốt và giặc ngoại xâm",
+        "Chống nội phản"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q170",
+      "type": "single",
+      "question": "Chỉ thị \"kháng chiến kiến quốc\" ra đời ngày, tháng, năm nào?",
+      "choices": [
+        "25/11/1945",
+        "26/11/1945",
+        "25/11/1946",
+        "26/11/1946"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q171",
+      "type": "single",
+      "question": "Chỉ thị \"Kháng chiến kiến quốc\" của Trung ương Đảng ngày 25/11/1945, xác định nhiệm vụ nào là trung tâm, bao trùm nhất?",
+      "choices": [
+        "Củng cố, bảo vệ chính quyền cách mạng",
+        "Chống thực dân Pháp xâm lược",
+        "Cải thiện đời sống nhân dân",
+        "Cả A, B và C"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q172",
+      "type": "single",
+      "question": "Chỉ thị kháng chiến, kiến quốc đã xác định khẩu hiệu cách mạng Việt Nam sau cách mạng tháng Tám -1945",
+      "choices": [
+        "Dân tộc giải phóng",
+        "Thành lập chính quyền cách mạng",
+        "Dân tộc trên hết, Tổ quốc trên hết",
+        "Đoàn kết dân tộc và thế giới"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q173",
+      "type": "single",
+      "question": "Chủ trương và sách lược của Trung ương Đảng trong việc đối phó với các lực lượng đế quốc sau cách mạng tháng Tám - 1945",
+      "choices": [
+        "Thêm bạn bớt thù",
+        "Hoa - Việt thân thiện",
+        "Độc lập về chính trị, nhân nhượng về kinh tế đối với Pháp",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q174",
+      "type": "single",
+      "question": "Những thành tựu cơ bản của cách mạng Việt Nam trong việc xây dựng và củng cố chính quyền cách mạng sau 1945",
+      "choices": [
+        "Tổ chức tổng tuyển cử và ban hành Hiến pháp",
+        "Củng cố và mở rộng mặt trận Việt Minh",
+        "Xây dựng và phát triển các lực lượng vũ trang nhân dân",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q175",
+      "type": "single",
+      "question": "Phong trào mà Đảng đã vận động nhân dân chống nạn mù chữ diễn ra sau cách mạng tháng Tám -1945",
+      "choices": [
+        "Xây dựng nếp sống văn hoá mới",
+        "Bình dân học vụ",
+        "Bài trừ các tệ nạn xã hội",
+        "Xoá bỏ văn hoá thực dân nô dịch phản động"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q176",
+      "type": "single",
+      "question": "Nhân dân Nam bộ đứng lên kháng chiến chống thực dân Pháp xâm lược bảo vệ chính quyền cách mạng vào ngày nào?",
+      "choices": [
+        "23-9-1945",
+        "23-11-1945",
+        "19-12-1946",
+        "10-12-1946"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q177",
+      "type": "single",
+      "question": "Đảng ta đã phát động phong trào gì để ủng hộ nhân lực cho Nam Bộ kháng chiến chống Pháp từ ngày 23-9-1945?",
+      "choices": [
+        "Vì miền Nam \"thành đồng Tổ quốc\"",
+        "Hướng về miền Nam ruột thịt",
+        "Nam tiến",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q178",
+      "type": "single",
+      "question": "Hà Nội được xác định là thủ đô của nước Việt Nam dân chủ cộng hoà vào năm nào?",
+      "choices": [
+        "Năm 1945",
+        "Năm 1946",
+        "Năm 1954",
+        "Năm 1930"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q179",
+      "type": "single",
+      "question": "Để gạt mũi nhọn tiến công của kẻ thù, Đảng ta đã tuyên bố tự giải tán vào ngày tháng năm nào và lấy tên gọi là gì?",
+      "choices": [
+        "2.9.1945 - Đảng Cộng sản Đông Dương",
+        "25-11-1945 - Hội nghiên cứu Chủ nghĩa Mác - Lênin",
+        "3-2-1946 - Đảng Lao động Việt Nam",
+        "11-11-1945- Hội nghiên cứu Chủ nghĩa Mác ở Đông Dương"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q180",
+      "type": "single",
+      "question": "Những sách lược nhân nhượng của Đảng ta với quân Tưởng và tay sai ở miền Bắc sau Cách mạng tháng Tám năm 1945 là gì?",
+      "choices": [
+        "Cho Việt Quốc, Việt Cách tham gia Quốc hội và Chính phủ",
+        "Cung cấp lương thực, thực phẩm cho quân đội Tưởng",
+        "Chấp nhận cho quân Tưởng tiêu tiền Quan kin, Quốc tệ",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q181",
+      "type": "single",
+      "question": "Để quân Tưởng và tay sai khỏi kiếm cớ sách nhiễu, Đảng chủ trương",
+      "choices": [
+        "Dĩ hoà vi quý",
+        "Hoa - Việt thân thiện",
+        "Biến xung đột lớn thành xung đột nhỏ, biến xung đột nhỏ thành không có xung đột",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q182",
+      "type": "single",
+      "question": "Đảng ta đã lựa chọn giải pháp gì trong mối quan hệ với thực dân Pháp sau ngày Pháp và Tưởng ký hiệp ước Trùng Khánh (28-2-1946)",
+      "choices": [
+        "Thương lượng và hoà hoãn với Pháp",
+        "Kháng chiến chống thực dân Pháp",
+        "Nhân nhượng với quân đội Tưởng",
+        "Chống cả quân đội Tưởng và Pháp"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q183",
+      "type": "single",
+      "question": "Phương châm chiến lược của cuộc kháng chiến chống Pháp là",
+      "choices": [
+        "Toàn dân",
+        "Toàn diện",
+        "Lâu dài và dựa vào sức mình là chính",
+        "Cả A, B, C"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q184",
+      "type": "single",
+      "question": "Quân viễn chinh Pháp rút hết khỏi miền Bắc nước ta vào thời gian nào?",
+      "choices": [
+        "15/5/1954",
+        "16/5/1955",
+        "16/5/1956",
+        "10/10/1954"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q185",
+      "type": "single",
+      "question": "Sự kiện nào đánh dấu miền Bắc Việt Nam được hoàn toàn giải phóng?",
+      "choices": [
+        "Ngày 21/7/1954, Hiệp định Giơnevơ được ký kết",
+        "Ngày 10/10/1954, quân ta tiếp quản Hà Nội",
+        "Ngày 1/1/1955, Trung ương Đảng và Chính phủ ra mắt nhân dân thủ đô",
+        "Ngày 16/5/1955, quân Pháp rút khỏi đảo Cát Bà (Hải Phòng)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q186",
+      "type": "single",
+      "question": "Nghị quyết về đường lối cách mạng miền Nam được thông qua tại Hội nghị, Đại hội nào sau đây?",
+      "choices": [
+        "Đại hội II",
+        "Hội nghị TW 15 khoá II",
+        "Đại hội III",
+        "Hội nghị TW 15 khoá III"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q187",
+      "type": "single",
+      "question": "Trong cuộc chiến đấu chống chiến lược \"Chiến tranh đặc biệt\" (1961 – 1965) của quân dân miền Nam Việt Nam đã dấy lên phong trào…",
+      "choices": [
+        "\"Thi đua Ấp Bắc, giết giặc lập công\"",
+        "\"Tìm Mĩ mà đánh, lùng ngụy mà diệt\"",
+        "\"Đánh cho Mĩ cút, đánh cho ngụy nhào\"",
+        "\"Quyết chiến quyết thắng giặc Mĩ xâm lược\""
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q188",
+      "type": "single",
+      "question": "Hội nghị nào của Đảng mở đường cho phong trào \"Đồng khởi\" ở miền Nam năm 1960?",
+      "choices": [
+        "Hội nghị Trung ương 12 - Khoá II của Đảng (3-1957)",
+        "Hội nghị Trung ương 13 - Khoá II của Đảng (12-1957)",
+        "Hội nghị Trung ương 14 - Khoá II của Đảng (11-1958)",
+        "Hội nghị Trung ương 15 - Khoá II của Đảng (1-1959)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q189",
+      "type": "single",
+      "question": "Phong trào \"Đồng Khởi\" (1959 – 1960) nổ ra đầu tiên ở đâu?",
+      "choices": [
+        "Vĩnh Thạnh (Bình Định)",
+        "Bác Ái (Ninh Thuận)",
+        "Trà Bồng (Quảng Ngãi)",
+        "Mỏ Cày (Bến Tre)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q190",
+      "type": "single",
+      "question": "Đường lối cách mạng xã hội chủ nghĩa ở miền Bắc được thông qua tại Đại hội nào?",
+      "choices": [
+        "Đại hội II",
+        "Đại hội III",
+        "Đại hội IV",
+        "Đại hội V"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q191",
+      "type": "single",
+      "question": "Âm mưu cơ bản của chiến lược \"Chiến tranh đặc biệt\" là…",
+      "choices": [
+        "dùng người Việt đánh người Việt",
+        "bình định miền Nam trong vòng 18 tháng",
+        "ngăn cản sự chi viện của nhân dân miền Bắc cho miền Nam",
+        "mở các đợt hành quân càn quét nhằm tiêu diệt lực lượng cách mạng"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q192",
+      "type": "single",
+      "question": "Mặt trận dân tộc giải phóng miền Nam Việt Nam ra đời khi nào?",
+      "choices": [
+        "20/12/1960",
+        "21/12/1960",
+        "20/12/1961",
+        "21/12/1961"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q193",
+      "type": "single",
+      "question": "Âm mưu chiến lược của Mỹ thực hiện ở miền Nam Việt Nam sau khi ký Hiệp định Giơnevơ là…",
+      "choices": [
+        "phá hoại Hiệp định Giơnevơ nhằm chiếm lấy Việt Nam",
+        "chia cắt nước ta, biến miền Nam Việt Nam thành thuộc địa kiểu mới của Mỹ",
+        "biến miền Nam Việt Nam thành căn cứ không quân của Mỹ ở Đông Dương",
+        "dựng lên chính quyền tay sai Ngô Đình Diệm ở miền Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q194",
+      "type": "single",
+      "question": "Chiến thắng nào dưới đây khẳng định quân dân miền Nam Việt Nam có khả năng đánh thắng chiến lược \"Chiến tranh đặc biệt\" (1961 - 1965) của Mĩ?",
+      "choices": [
+        "An Lão (Bình Định)",
+        "Ba Gia (Quảng Ngãi)",
+        "Bình Giã (Bà Rịa)",
+        "Ấp Bắc (Mĩ Tho)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q195",
+      "type": "single",
+      "question": "Đại hội đại biểu toàn quốc lần thứ III của Đảng Lao động Việt Nam (9/1960) xác định cách mạng xã hội chủ nghĩa ở miền Bắc có vai trò như thế nào đối với sự phát triển của cách mạng cả nước?",
+      "choices": [
+        "Quyết định nhất",
+        "Quyết định trực tiếp",
+        "Căn cứ địa cách mạng",
+        "Hậu phương kháng chiến"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q196",
+      "type": "single",
+      "question": "Từ năm 1954 đến 1960, Mỹ thực hiện chiến lược chiến tranh gì ở miền Nam Việt Nam?",
+      "choices": [
+        "Chiến lược \"Chiến tranh đơn phương\".",
+        "Chiến lược \"Chiến tranh đặc biệt\".",
+        "Chiến lược \"Chiến tranh cục bộ\".",
+        "Chiến lược \"Việt Nam hóa chiến tranh\""
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q197",
+      "type": "single",
+      "question": "Để thực hiện mục tiêu của chiến lược \"Chiến tranh đặc biệt\", Mỹ đã đề ra kế hoạch gì nhằm bình định miển Nam trong vòng 18 tháng?",
+      "choices": [
+        "Kế hoạch Xtalây – Taylo",
+        "Kế hoạch Giơnxơn – Mác Namara",
+        "Dồn dân lập \"Ấp chiến lược\"",
+        "Thành lập Bộ chỉ huy quân sự Mỹ ở miền Nam"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q198",
+      "type": "single",
+      "question": "Phong trào \"Đồng khởi\" (1959 – 1960) đánh đấu bước ngoặt của cách mạng miền Nam vì…",
+      "choices": [
+        "chuyển cách mạng từ thế giữ gìn lực lượng sang thế tiến công",
+        "dẫn đến sự ra đời Mặt trận dân tộc giải phóng miền Nam Việt Nam",
+        "làm lung lay tận gốc chính quyền tay sai Ngô Đình Diệm",
+        "giáng đòn nặng nề vào chính sách thực dân mới của Mỹ"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q199",
+      "type": "single",
+      "question": "Quân dân miền Bắc đập tan cuộc tập kích chiến lược bằng B52 của đế quốc Mỹ trong bao nhiêu ngày đêm và từ ngày nào đến này nào?",
+      "choices": [
+        "10 ngày đêm từ 15 đến 25 tháng 10 năm 1970",
+        "11 ngày đêm từ 16 đến 26 tháng 11năm 1971",
+        "12 ngày đêm từ 17 đến 29 tháng 12 năm 1972",
+        "12 ngày đêm từ 18 đến 30 tháng 12 năm 1972"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q200",
+      "type": "single",
+      "question": "Ai là người đầu tiên giữ chức Chủ tịch Mặt trận dân tộc giải phóng miền Nam Việt Nam?",
+      "choices": [
+        "Nguyễn Thị Bình",
+        "Lê Đức Thọ",
+        "Nguyễn Hữu Thọ",
+        "Huỳnh Tấn Phát"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q201",
+      "type": "single",
+      "question": "Thủ đoạn đóng vai trò \"xương sống\" trong chiến lược \"Chiến tranh đặc biệt\" của Mỹ là…",
+      "choices": [
+        "tăng cường viện trợ quân sự, cố vấn quân sự, quân đội Sài Gòn",
+        "thực hiện chiến thuật mới \"trực thăng vận\", \"thiết xa vận\"",
+        "dồn dân lập \"Ấp chiến lược\"",
+        "lập bộ chỉ huy quân sự Mỹ ở miền Nam"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q202",
+      "type": "single",
+      "question": "Từ năm 1961 đến 1965, Mỹ thực hiện chiến lược chiến tranh gì ở miền Nam Việt Nam?",
+      "choices": [
+        "Chiến lược \"Chiến tranh đơn phương\"",
+        "Chiến lược \"Chiến tranh đặc biệt\".",
+        "Chiến lược \"Chiến tranh cục bộ\"",
+        "Chiến lược \"Việt Nam hóa chiến tranh\""
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q203",
+      "type": "single",
+      "question": "Pháp thực hiện rút quân khỏi miền Nam Việt Nam trong bối cảnh nào?",
+      "choices": [
+        "Pháp đã hoàn tất chuyền giao trách nhiệm thi hành Hiệp định Giơ-ne-vơ cho Mỹ",
+        "Pháp đã thi hành đầy đủ các điều khoản của Hiệp định Giơ-ne-vơ",
+        "Miền Nam đã tiến hành hiệp thương tổng tuyển cử thống nhất đất nước",
+        "Chưa thực hiện cuộc hiệp thương tổng tuyển cử thống nhất 2 miền Nam, Bắc"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q204",
+      "type": "single",
+      "question": "Đại hội đại biểu toàn quốc lần thứ III của Đảng (9/1960) đã bầu ai làm Bí thư thứ nhất?",
+      "choices": [
+        "Hồ Chí Minh",
+        "Phạm Văn Đồng",
+        "Lê Duẩn",
+        "Trường Chinh"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q205",
+      "type": "single",
+      "question": "Hiệp định Pari về chấm dứt chiến tranh lập lại hoà bình ở Việt Nam được ký khi nào?",
+      "choices": [
+        "20/7/1954",
+        "22/12/1954",
+        "27/2/1973",
+        "27/1/1973"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q206",
+      "type": "single",
+      "question": "Từ năm 1945 đến nay nhân dân ta đã tham gia bầu cử bao nhiêu khoá Quốc hội?",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q207",
+      "type": "single",
+      "question": "Trọng tâm của kế hoạch 5 năm lần thứ nhất (1961 – 1965) ở miền Bắc là gì?",
+      "choices": [
+        "Ưu tiên phát triển công ngiệp nhẹ",
+        "Hoàn thành cải cách ruộng đất",
+        "Xây dựng chủ nghĩa xã hội",
+        "Khôi phục kinh tế sau chiến tranh."
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q208",
+      "type": "single",
+      "question": "Quốc hội khoá mấy đã quyết định đổi tên nước ta thành nước Cộng hoà xã hội chủ nghĩa Việt Nam?",
+      "choices": [
+        "Khoá 6",
+        "Khoá 7",
+        "Khoá 8",
+        "Khoá 9"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q209",
+      "type": "single",
+      "question": "Ý nghĩa nào sau đây KHÔNG phải của chiến thắng Ấp Bắc (1/1963)?",
+      "choices": [
+        "Làm dấy lên phong trào\"thi đua Ấp Bắc, giết giặc lập công\"",
+        "Chứng minh quân dân miền Nam có thể đánh bại chiến lược \"Chiến tranh đặc biệt\"",
+        "Đánh dấu sự phá sản bước đầu của chiến thuật\"trực thăng vận\", \"thiết xa vận\"",
+        "Làm phá sản hoàn toàn chiến lược \"Chiến tranh đặc biệt\""
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q210",
+      "type": "single",
+      "question": "Mỹ đã đưa quân viễn chinh Mỹ trực tiếp tham chiến ở Việt Nam khi nào?",
+      "choices": [
+        "1963",
+        "1964",
+        "1965",
+        "1966"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q211",
+      "type": "single",
+      "question": "Thắng lợi nào của quân dân miền Nam đóng vai trò quyết định trong việc đánh bại chiến lược \"Chiến tranh đơn phương\" của Mỹ (1954 – 1960)?",
+      "choices": [
+        "Đồng khởi (Bến Tre)",
+        "Ấp Bắc (Mỹ Tho)",
+        "Bình Giã (Bà Rịa)",
+        "Ba Gia (Quảng Ngãi)"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q212",
+      "type": "single",
+      "question": "Chiến thắng nào của nhân dân miền Nam Việt Nam trong đông – xuân 1964 – 1965 góp phần làm phá sản chiến lược \"Chiến tranh đặc biệt\" của Mĩ?",
+      "choices": [
+        "Vạn Tường (Quảng Ngãi)",
+        "Núi Thành (Quảng Nam)",
+        "Bình Giã (Bà Rịa)",
+        "Khe Sanh (Quảng Trị)"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q213",
+      "type": "single",
+      "question": "Mỹ đã đưa Ngô Đình Diệm lên làm thủ tướng vào thời gian nào?",
+      "choices": [
+        "5/7/1954",
+        "6/7/1954",
+        "7/7/1954",
+        "15/7/1955"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q214",
+      "type": "single",
+      "question": "Nội dung quan trọng nhất của Đại hội đại biểu toàn quốc lần thứ III của Đảng (9/1960) là…",
+      "choices": [
+        "đề ra nhiệm vụ chiến lược cho cách mạng cả nước và cách mạng từng miền",
+        "thông qua Báo cáo chính trị và Báo cáo sửa đổi điều lệ Đảng",
+        "thông qua kế hoạch Nhà nước 5 năm lần thứ nhất (1961 – 1965)",
+        "bầu Ban chấp hành Trung ương mới của Đảng"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q215",
+      "type": "single",
+      "question": "Chiến thắng nào của nhân dân miền Nam Việt Nam trong đông – xuân 1964 – 1965 góp phần làm phá sản chiến lược \"Chiến tranh đặc biệt\" của Mĩ?",
+      "choices": [
+        "Vạn Tường (Quảng Ngãi)",
+        "Núi Thành (Quảng Nam)",
+        "An Lão (Bình Định)",
+        "Khe Sanh (Quảng Trị)"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q216",
+      "type": "single",
+      "question": "Nhận định nào KHÔNG đúng về Chiến lược \"Chiến tranh đặc biệt\"?",
+      "choices": [
+        "Âm mưu cơ bản là \"dùng người Việt đánh người Việt\"",
+        "Là chiến lược chiến tranh xâm lược thực dân mới của Mĩ",
+        "Có sự tham gia của quân đội Mĩ, quân Đồng minh của Mĩ",
+        "Dựa vào vũ khí, trang bị kĩ thuật và phương tiện chiến tranh của Mĩ"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q217",
+      "type": "single",
+      "question": "Chủ tịch Hồ Chí Minh ra lời kêu gọi đồng bào và chiến sỹ cả nước: Trung Nam Bắc đều là bờ cõi của ta, nước ta sẽ nhất định thống nhất, đồng bào cả nước nhất định được giải phóng\" vào thời gian nào?",
+      "choices": [
+        "22/7/1954",
+        "25/8/1954",
+        "12/8/1955",
+        "4/7/1955"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q218",
+      "type": "single",
+      "question": "Những thắng lợi quân sự của quân dân miền Nam Việt Nam trong đông xuân 1964 – 1965 có ý nghĩa gì?",
+      "choices": [
+        "Chứng tỏ quân dân miền Nam có thể đánh bại chiến lược \"Chiến tranh đặc biệt\"",
+        "Đánh dấu sự phá sản vể cơ bản của chiến lược \"Chiến tranh đặc biệt\" của Mỹ",
+        "Làm lung lay chính quyền tay sai Ngô Đình Diệm",
+        "Làm phá sản hoàn toàn chiến lược \"Chiến tranh đặc biệt\" của Mỹ"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q219",
+      "type": "single",
+      "question": "Trong thời kì 1954 - 1975, thắng lợi nào là mốc đánh dấu bước chuyển của cách mạng miền Nam Việt Nam từ thế giữ gìn lực lượng sang thế tiến công?",
+      "choices": [
+        "Vạn Tường (1965)",
+        "\"Đồng khởi\" (1959 - 1960)",
+        "Tây Nguyên (3/1975)",
+        "Mậu Thân (1968)"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q220",
+      "type": "single",
+      "question": "Hội nghị Trung ương lần thứ 15 của Đảng (đầu năm 1959) xác định con đường cơ bản của cách mạng miền Nam là…",
+      "choices": [
+        "khởi nghĩa giành chính quyền về tay nhân dân",
+        "đấu tranh chính trị hòa bình để giữ gìn lực lượng cách mạng",
+        "kết hợp đấu tranh quân sự với đấu tranh chính trị - ngoại giao",
+        "đấu tranh phá \"ấp chiến lược\", thực hiện lập \"làng chiến đấu\""
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q221",
+      "type": "single",
+      "question": "Hội nghị nào của Ban Chấp hành Trung ương Đảng (khoá II) đã thông qua Nghị quyết về Đường lối cách mạng miền Nam?",
+      "choices": [
+        "Hội nghị lần thứ 15",
+        "Hội nghị lần thứ 16",
+        "Hội nghị lần thứ 17",
+        "Hội nghị lần thứ 18"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q222",
+      "type": "single",
+      "question": "Bản đề cương cách mạng miền Nam do ai chủ trì dự thảo?",
+      "choices": [
+        "Phạm Hùng",
+        "Lê Đức Thọ",
+        "Phạm Văn Đồng",
+        "Lê Duẩn"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q223",
+      "type": "single",
+      "question": "Dự thảo \"Đề cương cách mạng miền Nam\" được viết vào thời gian nào?",
+      "choices": [
+        "7/1954",
+        "8/1955",
+        "8/1956",
+        "9/1957"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q224",
+      "type": "single",
+      "question": "Nội dung nào KHÔNG phản ánh đúng ý nghĩa của phong trào \"Đồng khởi\" của quân dân miền Nam Việt Nam?",
+      "choices": [
+        "Làm lung lay tận gốc chính quyền Ngô Đình Diệm",
+        "Giáng đòn nặng nề vào chính sách thực dân mới của Mĩ",
+        "làm thất bại chiến lược \"Chiến tranh đặc biệt\" của Mĩ",
+        "Đánh dấu bước phát triển nhảy vọt của cách mạng miền Nam"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q225",
+      "type": "single",
+      "question": "Mỹ - Diệm đã ra luật 10/59 vào thời gian nào?",
+      "choices": [
+        "6/5/1959",
+        "10/5/1959",
+        "10/10/1959",
+        "5/10/1959"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q226",
+      "type": "single",
+      "question": "Chiến lược \"Chiến tranh cục bộ\" của Mỹ ra đời sau thất bại của chiến lược…",
+      "choices": [
+        "\"Chiến tranh đặc biệt\"",
+        "\"Chiến tranh đơn phương\"",
+        "\"Việt Nam hóa chiến tranh\"",
+        "\"Đông Dương hóa chiến tranh\""
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q227",
+      "type": "single",
+      "question": "Trung ương cục miền Nam được thành lập vào thời gian nào?",
+      "choices": [
+        "10/1959",
+        "11/1960",
+        "5/1961",
+        "10/1961"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q228",
+      "type": "single",
+      "question": "Từ năm 1965 đến năm 1968, Mĩ thực hiện chiến lược chiến tranh nào ở miền Nam Việt Nam?",
+      "choices": [
+        "\"Việt Nam hóa chiến tranh\"",
+        "\"Đông Dương hóa chiến tranh\"",
+        "\"Chiến tranh cục bộ\"",
+        "\"Chiến tranh đặc biệt\""
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q229",
+      "type": "single",
+      "question": "Ai được cử làm Bí thư Trung ương cục miền Nam đầu tiên?",
+      "choices": [
+        "Phạm Hùng",
+        "Nguyễn Văn Linh",
+        "Phan Đăng Lưu",
+        "Lê Duẩn"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q230",
+      "type": "single",
+      "question": "Trận đọ sức quyết liệt đầu tiên giữa quân và dân ta với quân viễn chinh Mỹ vào thời gian nào?",
+      "choices": [
+        "3/1965",
+        "4/1965",
+        "5/1965",
+        "6/1966"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q231",
+      "type": "single",
+      "question": "Chiến thắng nào của quân dân miền Nam chống chiến lược \"Chiến tranh cục bộ\" của Mỹ có ý nghĩa mở ra cao trào \"Tìm Mĩ mà đánh, lùng ngụy mà diệt\" trên khắp miền Nam?",
+      "choices": [
+        "Chiến thắng Ấp Bắc (1/1963)",
+        "Chiến thắng Vạn Tường (8/1965)",
+        "Chiến thắng mùa khô lần thứ nhất (1965 – 1966)",
+        "Chiến thắng mùa khô lần thứ hai (1966 – 1967)"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q232",
+      "type": "single",
+      "question": "Chiến thắng Vạn Tường (Quảng Ngãi) vào thời gian nào?",
+      "choices": [
+        "5/1965",
+        "7/1965",
+        "18-8/1965",
+        "7/1966"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q233",
+      "type": "single",
+      "question": "Thời kỳ Mỹ thực hiện chiến lược \"Chiến tranh đặc biệt\" của Kennơđi (1961 -1964), chính quyền Sài Gòn bị Mỹ thay đổi mấy lần?",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q234",
+      "type": "single",
+      "question": "Mỹ tiến hành chiến tranh phá hoại miền Bắc lần thứ nhất trong khoảng thời gian nào?",
+      "choices": [
+        "1954 – 1960",
+        "1960 – 1965",
+        "1965 – 1968",
+        "1969 – 1973"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q235",
+      "type": "single",
+      "question": "Trong cuộc chiến tranh Việt Nam, chính phủ Mỹ đã phải thay bao nhiêu Tổng tư lệnh quân viễn chinh Mỹ ở Việt Nam?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q236",
+      "type": "single",
+      "question": "Một trong những chiến thắng của quân dân miền Nam Việt Nam trong cuộc chiến đấu chống chiến lược \"Chiến tranh cục bộ\" (1965 - 1968) của Mĩ là…",
+      "choices": [
+        "Vạn Tường (Quảng Ngãi)",
+        "Ấp Bắc (Mĩ Tho)",
+        "Khe Sanh (Quảng Trị)",
+        "Đồng Xoài (Bình Phước)"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q237",
+      "type": "single",
+      "question": "Chiến lược Chiến tranh đơn phương của đế quốc Mỹ ở miền Nam Việt Nam diễn ra trong giai đoạn nào?",
+      "choices": [
+        "1954-1959",
+        "1954-1960",
+        "1954-1964",
+        "1964-1968"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q238",
+      "type": "single",
+      "question": "Việc Mĩ tuyên bố \"phi Mĩ hóa\" chiến tranh xâm lược Việt Nam đánh dấu sự thất bại của chiến lược chiến tranh nào?",
+      "choices": [
+        "\"Việt Nam hóa chiến tranh\"",
+        "\"Đông Dương hóa chiến tranh\"",
+        "\"Chiến tranh đặc biệt\"",
+        "Chiến tranh cục bộ\""
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q239",
+      "type": "single",
+      "question": "Trong chiến tranh ở Việt Nam, Mỹ đã sử dụng mấy chiến lược chiến tranh?",
+      "choices": [
+        "2 chiến lược",
+        "3 chiến lược",
+        "4 chiến lược",
+        "5 chiến lược"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q240",
+      "type": "single",
+      "question": "Câu nói: \"Tất cả chúng ta hãy đoàn kết nhất trí triệu người như một, quyết tâm đánh thắng giặc Mỹ xâm lược...\" là của ai?",
+      "choices": [
+        "Hồ Chí Minh",
+        "Võ Nguyên Giáp",
+        "Nguyễn Hữu Thọ",
+        "Phạm Văn Đồng"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q241",
+      "type": "single",
+      "question": "Chiến lược \"Việt Nam hóa chiến tranh\" được thực hiện trong thời kỳ của Tổng thống Mỹ nào?",
+      "choices": [
+        "Giôn-xơn",
+        "Ních-xơn",
+        "Ken-nơ-đi",
+        "Ai-xen-hao"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q242",
+      "type": "single",
+      "question": "Câu nói: \"Miền Nam là máu của máu Việt Nam, là thịt của thịt Việt Nam. Sông có thể cạn, núi có thể mòn song chân lý đó không bao giờ thay đổi\" là của ai?",
+      "choices": [
+        "Hồ Chí Minh",
+        "Trường Chinh",
+        "Lê Duẩn",
+        "Phạm Văn Đồng"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q243",
+      "type": "single",
+      "question": "Hướng tiến công chính của Mỹ trong đợt phản công chiến lược mùa khô lần thứ nhất (1965 – 1966) là…",
+      "choices": [
+        "Đông Nam Bộ, Tây Nguyên",
+        "Đông Nam Bộ, Liên Khu V",
+        "Tây Nam Bộ, Liên Khu V",
+        "Nam Trung Bộ, Tây Nguyên"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q244",
+      "type": "single",
+      "question": "Câu nói: \"Chiến tranh có thể kéo dài 5 năm, 10 năm, 20 năm hoặc lâu hơn nữa. Hà Nội, Hải phòng và một số thành phố, xí nghiệp có thể bị tàn phá, song nhân dân Việt Nam quyết không sợ! Không có gì quý hơn độc lập, tự do. đến ngày thắng lợi nhân dân ta sẽ xây dựng lại đất nước ta đàng hoàng hơn, to đẹp hơn!\" của Chủ tịch Hồ Chí Minh đã được viết thời gian nào, trong tác phẩm nào?",
+      "choices": [
+        "Mỹ nhất định thua 1-2-1966",
+        "Lời kêu gọi Ngày 17- 7- 1966",
+        "Di Chúc Ngày 10- 5-1968",
+        "Di Chúc Ngày 10- 5-1969"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q245",
+      "type": "single",
+      "question": "Điểm giống nhau giữa chiến lược \"Chiến tranh đặc biệt\" (1961- 1965) và \"Chiến tranh cục bộ\" (1965-1968) của Mĩ ở Việt Nam là gì?",
+      "choices": [
+        "Sử dụng lực lượng quân đội Mĩ là chủ yếu",
+        "Thực hiện các cuộc hành quân \"tìm diệt\" và \"bình định\"",
+        "Là loại hình chiến tranh xâm lược thực dân mới của Mĩ",
+        "Sử dụng phổ biến các chiến thuật \"trực thăng vận\" và \"thiết xa vận\""
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q246",
+      "type": "single",
+      "question": "Hướng tiến công của Mỹ và quân đội Sài Gòn trong cuộc hành quân chiến lược \"Lam Sơn – 719\" là…",
+      "choices": [
+        "Đông Nam Bộ",
+        "Tây Nguyên",
+        "Liên Khu V",
+        "Đường 9 – Nam Lào"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q247",
+      "type": "single",
+      "question": "Điều khoản nào của Hiệp định Pari năm 1973 có ý nghĩa quyết định đối với sự phát triển của cuộc kháng chiến chống Mĩ, cứu nước?",
+      "choices": [
+        "Hai bên ngừng bắn và giữ nguyên vị trí ở miền Nam",
+        "Nhân dân miền Nam tự quyết định tương lai chính trị",
+        "Các bên thừa nhận thực tế ở miền Nam có hai chính quyền",
+        "Hoa Kì rút hết quân viễn chinh và quân các nước đồng minh"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q248",
+      "type": "single",
+      "question": "Hội nghị nào của Đảng đã quyết định mở cuộc Tổng tấn công và nổi dậy Mậu Thân 1968?",
+      "choices": [
+        "Hội nghị Trung ương 13 - Khoá III của Đảng (1-1967)",
+        "Hội nghị Bộ Chính trị (5-1967)",
+        "Hội nghị Bộ Chính trị (12-1967)",
+        "Hội nghị Bộ Chính trị (10-1967)"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q249",
+      "type": "single",
+      "question": "Hướng tiến công chủ yếu của quân ta trong cuộc Tiến công chiến lược năm 1972 là…",
+      "choices": [
+        "Quảng Trị",
+        "Tây Nguyên",
+        "Đông Nam Bộ",
+        "Bắc Trung Bộ"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q250",
+      "type": "single",
+      "question": "Ý nghĩa lịch sử to lớn nhất của cuộc Tiến công chiến lược năm 1972 là…",
+      "choices": [
+        "Giáng đòn nặng nề vào chiến lược \"Việt Nam hóa chiến tranh\"",
+        "Làm phá sản hoàn toàn chiến lược \"Việt Nam hóa chiến tranh\"",
+        "Làm phá sản về cơ bản chiến lược \"Việt Nam hóa chiến tranh\"",
+        "Làm lung lay ý chí xâm lược của Mỹ"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q251",
+      "type": "single",
+      "question": "Đế quốc Mỹ phải chấp nhận cuộc đàm phán với Chính phủ nước Việt Nam dân chủ cộng hoà ở Pari vào thời gian nào?",
+      "choices": [
+        "12/1968",
+        "1/1969",
+        "3/1970",
+        "4/1971"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q252",
+      "type": "single",
+      "question": "Mĩ tiến hành cuộc chiến tranh bằng không quân và hải quân phá hoại miền Bắc Việt Nam lần thứ hai với mục đích chủ yếu là…",
+      "choices": [
+        "cứu nguy cho chiến lược \"Chiến tranh đặc biệt\", kết thúc chiến tranh",
+        "trả đũa việc Quân giải phóng tiến công doanh trại quân đội Mĩ ở Plây-ku",
+        "uy hiếp tinh thần, làm lung lay ý chí chống Mĩ của quân dân hai miền Nam – Bắc",
+        "cứu nguy cho chiến lược Việt Nam hóa chiến tranh, tạo thế mạnh khi đàm phán"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q253",
+      "type": "single",
+      "question": "Quyền dân tộc cơ bản của nhân dân ta được khẳng định trong Hiệp định Pari năm 1973 là gì?",
+      "choices": [
+        "Độc lập, chủ quyền",
+        "Thống nhất, độc lập, hòa bình, toàn vẹn lãnh thổ",
+        "Toàn vẹn lãnh thổ",
+        "Độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q254",
+      "type": "single",
+      "question": "Mỹ tiến hành cuộc đảo chính ở Campuchia vào thời gian nào?",
+      "choices": [
+        "2/1969",
+        "3/1969",
+        "3/1970",
+        "5/1971"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q255",
+      "type": "single",
+      "question": "Nhiệm vụ cơ bản của miền Bắc nước ta trong thời kỳ 1965 – 1968 là…",
+      "choices": [
+        "chiến đấu chống chiến tranh phá hoại lần thứ nhất của Mỹ",
+        "tiếp tục chi viện cho miền Nam kháng chiến chống Mỹ",
+        "vừa chiến đấu, vừa sản xuất và làm nghĩa vụ hậu phương lớn",
+        "chuyển mọi hoạt động từ thời bình sang thời chiến"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q256",
+      "type": "single",
+      "question": "Cuộc hành quân \"Lam Sơn 719\" của Mỹ - Nguỵ bị đánh bại vào thời gian nào?",
+      "choices": [
+        "1970",
+        "1971",
+        "1972",
+        "1973"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q257",
+      "type": "single",
+      "question": "Các chiến lược chiến tranh Mĩ thực hiện ở miền Nam Việt Nam (1954-1975) đều…",
+      "choices": [
+        "dùng chính sách bình định nhằm chiếm đất giành dân",
+        "có sự tham gia của quân đội viễn chinh và đồng minh",
+        "dùng thủ đoạn tìm diệt và bình định",
+        "mở rộng chiến tranh xâm lược ra toàn Đông Dương"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q258",
+      "type": "single",
+      "question": "Cuộc Tổng tiến công chiến lược năm 1972 của quân và dân miền Nam đã buộc Mĩ phải….",
+      "choices": [
+        "thừa nhận sự thất bại của chiến lược \"Chiến tranh cục bộ\"",
+        "tuyên bố \"Mĩ hóa\" trở lại cuộc chiến tranh xâm lược Việt Nam",
+        "chấp nhận đến đàm phán ở Pa-ri để bàn về chấm dứt chiến tranh",
+        "phải kí Hiệp định Pari về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q259",
+      "type": "single",
+      "question": "Điểm giống nhau cơ bản của ba chiến lược \"Chiến tranh đặc biệt\", \"Chiến tranh cục bộ\" và \"Việt Nam hóa chiến tranh\" là…",
+      "choices": [
+        "loại hình chiến tranh xâm lược thực dân kiểu mới của Mỹ",
+        "tiến hành bằng quân đội đồng minh của Mĩ",
+        "tiến hành bằng quân đội Mỹ",
+        "Mĩ đưa quân đội đến tham chiến trực tiếp"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q260",
+      "type": "single",
+      "question": "Thắng lợi nào của quân dân Việt Nam ở miền Nam đã buộc Mĩ phải tuyên bố \"phi Mĩ hóa\" chiến tranh xâm lược?",
+      "choices": [
+        "Cuộc Tiến công chiến lược năm 1972",
+        "Cuộc Tổng tiến công và nổi dậy Xuân 1968",
+        "Trận \"Điện Biên Phủ trên không\" năm 1972",
+        "Cuộc Tổng tiến công và nổi dậy Xuân 1975"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q261",
+      "type": "single",
+      "question": "Nguyên nhân quan trọng nhất dẫn đến thắng lợi của cuộc kháng chiến chống Mỹ (1954 – 1975) là…",
+      "choices": [
+        "Sự lãnh đạo sáng suốt của Đảng, với đường lối đúng đắn, sáng tạo",
+        "Nhân dân Việt Nam giàu lòng yêu nước, đoàn kết chống ngoại xâm",
+        "Có hậu phương miền Bắc vững mạnh",
+        "Sự phối hợp chiến đấu và giúp đỡ nhau của 3 nước Đông Dương"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q262",
+      "type": "single",
+      "question": "Hội nghị nào của Đảng quyết định mở cuộc Tổng tấn công và nổi dậy giải phòng Sài Gòn trước tháng 5-1975?",
+      "choices": [
+        "Hội nghị Trung ương 21 - Khoá III của Đảng (7-1973)",
+        "Hội nghị Bộ Chính trị (10-1974)",
+        "Hội nghị Trung ương 23 - Khoá III của Đảng (12-1974)",
+        "Hội nghị Bộ Chính trị (3-1975)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q263",
+      "type": "single",
+      "question": "Chiến thắng nào của quân dân miền Nam đã chuyển cuộc kháng chiến chống Mĩ, cứu nước sang giai đoạn mới: từ tiến công chiến lược sang tổng tiến công chiến lược trên toàn miền Nam?",
+      "choices": [
+        "Tây Nguyên",
+        "Huế - Đà Nẵng",
+        "Hồ Chí Minh",
+        "Đường 14 – Phước Long"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q264",
+      "type": "single",
+      "question": "Hội nghị nào của Ban Chấp hành Trung ương Đảng đề ra chủ trương hoàn thành thống nhất nước nhà về mặt nhà nước, đưa cả nước tiến lên chủ nghĩa xã hội?",
+      "choices": [
+        "Hội nghị TƯ 24 Khoá III (9-1975)",
+        "Hội nghị TƯ 24 Khoá III (11-1975)",
+        "Hội nghị TƯ 24 Khoá III (4-1976)",
+        "Hội nghị TƯ 24 Khoá III (5-1976)"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q265",
+      "type": "single",
+      "question": "Ý nghĩa quốc tế của cuộc kháng chiến chống Mỹ cứu nước (1954 – 1975) ở Việt Nam giành thắng lợi là…",
+      "choices": [
+        "Chấm dứt ách thống trị của chủ nghĩa đế quốc trên đất nước ta",
+        "Hoàn thành cuộc cách mạng dân tộc dân chủ nhân dân trong cả nước",
+        "Mở ra kỷ nguyên đất nước độc lập, thống nhất, đi lên chủ nghĩa xã hội",
+        "Cổ vũ phong trào đấu tranh giải phóng dân tộc trên thế giới"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q266",
+      "type": "single",
+      "question": "Bộ Chính trị đã ra chỉ thị về việc lãnh đạo tổng tuyển cử trong cả nước vào ngày nào?",
+      "choices": [
+        "30/12/1975",
+        "2/1/1976",
+        "3/1/1976",
+        "30/1/1976"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q267",
+      "type": "single",
+      "question": "Nhân tố hàng đầu quyết định đến thắng lợi của cuộc kháng chiến chống Mĩ (1954-1975) là gì?",
+      "choices": [
+        "Sự đoàn kết chiến đấu của nhân dân 3 nước Đông Dương",
+        "Sự ủng hộ, giúp đỡ của các nước xã hội chủ nghĩa",
+        "Sự lãnh đạo đúng đắn và sáng suốt của Đảng",
+        "Hậu phương miền Bắc được xây dựng vững chắc"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q268",
+      "type": "single",
+      "question": "Chiến thắng nào sau đây KHÔNG phải là thắng lợi quân sự của quân dân miền Nam chống chiến lược \"Chiến tranh cục bộ\" của Mỹ?",
+      "choices": [
+        "Chiến thắng Bình Giã (2/1964)",
+        "Chiến thắng Vạn Tường (8/1965)",
+        "Chiến thắng hai mùa khô (1965 – 1966) và (1966 – 1967)",
+        "Cuộc Tổng tiến công Tết Mậu Thân 1968"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q269",
+      "type": "single",
+      "question": "Trước tình hình so sánh lực lượng thay đổi có lợi cho cách mạng, Bộ chính trị Trung ương Đảng đã đề ra kế hoạch giải phóng miền Nam…",
+      "choices": [
+        "trong năm 1973 và 1974",
+        "trong năm 1974 và 1975",
+        "trong năm 1975 và 1976",
+        "trong năm 1976 và 1977"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q270",
+      "type": "single",
+      "question": "So với Chiến dịch Điện Biên Phủ (1954), Chiến dịch Hồ Chí Minh (1975) có điểm khác biệt là…",
+      "choices": [
+        "được mở khi cách mạng Việt Nam đã giành quyền chủ động trên chiến trường",
+        "trận đánh quyết định, đỉnh cao của cuộc kháng chiến chống đế quốc xâm lược",
+        "huy động lực lượng chiến đấu đến mức cao nhất",
+        "địa bàn diễn ra chiến dịch chủ yếu là ở đô thị"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q271",
+      "type": "single",
+      "question": "Hội nghị hiệp thương chính trị giữa đoàn đại biểu miền Bắc và đoàn đại biểu miền Nam đã họp ở đâu?",
+      "choices": [
+        "Hà Nội",
+        "Sài Gòn",
+        "Huế",
+        "Đà Nẵng"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q272",
+      "type": "single",
+      "question": "Thắng lợi nào của Việt Nam đã \"đi vào lịch sử thế giới như một chiến công vĩ đại của thế kỷ XX, một sự kiện có tầm quan trọng quốc tế to lớn và có tính thời đại sâu sắc\"?",
+      "choices": [
+        "Cách mạng tháng Tám năm 1945",
+        "Chiến dịch Điện Biên Phủ năm 1954",
+        "Chiến dịch Hồ Chí Minh năm 1975",
+        "Thắng lợi của cuộc kháng chiến chống Mỹ 1975."
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q273",
+      "type": "single",
+      "question": "Thắng lợi then chốt mở màn cho chiến dịch Tây Nguyên từ ngày 4/3 đến 24/3/1975 là thắng lợi ở…",
+      "choices": [
+        "Plâyku",
+        "Kon Tum",
+        "Buôn Ma Thuột",
+        "Bảo Lộc"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q274",
+      "type": "single",
+      "question": "Thắng lợi nào của quân dân miền Nam buộc Mỹ phải thừa nhận thất bại của \"Chiến tranh cục bộ\"?",
+      "choices": [
+        "Chiến thắng Vạn Tường (8/1965)",
+        "Chiến thắng mùa khô lần thứ nhất (1965 – 1966)",
+        "Chiến thắng mùa khô lần thứ hai (1966 – 1967)",
+        "Cuộc Tổng tiến công Xuân Mậu Thân 1968"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q275",
+      "type": "single",
+      "question": "Chiến thắng tiêu biểu của ta trong các hoạt động quân sự ở vùng Đông Nam Bộ cuối năm 1974 – đầu 1975 là…",
+      "choices": [
+        "Chiến thắng đường 9 – Nam Lào",
+        "Chiến thắng Phước Long",
+        "Chiến thắng Bình Giã",
+        "Chiến thắng Đồng Xoài"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q276",
+      "type": "single",
+      "question": "Đặc điểm lớn nhất, độc đáo nhất của cách mạng Việt Nam thời kì 1954 – 1975 là một Đảng lãnh đạo nhân dân…",
+      "choices": [
+        "tiến hành đồng thời hai chiến lược cách mạng ở hai miền Nam - Bắc",
+        "thực hiện nhiệm vụ đưa cả nước đi lên xây dựng chủ nghĩa xã hội",
+        "hoàn thành cách mạng dân chủ và xã hội chủ nghĩa trong cả nước",
+        "hoàn thành cuộc cách mạng dân chủ nhân dân trong cả nước"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q277",
+      "type": "single",
+      "question": "Đường lối kháng chiến chống Mỹ cứu nước được thông qua tại Đại hội nào của Đảng?",
+      "choices": [
+        "Đại hội lần thứ II (1951)",
+        "Đại hội lần thứ III (1960)",
+        "Đại hội lần thứ IV (1976)",
+        "Đại hội lần thứ V (1982)"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q278",
+      "type": "single",
+      "question": "Đường lối chung xây dựng chủ nghĩa xã hội ở miền Bắc (1954-1975) được đề cập ở Đại hội lần thứ mấy của Đảng?",
+      "choices": [
+        "Đại hội lần thứ II (1951)",
+        "Đại hội lần thứ III (1960)",
+        "Đại hội lần thứ IV (1976)",
+        "Đại hội lần thứ V (1982)"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q279",
+      "type": "single",
+      "question": "Tỉnh nào ở miền Nam cuối cùng được giải phóng trong cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975 là…",
+      "choices": [
+        "Xuân Lộc",
+        "Phan Rang",
+        "Sài Gòn",
+        "Châu Đốc"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q280",
+      "type": "single",
+      "question": "Một trong những điểm giống nhau giữa các chiến lược chiến tranh của đế quốc Mĩ ở miền Nam Việt Nam (1954-1975) là đều…",
+      "choices": [
+        "có sự tham chiến trực tiếp của lực lượng quân đội viễn chinh Mĩ",
+        "thực hiện âm mưu \" dùng người Đông Dương đánh người Đông Dương\"",
+        "sử dụng quân đội Sài Gòn làm lực lượng chiến đấu chủ yếu trên chiến trường",
+        "dựa vào vũ khí và phương tiện chiến tranh hiện đại do Mĩ cung cấp"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q281",
+      "type": "single",
+      "question": "Mỹ tiến hành chiến tranh phá hoại miền Bắc lần thứ nhất KHÔNG nhằm mục đích nào sau đây?",
+      "choices": [
+        "Phá hoại tiềm lực kinh tế, quốc phòng, xây dựng CNXH ở miền Bắc",
+        "Ngăn chăn sự chi viện từ bên ngoài vào miền Bắc và từ miền Bắc vào miền Nam",
+        "Uy hiếp tinh thần, làm lung lay ý chí chống Mĩ của nhân dân hai miền",
+        "Cứu nguy cho chiến lược \"Chiến tranh cục bộ\" và tạo thế mạnh trên bàn đàm phán"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q282",
+      "type": "single",
+      "question": "Ở Việt Nam, thực tiễn 30 năm chiến tranh cách mạng (1945-1975) chứng tỏ đấu tranh ngoại giao…",
+      "choices": [
+        "có tác động trở lại đối với mặt trận quân sự",
+        "chỉ là sự phản ánh thắng lợi của mặt trận quân sự",
+        "phụ thuộc hoàn toàn vào thắng lợi trên chiến trường",
+        "tồn tại độc lập với mặt trận quân sự"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q283",
+      "type": "single",
+      "question": "Nội dung nào sau đây KHÔNG có trong Hiệp định Pari năm 1973?",
+      "choices": [
+        "Hoa Kỳ và các nước cam kết tôn trọng các quyền dân tộc cơ bản của nước ta",
+        "Hoa Kỳ rút hết quân đội, cam kết không can thiệp vào công việc nội bộ của ta",
+        "Miền Nam tự quyết định tương lai chính trị thông qua tổng tuyển cử tự do",
+        "Các bên tham chiến thực hiện tập kết, chuyển quân, chuyển giao lực lượng"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q284",
+      "type": "single",
+      "question": "Để thực hiện chiến lược \"Việt Nam hóa chiến tranh\" và \"Đông Dương hóa chiến tranh\", Mỹ KHÔNG dùng thủ đoạn nào sau đây?",
+      "choices": [
+        "Rút dần quân Mỹ và quân đồng minh, tăng cường lực lượng quân đội Sài Gòn",
+        "Sử dụng quân đội Sài Gòn để mở rộng chiến tranh xâm lược Campuchia, Lào",
+        "Dùng người Đông Dương đánh người Đông Dương",
+        "Tăng dần quân Mỹ và quân đồng minh của Mỹ"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q285",
+      "type": "single",
+      "question": "Điểm giống nhau giữa cuộc kháng chiến chống Mĩ, cứu nước (1954- 1975) và Tổng khởi nghĩa tháng Tám năm 1945 ở Việt Nam là…",
+      "choices": [
+        "có sự kết hợp giữa tiến công và nổi dậy",
+        "diễn ra khi có yếu tố thời cơ thuận lợi",
+        "nằm trong tiến trình cách mạng dân tộc dân chủ nhân dân",
+        "lực lượng chính trị đóng vai trò quyết định thắng lợi"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q286",
+      "type": "single",
+      "question": "Sự kiện báo hiệu sự toàn thắng của Chiến dịch Hồ Chí Minh (1975)?",
+      "choices": [
+        "Ngày 30/4, xe tăng và bộ binh của ta tiến vào Dinh Độc Lập",
+        "Ngày 30/4, lá cờ cách mạng tung bay trên nóc Dinh Độc lập",
+        "Ngày 28/4, Tổng thống Dương Văn Minh tuyên bố đầu hàng không điều kiện",
+        "Ngày 26/4, ta tiến vào trung tâm Sài Gòn, đánh chiếm cơ quan đầu não của địch"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q287",
+      "type": "single",
+      "question": "Chiến thắng nào sau đây có ý nghĩa buộc Mỹ phải tuyên bố \"Mỹ hóa\" trở lại chiến tranh xâm lược Việt Nam, thừa nhận thất bại của chiến lược \"Việt Nam hóa chiến tranh\"?",
+      "choices": [
+        "Cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân năm 1968",
+        "Cuộc Tiến công chiến lược năm 1972",
+        "Trận \"Điện Biên Phủ trên không\" năm 1972",
+        "Mỹ ký Hiệp định Pari năm 1973"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q288",
+      "type": "single",
+      "question": "Hội nghị nào của Đảng quyết định mở cuộc Tổng tấn công và nổi dậy giải phóng Sài Gòn trước tháng 5 - 1975?",
+      "choices": [
+        "Hội nghị Trung ương 21 (khoá III - 7/1973)",
+        "Hội nghị Bộ Chính trị (10-1974)",
+        "Hội nghị Trung ương 23 (khoá III - 12/1974)",
+        "Hội nghị Bộ Chính trị (3 - 1975)"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q289",
+      "type": "single",
+      "question": "Nét tương đồng về nghệ thuật quân sự của chiến dịch Điện Biên Phủ (1954) và chiến dịch Hồ Chí Minh (1975) là gì?",
+      "choices": [
+        "Chia cắt, từng bước đánh chiếm các cơ quan đầu não của đối phương",
+        "Tập trung lực lượng, bao vây, tổ chức tiến công hợp đồng binh chủng",
+        "Từng bước xiết chặt vòng vây, kết hợp đánh tiêu diệt và đánh tiêu hao",
+        "Bao vây, đánh lấn, kết hợp tiến công quân sự với nỗi dậy của quần chúng"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q290",
+      "type": "single",
+      "question": "Nhận thấy thời cơ chiến lược đến nhanh và hết sức thuận lợi, ngay khi chiến dịch Tây Nguyên còn đang tiếp diễn, Bộ chính trị có quyết định kịp thời kế hoạch giải phóng Sài Gòn và toàn miền Nam, trước tiên là tiến hành chiến dịch giải phóng…",
+      "choices": [
+        "Sài Gòn - Gia Định",
+        "Huế - Đà Nẵng",
+        "Quảng Trị",
+        "Đông Nam Bộ"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q291",
+      "type": "single",
+      "question": "Điều kiện thuận lợi để cuối năm 1974 - đầu năm 1975 Bộ Chính trị Trung ương Đảng Lao động Việt Nam đề ra chủ trương, kế hoạch giải phóng hoàn toàn miền Nam là…",
+      "choices": [
+        "so sánh lực lượng ở miền Nam thay đổi có lợi cho cách mạng",
+        "miền Bắc đã hoàn thành cuộc cách mạng xã hội chủ nghĩa",
+        "Mĩ rút toàn bộ lực lượng ra khỏi lãnh thổ Việt Nam",
+        "Mĩ không còn viện trợ kinh tế, quân sự cho chính quyền Sài Gòn"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q292",
+      "type": "single",
+      "question": "Cuộc Tổng tiến công và nổi dậy Mậu Thân năm 1968 đã mở ra bước ngoặt cho cuộc ngoại giao của nhân dân Việt Nam, vì đã…",
+      "choices": [
+        "buộc Mĩ phải kí kết Hiệp định Pari về chấm dứt chiến tranh Việt Nam",
+        "làm lung lay ý chí và buộc Mĩ tuyên bố \"Mĩ hóa\" trở lại chiến tranh",
+        "buộc Mỹ thừa nhận sự thất bại của chiến lược \"Việt Nam hóa chiến tranh\"",
+        "buộc Mĩ ngồi vào bàn đàm phán ở Pari bàn về chấm dứt chiến tranh ở Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q293",
+      "type": "single",
+      "question": "Thắng lợi nào dưới đây có tác dụng củng cố quyết tâm của Bộ Chính trị Trung ương Đảng Lao động Việt Nam trong việc đề ra kế hoạch giải phóng hoàn toàn miền Nam trong hai năm 1975 và 1976?",
+      "choices": [
+        "Chiến dịch Huế - Đà Nẵng (1975)",
+        "Chiến dịch Đường 14 - Phước Long (1974 - 1975)",
+        "Chiến dịch Tây Nguyên (1975)",
+        "Trận \"Điện Biên Phủ trên không\" (1972)"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q294",
+      "type": "single",
+      "question": "Sự kiện nào sau đây có ý nghĩa kết thúc cuộc kháng chiến chống Mỹ của nhân dân Việt Nam?",
+      "choices": [
+        "Hiệp định Pari được ký kết năm 1973",
+        "Cuộc Tổng tiến công và nổi dậy Xuân 1975",
+        "Chiến dịch Hồ Chí Minh toàn thắng ngày 30/4/1975",
+        "Miền Nam được hoàn toàn giải phóng ngày 2/5/1975"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q295",
+      "type": "single",
+      "question": "Trong cuộc kháng chiến chống Mỹ cứu nước (1954 – 1975), nhân dân Việt Nam đã căn bản hoàn thành nhiệm vụ \"đánh cho Mỹ cút\" bằng thắng lợi nào?",
+      "choices": [
+        "Cuộc Tiến công chiến lược năm 1972",
+        "Trận \"Điện Biên Phủ trên không\" năm 1972",
+        "Mỹ ký Hiệp định Pari năm 1973",
+        "Cuộc Tổng tiến công và nổi dậy Xuân năm 1975"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q296",
+      "type": "single",
+      "question": "Chọn phương án đúng nhất: Bộ chính trị Trung ương Đảng quyết định chọn Tây Nguyên làm hướng tấn công chủ yếu trong năm 1975 vì đây là nơi…",
+      "choices": [
+        "có địa bàn chiến lược quan trọng ta muốn nắm giữ",
+        "địch chốt giữ ở đây một lực lượng mỏng",
+        "địch bố phòng ở đây có nhiều sơ hở, khó điều khiển quân đến để tiếp ứng",
+        "là địa bàn chiến lược quan trọng nhưng địch bố trí lực lượng mỏng và sơ hở"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q297",
+      "type": "single",
+      "question": "Nguyên nhân có tính chất quyết định đưa đến thắng lợi của cuộc kháng chiến chống Mĩ, cứu nước (1954 - 1975) là…",
+      "choices": [
+        "sự lãnh đạo đúng đắn, sáng suốt của Đảng",
+        "hậu phương miền Bắc không ngừng lớn mạnh",
+        "tinh thần đoàn kết chiến đấu của ba nước Đông Dương",
+        "sự ủng hộ của các lực lượng cách mạng, hòa bình trên thế giới"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q298",
+      "type": "single",
+      "question": "Nội dung nào sau đây KHÔNG phải là ý nghĩa của Hiệp định Pari năm 1973?",
+      "choices": [
+        "Là thắng lợi của sự kết hợp đấu tranh chính trị, quân sự và ngoại giao",
+        "Buộc Mỹ phải công nhận các quyền dân tộc cơ bản của nhân dân ta",
+        "Là kết quả cuộc đấu tranh kiên cường bất khuất của quân dân hai miền",
+        "Kết thúc cuộc kháng chiến chống Mỹ của nhân dân Việt Nam"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q299",
+      "type": "single",
+      "question": "Cuộc kháng chiến chống Mĩ, cứu nước của nhân dân Việt Nam (1954 - 1975) kết thúc thắng lợi đã…",
+      "choices": [
+        "cổ vũ mạnh mẽ phong trào đấu tranh vũ trang ở các nước Đông Nam Á",
+        "mở ra kỉ nguyên đất nước độc lập, thống nhất và đi lên chủ nghĩa xã hội",
+        "tạo điều kiện để cả nước hoàn thành cách mạng dân tộc dân chủ nhân dân",
+        "chấm dứt vĩnh viễn ách thống trị của chủ nghĩa thực dân mới trên thế giới"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q300",
+      "type": "single",
+      "question": "Bộ Chính trị đã ra chỉ thị về việc lãnh đạo tổng tuyển cử trong cả nước vào ngày nào?",
+      "choices": [
+        "30/12/1975",
+        "2/1/1976",
+        "3/1/1976",
+        "30/1/1976"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q301",
+      "type": "single",
+      "question": "Quá trình kết thúc cuộc kháng chiến chống thực dân Pháp (1945 - 1954) và cuộc kháng chiến chống Mĩ, cứu nước (1954 - 1975) của nhân dân Việt Nam có điểm gì khác nhau?",
+      "choices": [
+        "Kết hợp giữa sức mạnh truyền thống của dân tộc với sức mạnh hiện tại",
+        "Huy động mọi nguồn lực để tạo nên sức mạnh giành thắng lợi",
+        "Cách thức kết hợp đấu tranh quân sự với đấu tranh ngoại giao",
+        "Lấy đấu tranh quân sự làm yếu tố quyết định thắng lợi trong chiến tranh"
+      ],
+      "answer": [
+        2
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q302",
+      "type": "single",
+      "question": "Đảng Cộng sản và Chính phủ Việt Nam quyết định phát động hai cuộc kháng chiến chống thực dân Pháp và đế quốc Mĩ (1945 - 1975) đều xuất phát từ…",
+      "choices": [
+        "sự ủy nhiệm của Liên Xô và Trung Quốc",
+        "tác động của cục diện hai cực - hai phe",
+        "phản ứng tất yếu trước nguy cơ bị xâm lược",
+        "yêu cầu khách quan của lịch sử dân tộc"
+      ],
+      "answer": [
+        3
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q303",
+      "type": "single",
+      "question": "Một trong những điểm chung của Cách mạng tháng Tám năm 1945 và hai cuộc kháng chiến chống đế quốc xâm lược (1945 - 1975) ở Việt Nam là có sự kết hợp…",
+      "choices": [
+        "đấu tranh đồng thời trên ba mặt trận: quân sự, chính trị và ngoại giao",
+        "phong trào đấu tranh ở nông thôn với phong trào đấu tranh ở thành thị",
+        "tác chiến trên cả ba vùng rừng núi, nông thôn đồng bằng và đô thị",
+        "hoạt động của bộ đội chủ lực, bộ đội địa phương và dân quân du kích"
+      ],
+      "answer": [
+        1
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    },
+    {
+      "id": "ch2_q304",
+      "type": "single",
+      "question": "Điền thêm từ còn thiếu trong câu sau : \"Chủ nghĩa xã hội không những là mục đích của toàn bộ sự nghiệp chúng ta mà còn vì chủ nghĩa xã hội, sự vững mạnh của chế độ xã hội chủ nghĩa là bảo đảm cho ... của Tổ quốc\"",
+      "choices": [
+        "Độc lập và tự do",
+        "Độc lập và thống nhất",
+        "Độc lập và chủ quyền",
+        "Độc lập và phát triển"
+      ],
+      "answer": [
+        0
+      ],
+      "topic": "Lịch sử Đảng - Chương 2",
+      "tags": [
+        "lsdcsvn",
+        "chuong2"
+      ]
+    }
+  ]
+}
