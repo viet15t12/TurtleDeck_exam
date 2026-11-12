@@ -1,0 +1,2754 @@
+{
+  "meta": {
+    "id": "lpic-101-1-exam-en",
+    "title": "LPIC-1 101.1 Hardware Settings - Exam Questions (EN, explanations in VI)",
+    "kind": "quiz",
+    "lang": "en",
+    "format": "studydeck",
+    "formatVersion": 1,
+    "description": "Exam-style questions for LPIC-1 objective 101.1 (determine and configure hardware settings), with detailed Vietnamese explanations"
+  },
+  "items": [
+    {
+      "id": "fw_setup",
+      "type": "single",
+      "question": "A system administrator must change the boot device order and disable an on-board serial port. Where can this be done?",
+      "choices": [
+        "By reading `/proc/ioports`",
+        "By editing `/etc/fstab`",
+        "In the firmware setup utility (BIOS/UEFI) at power-on",
+        "With the `modprobe` command after the system has booted"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**Firmware setup utility** (BIOS/UEFI) được mở bằng phím như `F2`, `F12`, `Del`, `Esc` (tuỳ nhà sản xuất) ngay khi bật máy. Đây là nơi duy nhất để đổi thứ tự boot và bật/tắt thiết bị ngoại vi tích hợp (on-board audio, NIC, cổng serial/parallel...).\n\n- `modprobe` chỉ nạp/gỡ kernel module khi hệ điều hành đã chạy.\n- `/etc/fstab` quy định gắn kết hệ thống tệp, không liên quan boot order của firmware.\n- `/proc/ioports` chỉ để **xem** vùng cổng I/O, không cấu hình được.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "firmware"
+      ]
+    },
+    {
+      "id": "fw_tasks",
+      "type": "multi",
+      "question": "Which of the following can normally be configured in the firmware setup utility? (Choose all that apply.)",
+      "choices": [
+        "Creating udev rules",
+        "Mounting filesystems",
+        "Running RAM at the manufacturer-specified speed (e.g. XMP profile)",
+        "Boot device order",
+        "Disabling unneeded CPU features such as virtualization or SMT",
+        "Loading and unloading kernel modules",
+        "Enabling or disabling integrated peripherals"
+      ],
+      "answer": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "explanation": "Firmware setup cho phép: **thứ tự boot**, **bật/tắt thiết bị tích hợp**, **thiết lập tốc độ RAM** theo thông số nhà sản xuất, **tắt tính năng CPU** không cần (tiết kiệm điện, giảm bề mặt tấn công/lỗ hổng CPU đã biết), và trên máy cũ còn chỉnh IRQ/DMA.\n\nKernel module, udev rule, mount đều là việc của **hệ điều hành đang chạy**, không làm được trong firmware.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "firmware"
+      ]
+    },
+    {
+      "id": "fw_efi_dir",
+      "type": "single",
+      "question": "Which directory exists only when Linux was booted in UEFI mode?",
+      "choices": [
+        "/proc/efi",
+        "/dev/efi0",
+        "/sys/firmware/efi",
+        "/boot/bios"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Khi kernel được khởi động bằng UEFI, nó tạo thư mục **`/sys/firmware/efi`** trong sysfs. Nếu thư mục này **không có** thì máy đã boot ở chế độ BIOS legacy (hoặc CSM).\n\nCác đường dẫn còn lại không tồn tại theo chuẩn Linux.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "uefi",
+        "sys"
+      ]
+    },
+    {
+      "id": "fw_efibootmgr",
+      "type": "single",
+      "question": "Which command lists and modifies UEFI boot entries from within a running Linux system?",
+      "choices": [
+        "udevadm",
+        "hwclock",
+        "efibootmgr",
+        "lsmod"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`efibootmgr`** đọc/ghi biến NVRAM của UEFI: liệt kê (`efibootmgr -v`), đổi thứ tự boot (`-o`), tạo/xoá entry (`-c`, `-B`).\n\n`lsmod` liệt kê module, `hwclock` đọc/ghi đồng hồ phần cứng, `udevadm` quản lý udev - đều không đụng tới boot entry.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "uefi"
+      ]
+    },
+    {
+      "id": "fw_esp",
+      "type": "single",
+      "question": "Which filesystem type is used by the EFI System Partition (ESP), and where is it usually mounted?",
+      "choices": [
+        "XFS, usually mounted on /sys/firmware/efi",
+        "FAT32 (vfat), usually mounted on /boot/efi",
+        "ext4, usually mounted on /efi/boot",
+        "Btrfs, usually mounted on /dev/efi"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Theo đặc tả UEFI, **ESP** phải là **FAT** (thường FAT32) vì firmware chỉ đọc được FAT. Trên Linux thường gắn tại **`/boot/efi`** (một số distro dùng `/efi` hoặc `/boot`). Bootloader (`grubx64.efi`, `shimx64.efi`...) nằm trong ESP.\n\n`/sys/firmware/efi` là thư mục sysfs ảo, không thể gắn phân vùng vào đó.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "uefi",
+        "esp"
+      ]
+    },
+    {
+      "id": "fw_gpt",
+      "type": "single",
+      "question": "Which partition table is normally associated with UEFI boot, and which with legacy BIOS boot?",
+      "choices": [
+        "MBR with UEFI; GPT with legacy BIOS",
+        "GPT with UEFI; MBR with legacy BIOS",
+        "Both always require MBR",
+        "LVM with UEFI; RAID with legacy BIOS"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Thông thường: **UEFI + GPT** và **BIOS legacy + MBR**. (Về kỹ thuật UEFI vẫn có thể boot đĩa MBR, và BIOS có thể boot GPT nếu có *BIOS boot partition*, nhưng đáp án thi là cặp thông dụng trên.)\n\nLVM và RAID không phải bảng phân vùng.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "uefi",
+        "gpt",
+        "mbr"
+      ]
+    },
+    {
+      "id": "fw_secure",
+      "type": "single",
+      "question": "What is the purpose of UEFI Secure Boot?",
+      "choices": [
+        "To encrypt the whole root filesystem",
+        "To allow only bootloaders and kernels signed with trusted keys to run during boot",
+        "To disable all USB ports at boot",
+        "To speed up the boot by skipping hardware checks"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**Secure Boot** kiểm tra chữ ký số của bootloader/kernel/driver EFI so với khoá tin cậy trong firmware (db), nhằm chặn mã độc chèn vào quá trình boot. Linux dùng `shim` đã được Microsoft ký để chuỗi tin cậy hoạt động.\n\nNó **không** mã hoá đĩa (đó là LUKS) và không tắt USB hay tăng tốc boot.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "uefi",
+        "secureboot"
+      ]
+    },
+    {
+      "id": "fw_dmidecode",
+      "type": "single",
+      "question": "Which command (run as root) reads the DMI/SMBIOS table to show BIOS version, system manufacturer and serial number?",
+      "choices": [
+        "lspci",
+        "lsmod",
+        "lsusb",
+        "dmidecode"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`dmidecode`** giải mã bảng DMI/SMBIOS do firmware cung cấp: phiên bản BIOS, nhà sản xuất, model, số serial, khe RAM... Cần quyền root. Ví dụ: `dmidecode -t bios`, `dmidecode -t memory`.\n\n`lspci` chỉ liệt kê thiết bị PCI, `lsusb` thiết bị USB, `lsmod` module kernel.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "dmidecode"
+      ]
+    },
+    {
+      "id": "fw_irq",
+      "type": "fill",
+      "question": "A hardware device gets the CPU's attention by raising an [___] request.",
+      "answer": [
+        "interrupt",
+        "IRQ",
+        "interrupt request"
+      ],
+      "match": "normalized",
+      "explanation": "Thiết bị báo cho CPU bằng **ngắt (interrupt)**, đánh số là **IRQ**. Bạn xem ngắt đang dùng trong `/proc/interrupts`.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "irq"
+      ]
+    },
+    {
+      "id": "fw_dma",
+      "type": "single",
+      "question": "What does DMA (Direct Memory Access) allow?",
+      "choices": [
+        "A kernel module to be loaded without dependencies",
+        "A device to use more than one IRQ at once",
+        "A device to transfer data to or from RAM without the CPU copying every byte",
+        "The CPU to access a device only through the BIOS"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**DMA** cho phép thiết bị (đĩa, card mạng, âm thanh...) đọc/ghi trực tiếp RAM mà không bắt CPU sao chép từng byte, giảm tải CPU. Các kênh DMA đã đăng ký xem ở **`/proc/dma`**.",
+      "topic": "1. Firmware (BIOS/UEFI)",
+      "tags": [
+        "lpic-101.1",
+        "dma"
+      ]
+    },
+    {
+      "id": "st_ssd",
+      "type": "single",
+      "question": "Which type of mass storage has no moving parts and stores data in flash memory?",
+      "choices": [
+        "Optical disc drive",
+        "HDD",
+        "SSD",
+        "Floppy disk drive"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**SSD** dùng bộ nhớ flash nên không có đĩa quay/đầu từ: nhanh hơn, chịu va đập tốt hơn. HDD dùng đĩa từ quay, ổ quang dùng laser, floppy dùng đĩa từ mềm - đều có bộ phận chuyển động.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "ssd",
+        "hdd"
+      ]
+    },
+    {
+      "id": "st_nvme_bus",
+      "type": "single",
+      "question": "Over which bus do NVMe SSDs communicate with the system?",
+      "choices": [
+        "PCI Express (PCIe)",
+        "SATA only",
+        "Parallel ATA (IDE)",
+        "PS/2"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**NVMe** là giao thức dành cho SSD chạy trên **PCIe**, độ trễ thấp và song song cao hơn nhiều so với SATA/AHCI. Vì vậy ổ NVMe cũng xuất hiện trong `lspci`.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "nvme",
+        "pcie"
+      ]
+    },
+    {
+      "id": "st_ifaces",
+      "type": "multi",
+      "question": "Which of the following are interfaces used to connect mass storage devices? (Choose all that apply.)",
+      "choices": [
+        "SATA",
+        "USB",
+        "SAS",
+        "HDMI",
+        "PS/2",
+        "NVMe (PCIe)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "explanation": "**SATA, SAS, USB** và **NVMe/PCIe** đều dùng nối ổ lưu trữ. **HDMI** là cổng hình ảnh/âm thanh, **PS/2** là cổng bàn phím/chuột.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "interfaces"
+      ]
+    },
+    {
+      "id": "st_sda",
+      "type": "single",
+      "question": "What is the device file of the first SATA disk detected by the kernel?",
+      "choices": [
+        "/dev/sda",
+        "/dev/hda",
+        "/dev/sata0",
+        "/dev/disk1"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "SATA, SCSI, SAS, SSD và USB đều dùng driver **SCSI disk (`sd`)** nên tên là `/dev/sda`, `/dev/sdb`, ... theo thứ tự phát hiện. `/dev/hda` là tên **IDE cũ**; `/dev/sata0` và `/dev/disk1` không phải quy tắc đặt tên của Linux.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming"
+      ]
+    },
+    {
+      "id": "st_sdb3",
+      "type": "single",
+      "question": "What is the device file of the third partition on the second SATA disk?",
+      "choices": [
+        "/dev/sd3b",
+        "/dev/sdb2",
+        "/dev/sda3",
+        "/dev/sdb3"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Ổ đĩa thứ hai = `sdb`; phân vùng thứ ba = số `3` gắn sau tên: **`/dev/sdb3`**. `sda3` là phân vùng 3 của ổ thứ **nhất**.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming"
+      ]
+    },
+    {
+      "id": "st_logical",
+      "type": "single",
+      "question": "On an MBR-partitioned disk `/dev/sda`, what is the name of the first logical partition?",
+      "choices": [
+        "/dev/sda3",
+        "/dev/sda1",
+        "/dev/sda5",
+        "/dev/sda4"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "MBR chỉ có tối đa **4 phân vùng chính/mở rộng** (số 1-4). Các phân vùng **logic** nằm trong phân vùng mở rộng luôn bắt đầu từ số **5**, do đó phân vùng logic đầu tiên là `/dev/sda5`, bất kể có bao nhiêu phân vùng chính.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "mbr"
+      ]
+    },
+    {
+      "id": "st_nvme_name",
+      "type": "single",
+      "question": "What is the name of the first partition on the first NVMe SSD?",
+      "choices": [
+        "/dev/nvme0p1",
+        "/dev/nvme0n1p1",
+        "/dev/nvmea1",
+        "/dev/nvme1n0p1"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Quy tắc: `/dev/nvme<controller>n<namespace>p<partition>`. Ổ NVMe đầu tiên: controller `0`, namespace `1`, phân vùng 1 → **`/dev/nvme0n1p1`**. Lưu ý chữ `p` ngăn cách phân vùng vì tên ổ kết thúc bằng chữ số.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "nvme"
+      ]
+    },
+    {
+      "id": "st_nvme_n",
+      "type": "single",
+      "question": "In `/dev/nvme0n1p2`, what does `n1` identify?",
+      "choices": [
+        "The first partition",
+        "Namespace 1 of controller nvme0",
+        "NAND chip number 1",
+        "The first NVMe disk on the second controller"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Cấu trúc tên: **nvme0** = controller 0, **n1** = namespace 1 (một vùng lưu trữ logic của ổ), **p2** = phân vùng 2. Vậy `n1` là *namespace*, không phải số phân vùng hay chip NAND.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "nvme"
+      ]
+    },
+    {
+      "id": "st_mmc",
+      "type": "single",
+      "question": "What is the name of the first partition on an SD / memory card handled by the MMC driver?",
+      "choices": [
+        "/dev/sd0p1",
+        "/dev/mmcblk0p1",
+        "/dev/mmc0",
+        "/dev/sdb1"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Thẻ SD/eMMC dùng tên **`/dev/mmcblk0`**, phân vùng thêm `p1`, `p2`... (có chữ `p` giống NVMe). Thẻ SD cắm qua đầu đọc USB thì lại xuất hiện là `/dev/sdX` vì đi qua USB mass storage.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "mmc"
+      ]
+    },
+    {
+      "id": "st_fd",
+      "type": "single",
+      "question": "What is the device file of the first floppy disk drive?",
+      "choices": [
+        "/dev/hda",
+        "/dev/fd0",
+        "/dev/fda",
+        "/dev/floppy1"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Ổ mềm đánh số từ 0: **`/dev/fd0`**, `/dev/fd1`... Ngày nay hầu như không dùng nhưng vẫn có trong đề thi.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming"
+      ]
+    },
+    {
+      "id": "st_ide",
+      "type": "single",
+      "question": "On a legacy IDE system, which device file is the master disk on the secondary channel?",
+      "choices": [
+        "/dev/hdd",
+        "/dev/hdb",
+        "/dev/hdc",
+        "/dev/hda"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "IDE cũ: kênh chính (primary) master = `hda`, slave = `hdb`; kênh phụ (secondary) master = **`hdc`**, slave = `hdd`. Từ kernel 2.6.20+ driver libata đặt tên IDE thành `sdX` nhưng đề thi vẫn hỏi quy ước cũ.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "ide"
+      ]
+    },
+    {
+      "id": "st_sr0",
+      "type": "single",
+      "question": "Which device file normally represents the first optical (CD/DVD) drive?",
+      "choices": [
+        "/dev/hdx",
+        "/dev/cd0",
+        "/dev/optical",
+        "/dev/sr0"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Ổ quang (SCSI CD-ROM) có tên **`/dev/sr0`**; thường có thêm symlink `/dev/cdrom` hoặc `/dev/dvd` trỏ tới nó (do udev tạo).",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "optical"
+      ]
+    },
+    {
+      "id": "st_vda",
+      "type": "single",
+      "question": "Inside a KVM guest using a virtio block device, what is the name of the first virtual disk?",
+      "choices": [
+        "/dev/sda",
+        "/dev/vdisk",
+        "/dev/virt0",
+        "/dev/vda"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Ổ ảo **virtio** dùng tên **`/dev/vda`**, `/dev/vdb`... (Xen dùng `/dev/xvda`). Nếu hypervisor giả lập SATA/SCSI thì mới là `/dev/sda`.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "virtual"
+      ]
+    },
+    {
+      "id": "st_loop",
+      "type": "single",
+      "question": "What is a `/dev/loop0` device?",
+      "choices": [
+        "A software RAID array",
+        "The first loopback network interface",
+        "A swap partition",
+        "A block device that makes a regular file (e.g. an ISO or disk image) accessible as a disk"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**Loop device** biến một tệp thông thường thành thiết bị khối để có thể `mount` (ví dụ `mount -o loop image.iso /mnt`). Nó không liên quan tới card mạng `lo`, swap hay RAID.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "loop"
+      ]
+    },
+    {
+      "id": "st_md",
+      "type": "single",
+      "question": "Which device file name is typically used by a Linux software RAID array?",
+      "choices": [
+        "/dev/loop0",
+        "/dev/sr0",
+        "/dev/md0",
+        "/dev/raid0"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "RAID phần mềm (mdadm) tạo **`/dev/md0`**, `/dev/md1`... (hoặc `/dev/md/<tên>`). LVM thì dùng `/dev/mapper/<vg>-<lv>` hoặc `/dev/<vg>/<lv>`.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "raid"
+      ]
+    },
+    {
+      "id": "st_block",
+      "type": "single",
+      "question": "In the output of `ls -l`, which first character in the permission field marks a block device file?",
+      "choices": [
+        "d",
+        "l",
+        "b",
+        "c"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Ký tự đầu của `ls -l`: **`b`** = block device (đĩa), `c` = character device (tty, null...), `d` = thư mục, `l` = symlink, `-` = tệp thường. Ví dụ `brw-rw---- 1 root disk 8, 0 ... /dev/sda`.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "ls"
+      ]
+    },
+    {
+      "id": "st_scsi",
+      "type": "single",
+      "question": "Why are SATA and USB disks named `/dev/sdX`?",
+      "choices": [
+        "Because they are handled by the kernel's SCSI disk (sd) driver",
+        "Because they all use the same cable",
+        "Because udev renames all disks to sd*",
+        "Because `sd` stands for 'SATA disk' only"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Nhân Linux dùng chung lớp **SCSI** cho SATA (libata), SAS, USB mass storage và nhiều loại khác, nên tất cả hiện ra là `sd*` (SCSI disk). `sd` không riêng 'SATA'.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming",
+        "scsi"
+      ]
+    },
+    {
+      "id": "st_lsblk",
+      "type": "command",
+      "question": "Type the command that lists block devices and their partitions in a tree view.",
+      "answer": [
+        "lsblk"
+      ],
+      "match": "normalized",
+      "explanation": "**`lsblk`** (gói util-linux) liệt kê thiết bị khối dạng cây: tên, kích thước, loại (disk/part/lvm), điểm gắn kết. Dùng `lsblk -f` để thêm loại filesystem và UUID.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "lsblk"
+      ]
+    },
+    {
+      "id": "st_blkid",
+      "type": "single",
+      "question": "Which command prints the UUID, LABEL and filesystem TYPE of block devices?",
+      "choices": [
+        "lspci -k",
+        "lsblk -r only",
+        "modinfo",
+        "blkid"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`blkid`** đọc siêu dữ liệu từ thiết bị và in `UUID=`, `LABEL=`, `TYPE=`. (`lsblk -f` cũng cho thông tin tương tự, nhưng đáp án chuẩn của câu này là `blkid`.)",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "blkid"
+      ]
+    },
+    {
+      "id": "st_rot",
+      "type": "single",
+      "question": "The file `/sys/block/sda/queue/rotational` contains `0`. What does this indicate?",
+      "choices": [
+        "The disk is spinning at 0 RPM and is stopped",
+        "The disk has no partitions",
+        "The disk is read-only",
+        "The disk is a non-rotational device such as an SSD"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "`rotational` = **1** nghĩa là ổ quay (HDD); **0** nghĩa là không quay (SSD/flash). Đây là cách kernel/hệ thống phân biệt SSD và HDD để chọn I/O scheduler, TRIM...",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "ssd"
+      ]
+    },
+    {
+      "id": "st_hdparm",
+      "type": "single",
+      "question": "Which tool can display identification and feature information of an ATA drive and also change drive parameters?",
+      "choices": [
+        "mkfs",
+        "hdparm",
+        "lsusb",
+        "dmesg"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`hdparm`** (vd `hdparm -I /dev/sda`) hiển thị thông tin ổ ATA/SATA và đặt tham số như chế độ nghỉ, cache. Các lệnh kia không phục vụ mục đích này.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "hdparm"
+      ]
+    },
+    {
+      "id": "st_mmc2",
+      "type": "fill",
+      "question": "The second partition of the first SD card is /dev/[___].",
+      "answer": [
+        "mmcblk0p2"
+      ],
+      "match": "normalized",
+      "explanation": "Thẻ SD: `/dev/mmcblk0` + `p2` = **`mmcblk0p2`**.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming"
+      ]
+    },
+    {
+      "id": "st_hdb",
+      "type": "fill",
+      "question": "On a legacy IDE system, the second disk on the first channel is [___].",
+      "answer": [
+        "/dev/hdb",
+        "hdb"
+      ],
+      "match": "normalized",
+      "explanation": "Kênh đầu tiên: master `hda`, slave **`hdb`**.",
+      "topic": "2. Mass storage & device naming",
+      "tags": [
+        "lpic-101.1",
+        "naming"
+      ]
+    },
+    {
+      "id": "tl_lspci",
+      "type": "single",
+      "question": "Which command lists devices attached to the PCI/PCIe bus?",
+      "choices": [
+        "lspci",
+        "lsmod",
+        "lsblk",
+        "lsusb"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`lspci`** liệt kê thiết bị PCI/PCIe: card đồ hoạ, NIC, bộ điều khiển SATA/NVMe/USB, cầu nối... `lsusb` cho USB, `lsmod` cho module, `lsblk` cho ổ đĩa.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_pkg",
+      "type": "single",
+      "question": "Which package provides the `lspci` command?",
+      "choices": [
+        "kmod",
+        "usbutils",
+        "util-linux",
+        "pciutils"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "`lspci` thuộc **pciutils**; `lsusb` thuộc **usbutils**; `lsmod/modprobe/modinfo` thuộc **kmod**; `lsblk/blkid` thuộc **util-linux**. Nếu thiếu lệnh trên distro tối giản, hãy cài đúng gói.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "package"
+      ]
+    },
+    {
+      "id": "tl_lspci_k",
+      "type": "single",
+      "question": "Which `lspci` option shows the kernel driver in use and the kernel modules able to handle each device?",
+      "choices": [
+        "-t",
+        "-q",
+        "-D",
+        "-k"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`lspci -k`** in thêm `Kernel driver in use:` và `Kernel modules:`. Nếu thiếu dòng *Kernel driver in use* nghĩa là **chưa có driver nào gắn** vào thiết bị - gợi ý cần nạp module/cài firmware. `-t` là dạng cây, `-D` hiện domain PCI.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lspci_nn",
+      "type": "single",
+      "question": "Which `lspci` option additionally shows numeric vendor and device IDs such as `[8086:a716]`?",
+      "choices": [
+        "-t",
+        "-nn",
+        "-vv",
+        "-m"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`-nn`** in cả tên lẫn ID số `[vendorID:deviceID]` - hữu ích để tra cứu driver trên mạng hoặc viết rule. `-n` chỉ in số. `-vv` là chi tiết hơn, `-t` dạng cây, `-m` định dạng cho máy đọc.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lspci_s",
+      "type": "single",
+      "question": "What does `lspci -s 00:02.0 -v` do?",
+      "choices": [
+        "Loads the driver for device 00:02.0",
+        "Sorts devices by slot",
+        "Shows verbose details only for the device at slot 00:02.0",
+        "Lists every device with verbose output except 00:02.0"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "`-s [[[[domain]:]bus]:][slot][.func]` **chọn một thiết bị** theo địa chỉ; `-v` in chi tiết (IRQ, vùng bộ nhớ, capability...). Địa chỉ lấy từ cột đầu của `lspci`.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lspci_addr",
+      "type": "single",
+      "question": "In the PCI address `00:14.3`, what does the final `3` represent?",
+      "choices": [
+        "The IRQ number",
+        "The bus number",
+        "The function number",
+        "The device (slot) number"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Định dạng **`bus:device.function`**: `00` = bus, `14` = device/slot (hex), `3` = **function**. Một thiết bị vật lý có thể có nhiều function (vd `00:14.0` USB, `00:14.3` Wi-Fi).",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lspci_t",
+      "type": "single",
+      "question": "Which `lspci` option displays the devices as a tree showing the bus hierarchy?",
+      "choices": [
+        "-t",
+        "-s",
+        "-k",
+        "-x"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`lspci -t`** vẽ cây quan hệ cầu nối/bus. `-k` là driver, `-s` chọn thiết bị, `-x` in hex cấu hình.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lspci_d",
+      "type": "single",
+      "question": "Which command shows only PCI devices made by vendor ID `8086`?",
+      "choices": [
+        "lspci -d 8086:",
+        "lspci -s 8086",
+        "lspci -t 8086",
+        "lspci -v 8086"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`-d [vendor]:[device]`** lọc theo ID; `8086:` nghĩa là vendor 8086 (Intel), mọi device. `-s` dùng cho *địa chỉ slot*, không phải ID.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lspci_vv",
+      "type": "single",
+      "question": "Which option makes `lspci` print more detail than `-v`?",
+      "choices": [
+        "-D",
+        "-t",
+        "-vv",
+        "-n"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "`-v`, `-vv`, `-vvv` tăng dần mức chi tiết. Chạy bằng **root (`sudo`)** để thấy đầy đủ các capability mở rộng, nếu không một số mục bị ẩn.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lspci"
+      ]
+    },
+    {
+      "id": "tl_lsusb",
+      "type": "single",
+      "question": "Which command lists USB devices?",
+      "choices": [
+        "lsblk -u",
+        "lsmod --usb",
+        "lspci -usb",
+        "lsusb"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`lsusb`** (gói usbutils) liệt kê mọi thiết bị USB kể cả root hub. Mỗi dòng: `Bus 003 Device 004: ID 8087:0033 Intel Corp. AX211 Bluetooth`.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_lsusb_id",
+      "type": "fill",
+      "question": "In `Bus 003 Device 004: ID 8087:0033 Intel Corp. AX211 Bluetooth`, the vendor ID is [___].",
+      "answer": [
+        "8087"
+      ],
+      "match": "normalized",
+      "explanation": "ID có dạng **`vendorID:productID`**. `8087` là vendor (Intel), `0033` là product. Dùng chúng với `lsusb -d 8087:0033`.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_lsusb_t",
+      "type": "single",
+      "question": "Which `lsusb` option prints a tree view that includes the class and the kernel driver (e.g. `Driver=btusb`)?",
+      "choices": [
+        "-v",
+        "-d",
+        "-s",
+        "-t"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`lsusb -t`** cho cây USB gồm cổng, class, driver, tốc độ. `-v` in descriptor rất chi tiết, `-s` chọn theo bus/dev, `-d` lọc theo ID.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_lsusb_s",
+      "type": "command",
+      "question": "Type the command that shows only the USB device on bus 003, device number 004.",
+      "answer": [
+        "lsusb -s 003:004",
+        "lsusb -s 3:4"
+      ],
+      "match": "normalized",
+      "explanation": "**`lsusb -s [bus]:[devnum]`** chọn thiết bị theo số bus và số device (lấy từ `lsusb -t` hoặc dòng `Bus 003 Device 004`).",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_lsusb_d",
+      "type": "command",
+      "question": "Type the command (using sudo) that prints the detailed descriptor of the USB device with ID 1d6b:0003.",
+      "answer": [
+        "sudo lsusb -v -d 1d6b:0003",
+        "sudo lsusb -d 1d6b:0003 -v"
+      ],
+      "match": "normalized",
+      "explanation": "**`-v`** in descriptor chi tiết, **`-d vendor:product`** lọc thiết bị. Cần `sudo` vì một số descriptor chỉ root mới đọc được. `1d6b` là Linux Foundation; `0003` là root hub USB 3.0.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_root_hub",
+      "type": "single",
+      "question": "A line such as `ID 1d6b:0002 Linux Foundation 2.0 root hub` represents what?",
+      "choices": [
+        "The virtual root hub of a USB 2.0 host controller",
+        "A USB keyboard",
+        "The kernel's USB driver module",
+        "A physical USB flash drive"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Mỗi bộ điều khiển USB host tạo ra một **root hub ảo** với vendor `1d6b` (Linux Foundation): `0002` = USB 2.0, `0003` = USB 3.0. Thiết bị thật được cắm vào các cổng của root hub này.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_speed",
+      "type": "single",
+      "question": "In `lsusb -t`, which speed value corresponds to USB 2.0 High Speed?",
+      "choices": [
+        "1.5M",
+        "480M",
+        "12M",
+        "5000M"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Tốc độ trong `lsusb -t`: **1.5M** = Low Speed (USB 1.x), **12M** = Full Speed (USB 1.1), **480M** = **High Speed (USB 2.0)**, **5000M** = SuperSpeed (USB 3.0), 10000M/20000M = SuperSpeed+ (USB 3.1/3.2).",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_hostctl",
+      "type": "single",
+      "question": "Which USB host controller driver handles USB 3.x ports?",
+      "choices": [
+        "ohci_hcd",
+        "ehci_hcd",
+        "uhci_hcd",
+        "xhci_hcd"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**xHCI** (`xhci_hcd`) hỗ trợ USB 3.x và tương thích ngược 2.0/1.x. **EHCI** = USB 2.0, **OHCI/UHCI** = USB 1.x.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "usb"
+      ]
+    },
+    {
+      "id": "tl_usb_devices",
+      "type": "single",
+      "question": "Which command from the usbutils package prints a summary of each USB device taken from sysfs, including the bound driver?",
+      "choices": [
+        "lsusbdev",
+        "usb-devices",
+        "usb-list",
+        "usbinfo"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`usb-devices`** là script trong usbutils, đọc `/sys/bus/usb/devices` và in từng thiết bị cùng driver (`Driver=...`). Các tên còn lại không phải lệnh chuẩn.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "usb"
+      ]
+    },
+    {
+      "id": "tl_lsusb_root",
+      "type": "single",
+      "question": "Why should `lsusb -v` normally be run with sudo?",
+      "choices": [
+        "lsusb refuses to run for normal users",
+        "Some device descriptors can only be read by root",
+        "Because lsusb loads kernel modules",
+        "To switch the device into debug mode"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "`lsusb` chạy được với user thường nhưng `-v` cần đọc một số descriptor (đặc biệt Binary Object Store, hub status) chỉ **root** truy cập được, nên thường thấy cảnh báo `Couldn't open device, some information will be missing` nếu không dùng sudo.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lsusb"
+      ]
+    },
+    {
+      "id": "tl_lscpu",
+      "type": "single",
+      "question": "Which command displays CPU architecture information (model, cores, threads, cache sizes) in a readable form?",
+      "choices": [
+        "lsmem",
+        "cpuinfo",
+        "lspci -cpu",
+        "lscpu"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`lscpu`** tổng hợp từ `/proc/cpuinfo` và sysfs: kiến trúc, socket, core, thread, cache, cờ ảo hoá. `lsmem` là về RAM. `cpuinfo` không phải lệnh (đó là tệp trong /proc).",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lscpu"
+      ]
+    },
+    {
+      "id": "tl_lshw",
+      "type": "single",
+      "question": "Which command prints a detailed hardware inventory (CPU, memory, disks, network...), with a compact view via `-short`?",
+      "choices": [
+        "lsusb",
+        "lspci",
+        "lshw",
+        "lsmod"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`lshw`** (chạy root để đầy đủ) thu thập từ DMI, sysfs, PCI, USB... và hiển thị tổng thể; `lshw -short` cho bảng gọn. `lspci`/`lsusb`/`lsmod` mỗi lệnh chỉ nhìn một mảng.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "lshw"
+      ]
+    },
+    {
+      "id": "tl_dmesg",
+      "type": "single",
+      "question": "Which command displays the kernel ring buffer, including messages about hardware detection and driver loading?",
+      "choices": [
+        "uname -a",
+        "lsmod",
+        "dmesg",
+        "cat /etc/issue"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`dmesg`** in bộ đệm thông điệp kernel: thiết bị mới cắm, lỗi driver, firmware bị thiếu... Ví dụ `dmesg | grep -i usb` hoặc `dmesg -w` theo dõi liên tục. `journalctl -k` cho kết quả tương tự trên systemd.",
+      "topic": "3. lspci, lsusb & hardware tools",
+      "tags": [
+        "lpic-101.1",
+        "dmesg"
+      ]
+    },
+    {
+      "id": "km_def",
+      "type": "single",
+      "question": "What is a kernel module?",
+      "choices": [
+        "A configuration file under /etc",
+        "A program that only runs in user space",
+        "A piece of code, often a device driver, that can be loaded into or removed from the running kernel",
+        "A partition holding the kernel image"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**Kernel module** là mã nhân (đuôi `.ko`) có thể nạp/gỡ khi hệ thống đang chạy, thường là **driver** thiết bị, filesystem hoặc giao thức. Nhờ vậy không cần biên dịch lại kernel hay khởi động lại.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "module"
+      ]
+    },
+    {
+      "id": "km_kmod",
+      "type": "multi",
+      "question": "Which of the following commands are provided by the `kmod` package? (Choose all that apply.)",
+      "choices": [
+        "modprobe",
+        "modinfo",
+        "lsmod",
+        "lspci",
+        "depmod",
+        "lsusb"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "Gói **kmod** cung cấp `lsmod`, `modprobe`, `modinfo`, `insmod`, `rmmod`, `depmod` (đều là liên kết tới binary `kmod`). `lspci` ở **pciutils**, `lsusb` ở **usbutils**.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "kmod"
+      ]
+    },
+    {
+      "id": "km_lsmod_src",
+      "type": "single",
+      "question": "From which kernel interface does `lsmod` read its data?",
+      "choices": [
+        "/sys/devices",
+        "/lib/modules/modules.dep",
+        "/proc/modules",
+        "/etc/modules.conf"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "`lsmod` chỉ là bản định dạng đẹp của **`/proc/modules`** (đang nạp những module nào). `modules.dep` là tệp phụ thuộc, không phản ánh trạng thái nạp.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "lsmod",
+        "proc"
+      ]
+    },
+    {
+      "id": "km_lsmod_cols",
+      "type": "single",
+      "question": "In the `lsmod` output, what does the `Used by` column show?",
+      "choices": [
+        "The date the module was compiled",
+        "The processes owning the module",
+        "The disk space used by the module file",
+        "The usage count and the modules that depend on this module"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Cột **Used by** gồm số tham chiếu và danh sách module đang phụ thuộc, vd `nvidia 18522112 76 nvidia_uvm,nvidia_modeset`. Module có giá trị khác 0 hoặc có module phụ thuộc thì **không gỡ được** cho đến khi giải phóng chúng.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "lsmod"
+      ]
+    },
+    {
+      "id": "km_insmod",
+      "type": "single",
+      "question": "What is the main difference between `insmod` and `modprobe`?",
+      "choices": [
+        "modprobe can only unload modules",
+        "insmod loads one specific .ko file without resolving dependencies; modprobe finds the module by name and loads its dependencies",
+        "They are identical; insmod is just an older name",
+        "insmod works only for network drivers"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`insmod /path/mod.ko`** cần **đường dẫn đầy đủ** và **không** tự nạp module phụ thuộc (lỗi `Unknown symbol`). **`modprobe mod`** tra `modules.dep`, tự nạp mọi phụ thuộc và áp dụng cấu hình `/etc/modprobe.d`. Vì vậy `modprobe` là lệnh nên dùng.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe",
+        "insmod"
+      ]
+    },
+    {
+      "id": "km_rmmod",
+      "type": "single",
+      "question": "What is the difference between `rmmod` and `modprobe -r`?",
+      "choices": [
+        "modprobe -r works only for USB modules",
+        "modprobe -r also removes dependent modules that are no longer used; rmmod removes only the named module",
+        "rmmod works only on kernel 2.4",
+        "There is no difference at all"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`rmmod name`** chỉ gỡ đúng module đó. **`modprobe -r name`** gỡ module và cả các module phụ thuộc nó đã nạp mà **không còn ai dùng**. Cả hai đều lỗi nếu module đang được dùng.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe",
+        "rmmod"
+      ]
+    },
+    {
+      "id": "km_inuse",
+      "type": "single",
+      "question": "`modprobe -r snd_hda_intel` fails with `Module snd_hda_intel is in use`. What is the cause?",
+      "choices": [
+        "The module is blacklisted",
+        "A process or another loaded module is still using it",
+        "The command must be run as a normal user",
+        "The module file was deleted"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Khi còn tiến trình mở thiết bị hoặc module khác phụ thuộc (xem cột *Used by* của `lsmod`), kernel từ chối gỡ. Cần dừng chương trình dùng nó (vd `pulseaudio`), gỡ module phụ thuộc trước, rồi thử lại. Blacklist không ảnh hưởng đến việc gỡ.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe"
+      ]
+    },
+    {
+      "id": "km_dry",
+      "type": "single",
+      "question": "Which modprobe options simulate loading a module and print what would be done, without actually loading it?",
+      "choices": [
+        "-r -v",
+        "-a -f",
+        "-c -q",
+        "-n -v"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`-n`** (`--dry-run`) không thực hiện thật, **`-v`** in chi tiết lệnh sẽ chạy. `-r` là gỡ, `-a` là nạp tất cả, `-f` là cưỡng ép, `-c` in cấu hình.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe"
+      ]
+    },
+    {
+      "id": "km_showdeps",
+      "type": "single",
+      "question": "Which modprobe option shows the dependency chain of a module (the insmod commands needed) without loading it?",
+      "choices": [
+        "--all (-a)",
+        "--remove (-r)",
+        "--show-depends (-D)",
+        "--force (-f)"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`modprobe --show-depends mod`** (`-D`) liệt kê các lệnh `insmod` cần thiết gồm cả phụ thuộc, không nạp gì cả.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe"
+      ]
+    },
+    {
+      "id": "km_modinfo",
+      "type": "single",
+      "question": "Which command displays the author, description, license, dependencies and parameters of a kernel module?",
+      "choices": [
+        "modinfo",
+        "depmod",
+        "insmod",
+        "lsmod"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`modinfo <module>`** đọc metadata trong tệp `.ko`: `filename`, `description`, `author`, `license`, `depends`, `parm`... `lsmod` chỉ liệt kê module đã nạp.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modinfo"
+      ]
+    },
+    {
+      "id": "km_modinfo_p",
+      "type": "command",
+      "question": "Type the command that lists the parameters accepted by the module `nouveau`.",
+      "answer": [
+        "modinfo -p nouveau",
+        "modinfo --parameters nouveau"
+      ],
+      "match": "normalized",
+      "explanation": "**`modinfo -p <module>`** chỉ in các dòng `parm:` (tham số module chấp nhận kèm mô tả và kiểu).",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modinfo"
+      ]
+    },
+    {
+      "id": "km_modinfo_n",
+      "type": "single",
+      "question": "Which `modinfo` option prints the path of the module file (`filename`)?",
+      "choices": [
+        "-d",
+        "-p",
+        "-a",
+        "-n"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`-n`** (`--filename`) in đường dẫn tệp module. `-p` tham số, `-a` tác giả (author), `-d` mô tả (description). Có thể dùng `-F filename`.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modinfo"
+      ]
+    },
+    {
+      "id": "km_depends",
+      "type": "single",
+      "question": "In `modinfo` output, what does the `depends:` line list?",
+      "choices": [
+        "Users allowed to load the module",
+        "Packages needed to compile the module",
+        "Devices supported by the module",
+        "Other modules that must be loaded before this one"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "`depends:` liệt kê module khác mà module này cần; `modprobe` dựa vào đó (qua `modules.dep`) để nạp theo đúng thứ tự.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modinfo"
+      ]
+    },
+    {
+      "id": "km_libmod",
+      "type": "single",
+      "question": "Where are the modules of the currently running kernel stored?",
+      "choices": [
+        "/lib/modules/$(uname -r)/",
+        "/boot/modules/",
+        "/proc/modules/",
+        "/etc/modules/"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Module nằm ở **`/lib/modules/<phiên bản kernel>/`** (tên thư mục lấy từ `uname -r`), thường trong `kernel/`. Cùng thư mục có `modules.dep`, `modules.alias`... `/proc/modules` là tệp ảo, không phải thư mục chứa `.ko`.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "module",
+        "paths"
+      ]
+    },
+    {
+      "id": "km_depmod",
+      "type": "single",
+      "question": "What does the `depmod` command do?",
+      "choices": [
+        "Removes unused modules",
+        "Loads all modules at once",
+        "Displays the module parameters",
+        "Scans the installed modules and generates the dependency list (modules.dep) and alias maps"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`depmod -a`** quét `/lib/modules/$(uname -r)` và ghi **`modules.dep`**, `modules.alias`, `modules.symbols`. Cần chạy lại sau khi cài module mới thủ công để `modprobe` biết phụ thuộc.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "depmod"
+      ]
+    },
+    {
+      "id": "km_uname",
+      "type": "single",
+      "question": "Which command prints the release of the running kernel, as used in the /lib/modules directory name?",
+      "choices": [
+        "uname -n",
+        "uname -r",
+        "uname -p",
+        "uname -m"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`uname -r`** = kernel release (vd `6.1.0-18-amd64`). `-n` hostname, `-m` kiến trúc máy, `-p` kiểu bộ xử lý.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "uname"
+      ]
+    },
+    {
+      "id": "km_modload",
+      "type": "single",
+      "question": "Where can you list modules that systemd should load at every boot, one module name per line?",
+      "choices": [
+        "/etc/udev/rules.d/*.rules",
+        "/etc/modprobe.d/*.conf",
+        "/proc/modules",
+        "/etc/modules-load.d/*.conf"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`/etc/modules-load.d/*.conf`** chứa tên module cần nạp lúc khởi động (mỗi dòng một tên). Debian cổ điển dùng `/etc/modules`. `/etc/modprobe.d/` là nơi cấu hình *cách* nạp (options, blacklist), không phải danh sách tự nạp.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "module",
+        "boot"
+      ]
+    },
+    {
+      "id": "km_modprobed",
+      "type": "single",
+      "question": "What is the purpose of the files in /etc/modprobe.d/?",
+      "choices": [
+        "To store the compiled module binaries",
+        "To define udev permissions",
+        "To configure how modprobe loads modules (options, aliases, blacklist, install rules)",
+        "To list modules that are currently loaded"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Các tệp `*.conf` trong **`/etc/modprobe.d/`** có các lệnh `options`, `alias`, `blacklist`, `install`, `remove`, `softdep`. Module `.ko` nằm ở `/lib/modules`, danh sách đang nạp ở `/proc/modules`.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe.d"
+      ]
+    },
+    {
+      "id": "km_blacklist",
+      "type": "single",
+      "question": "What does the line `blacklist nouveau` in a file under /etc/modprobe.d/ do?",
+      "choices": [
+        "Deletes the nouveau module file",
+        "Unloads the module at shutdown only",
+        "Prevents the module from ever loading, even with modprobe nouveau",
+        "Prevents the module from being loaded automatically by alias matching, but it can still be loaded manually or as a dependency"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "`blacklist` chỉ ngăn nạp **tự động** theo alias phần cứng (do udev/kmod). Bạn vẫn `modprobe nouveau` thủ công được, và module vẫn được nạp nếu module khác **phụ thuộc** nó. Muốn chặn hoàn toàn dùng `install nouveau /bin/false`.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "blacklist"
+      ]
+    },
+    {
+      "id": "km_install",
+      "type": "single",
+      "question": "Which modprobe.d directive can make every attempt to load a module fail by running `/bin/false` instead?",
+      "choices": [
+        "softdep <module> none",
+        "alias <module> off",
+        "install <module> /bin/false",
+        "options <module> disable=1"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`install mod /bin/false`** thay lệnh nạp bằng `/bin/false`, nên kể cả khi là phụ thuộc hay nạp thủ công vẫn thất bại (trừ khi dùng `modprobe --ignore-install`). Mạnh hơn `blacklist`.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "install"
+      ]
+    },
+    {
+      "id": "km_options",
+      "type": "single",
+      "question": "How can you make a module parameter persistent for every load, e.g. `power_save=1` for `snd_hda_intel`?",
+      "choices": [
+        "Add `power_save=1` to /etc/fstab",
+        "Write the value into /proc/modules",
+        "Run `lsmod power_save=1`",
+        "Add `options snd_hda_intel power_save=1` to a file in /etc/modprobe.d/"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Dòng **`options <module> <param>=<giá trị>`** trong `/etc/modprobe.d/*.conf` được áp dụng mỗi lần `modprobe` nạp module. Tạm thời có thể chạy `modprobe snd_hda_intel power_save=1`. `/proc/modules` chỉ đọc.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "options"
+      ]
+    },
+    {
+      "id": "km_params",
+      "type": "single",
+      "question": "Where can the current values of a loaded module's parameters be read at runtime?",
+      "choices": [
+        "/proc/parameters/<module>",
+        "/sys/module/<module>/parameters/",
+        "/etc/modprobe.d/<module>",
+        "/dev/module/<module>"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Sysfs hiển thị mỗi tham số thành một tệp: **`/sys/module/<tên>/parameters/<param>`**. Nhiều tham số còn ghi được lúc chạy (nếu quyền cho phép).",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "module"
+      ]
+    },
+    {
+      "id": "km_hyphen",
+      "type": "single",
+      "question": "In module names used with modprobe, how are hyphens and underscores treated?",
+      "choices": [
+        "Only hyphens are valid",
+        "Only underscores are valid",
+        "They are interchangeable (snd-hda-intel equals snd_hda_intel)",
+        "They refer to different modules"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "`modprobe` coi `-` và `_` là **như nhau**; `lsmod` luôn hiện dạng gạch dưới. Vì vậy `modprobe -r snd-hda-intel` và `snd_hda_intel` cùng hiệu lực.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe"
+      ]
+    },
+    {
+      "id": "km_ext",
+      "type": "single",
+      "question": "What is the usual file extension of a kernel module?",
+      "choices": [
+        ".ko (possibly compressed, e.g. .ko.xz or .ko.zst)",
+        ".drv",
+        ".mod",
+        ".so"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Module nhân có đuôi **`.ko`** (kernel object), nhiều distro nén thành `.ko.xz`, `.ko.zst`, `.ko.gz`. `.so` là thư viện chia sẻ user-space.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "module"
+      ]
+    },
+    {
+      "id": "km_lsmod",
+      "type": "command",
+      "question": "Type the command that lists the currently loaded kernel modules.",
+      "answer": [
+        "lsmod"
+      ],
+      "match": "normalized",
+      "explanation": "**`lsmod`** hiển thị 3 cột: *Module, Size, Used by*.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "lsmod"
+      ]
+    },
+    {
+      "id": "km_unload",
+      "type": "command",
+      "question": "Type the command (as root, without sudo) that unloads the module `snd-hda-intel` together with unused dependencies.",
+      "answer": [
+        "modprobe -r snd-hda-intel",
+        "modprobe -r snd_hda_intel",
+        "modprobe --remove snd-hda-intel"
+      ],
+      "match": "normalized",
+      "explanation": "**`modprobe -r <module>`** gỡ module và các phụ thuộc không còn dùng. Gạch nối hay gạch dưới đều được.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe"
+      ]
+    },
+    {
+      "id": "km_load",
+      "type": "command",
+      "question": "Type the command (as root, without sudo) that loads the module `bluetooth` and all its dependencies.",
+      "answer": [
+        "modprobe bluetooth"
+      ],
+      "match": "normalized",
+      "explanation": "**`modprobe bluetooth`** - chỉ cần tên module, không cần đường dẫn; phụ thuộc được tự nạp.",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "modprobe"
+      ]
+    },
+    {
+      "id": "km_grep",
+      "type": "command",
+      "question": "Type a command that shows only the loaded modules whose names contain `nvidia`.",
+      "answer": [
+        "lsmod | grep nvidia",
+        "lsmod | grep -i nvidia",
+        "lsmod | fgrep nvidia",
+        "lsmod | fgrep -i nvidia"
+      ],
+      "match": "normalized",
+      "explanation": "Kết hợp ống: **`lsmod | grep nvidia`** lọc các dòng chứa `nvidia` (`-i` bỏ phân biệt hoa thường).",
+      "topic": "4. Kernel modules",
+      "tags": [
+        "lpic-101.1",
+        "lsmod"
+      ]
+    },
+    {
+      "id": "pr_def",
+      "type": "single",
+      "question": "What is `/proc`?",
+      "choices": [
+        "A disk where the kernel image is stored",
+        "A pseudo filesystem that exists only in memory and exposes kernel, process and hardware information",
+        "A directory for persistent kernel configuration files",
+        "A partition holding user processes' swap data"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**procfs** do kernel tạo ra trong RAM, không chiếm dung lượng đĩa. Chứa thư mục theo PID (`/proc/1234/`) và các tệp thông tin hệ thống (`cpuinfo`, `meminfo`, `interrupts`...). Dữ liệu luôn là trạng thái *hiện tại*.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc"
+      ]
+    },
+    {
+      "id": "pr_cpuinfo",
+      "type": "single",
+      "question": "Which file shows details about every CPU, including a `flags` line and a `bugs` line?",
+      "choices": [
+        "/proc/cpuinfo",
+        "/proc/devices",
+        "/proc/stat/cpu",
+        "/proc/interrupts"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/proc/cpuinfo`** liệt kê từng core: model, tần số, cache, `flags` (tính năng), `bugs` (lỗ hổng đã biết như `cpu_meltdown`, `spectre_v1`).",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc"
+      ]
+    },
+    {
+      "id": "pr_flags",
+      "type": "single",
+      "question": "Which CPU flag in /proc/cpuinfo indicates hardware virtualization support on an Intel processor?",
+      "choices": [
+        "svm",
+        "vmx",
+        "lm",
+        "pae"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`vmx`** = Intel VT-x, **`svm`** = AMD-V. **`lm`** (long mode) = CPU 64-bit, `pae` = mở rộng địa chỉ vật lý. Đếm: `grep -E 'vmx|svm' /proc/cpuinfo`.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "cpu"
+      ]
+    },
+    {
+      "id": "pr_meminfo",
+      "type": "single",
+      "question": "Which file reports memory statistics such as MemTotal, MemFree and SwapTotal?",
+      "choices": [
+        "/proc/swaps",
+        "/proc/kcore",
+        "/proc/ioports",
+        "/proc/meminfo"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`/proc/meminfo`** chứa MemTotal, MemFree, MemAvailable, Buffers, Cached, SwapTotal... (lệnh `free` đọc từ đây). `/proc/swaps` chỉ liệt kê vùng swap.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "memory"
+      ]
+    },
+    {
+      "id": "pr_int",
+      "type": "single",
+      "question": "Which file shows how many interrupts each I/O device has generated per CPU?",
+      "choices": [
+        "/proc/dma",
+        "/proc/interrupts",
+        "/proc/devices",
+        "/proc/ioports"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`/proc/interrupts`** gồm số ngắt theo IRQ và theo từng CPU, kèm tên thiết bị/driver. `ioports` là vùng cổng I/O, `dma` là kênh DMA, `devices` là số major.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "irq"
+      ]
+    },
+    {
+      "id": "pr_ioports",
+      "type": "single",
+      "question": "Which file lists the registered I/O port regions in use?",
+      "choices": [
+        "/proc/devices",
+        "/proc/ioports",
+        "/proc/interrupts",
+        "/proc/iomem2"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`/proc/ioports`** liệt kê dải cổng I/O (hex) được driver đăng ký, vd `03f8-03ff : serial`. (Dải bộ nhớ vật lý nằm ở `/proc/iomem`.)",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "ioports"
+      ]
+    },
+    {
+      "id": "pr_dma",
+      "type": "single",
+      "question": "Which file lists the registered DMA channels?",
+      "choices": [
+        "/proc/dma",
+        "/proc/memory",
+        "/proc/ioports",
+        "/proc/interrupts"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/proc/dma`** hiển thị các kênh DMA ISA đã đăng ký (cascade...). Trên máy hiện đại tệp này thường ngắn vì phần lớn DMA hoạt động qua bus PCI.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "dma"
+      ]
+    },
+    {
+      "id": "pr_hw",
+      "type": "multi",
+      "question": "Which of the following files in /proc provide information about hardware resources? (Choose all that apply.)",
+      "choices": [
+        "/proc/interrupts",
+        "/proc/fstab",
+        "/proc/modprobe",
+        "/proc/udev",
+        "/proc/ioports",
+        "/proc/dma"
+      ],
+      "answer": [
+        0,
+        4,
+        5
+      ],
+      "explanation": "Ba tệp tài nguyên phần cứng chính: **interrupts, ioports, dma**. `/proc/udev`, `/proc/fstab`, `/proc/modprobe` **không tồn tại** (fstab ở `/etc`, rule udev ở `/etc/udev/rules.d`).",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc"
+      ]
+    },
+    {
+      "id": "pr_devices",
+      "type": "single",
+      "question": "Which file lists the registered character and block device drivers together with their major numbers?",
+      "choices": [
+        "/proc/devices",
+        "/proc/mounts",
+        "/proc/modules",
+        "/proc/partitions"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/proc/devices`** có hai phần *Character devices* và *Block devices* kèm **số major** (vd `8 sd`). `/proc/partitions` liệt kê từng phân vùng cùng major/minor và kích thước.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "major"
+      ]
+    },
+    {
+      "id": "pr_partitions",
+      "type": "single",
+      "question": "Which file lists every block device and partition known to the kernel with its major, minor number and size in blocks?",
+      "choices": [
+        "/proc/fstab",
+        "/proc/diskstats2",
+        "/proc/devices",
+        "/proc/partitions"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`/proc/partitions`** gồm cột major, minor, #blocks, name (vd `8 1 524288 sda1`).",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc"
+      ]
+    },
+    {
+      "id": "pr_cmdline",
+      "type": "single",
+      "question": "Which file contains the parameters passed to the kernel by the bootloader?",
+      "choices": [
+        "/proc/cmdline",
+        "/proc/version",
+        "/proc/boot",
+        "/etc/cmdline.conf"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/proc/cmdline`** hiện dòng lệnh khởi động kernel, ví dụ `BOOT_IMAGE=... root=UUID=... ro quiet`. `/proc/version` cho phiên bản kernel và trình biên dịch.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "boot"
+      ]
+    },
+    {
+      "id": "pr_pid",
+      "type": "single",
+      "question": "What does the directory `/proc/1234/` represent?",
+      "choices": [
+        "Module number 1234",
+        "IRQ number 1234",
+        "Device with minor number 1234",
+        "Information about the process with PID 1234"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Mỗi tiến trình có thư mục theo **PID**: `cmdline`, `status`, `fd/`, `maps`, `environ`... Công cụ như `ps`, `top`, `lsof` đọc dữ liệu từ đây.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc"
+      ]
+    },
+    {
+      "id": "pr_sys",
+      "type": "single",
+      "question": "What is `/proc/sys` used for?",
+      "choices": [
+        "Storing system log files",
+        "Listing installed packages",
+        "Mounting external storage",
+        "Viewing and tuning kernel parameters at runtime (also accessible with sysctl)"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`/proc/sys`** chứa tham số kernel chỉnh được khi chạy, vd `echo 1 > /proc/sys/net/ipv4/ip_forward` tương đương `sysctl -w net.ipv4.ip_forward=1`. Thay đổi vĩnh viễn đặt trong `/etc/sysctl.conf` hoặc `/etc/sysctl.d/`.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "sysctl"
+      ]
+    },
+    {
+      "id": "pr_modules",
+      "type": "single",
+      "question": "Which file in /proc lists the currently loaded modules, serving as the data source of `lsmod`?",
+      "choices": [
+        "/proc/modules",
+        "/proc/kmod",
+        "/proc/loaded",
+        "/proc/drivers"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/proc/modules`** là nguồn dữ liệu của `lsmod`. Bạn có thể `cat /proc/modules` để xem dạng thô gồm địa chỉ nạp và trạng thái.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "lsmod"
+      ]
+    },
+    {
+      "id": "pr_fill",
+      "type": "fill",
+      "question": "The file that shows CPU details, including the `bugs:` line, is [___].",
+      "answer": [
+        "/proc/cpuinfo"
+      ],
+      "match": "normalized",
+      "explanation": "Đường dẫn đầy đủ: **`/proc/cpuinfo`**.",
+      "topic": "5. /proc",
+      "tags": [
+        "lpic-101.1",
+        "proc"
+      ]
+    },
+    {
+      "id": "sy_def",
+      "type": "single",
+      "question": "What is sysfs, and where is it mounted?",
+      "choices": [
+        "A network filesystem mounted on /srv",
+        "A pseudo filesystem exposing kernel objects, devices and drivers as a directory tree, mounted on /sys",
+        "A journaling filesystem on /dev/sda1",
+        "A swap area mounted on /swap"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**sysfs** (`/sys`) trình bày mô hình thiết bị/driver của kernel dạng cây thư mục và tệp thuộc tính, chỉ tồn tại trong RAM. **udev** đọc nó để biết thông tin thiết bị. So với `/proc` (tiến trình + thông tin chung), `/sys` có cấu trúc rõ ràng, mỗi tệp thường một giá trị.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys"
+      ]
+    },
+    {
+      "id": "sy_ram",
+      "type": "multi",
+      "question": "Which of the following filesystems exist only in memory? (Choose all that apply.)",
+      "choices": [
+        "/var",
+        "/proc",
+        "/sys",
+        "/boot",
+        "/home"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "**/proc** (procfs) và **/sys** (sysfs) là filesystem ảo trong RAM. `/boot`, `/home`, `/var` thường nằm trên đĩa thật.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "proc",
+        "sys"
+      ]
+    },
+    {
+      "id": "sy_class",
+      "type": "single",
+      "question": "Which directory in sysfs groups devices by function, such as net, block, tty or input?",
+      "choices": [
+        "/sys/class",
+        "/sys/bus",
+        "/sys/firmware",
+        "/sys/module"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/sys/class`** nhóm theo *chức năng* (net, block, input, sound...). `/sys/bus` nhóm theo *loại bus* (pci, usb, scsi), `/sys/module` theo module, `/sys/firmware` chứa dữ liệu firmware (acpi, efi, dmi).",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys"
+      ]
+    },
+    {
+      "id": "sy_net",
+      "type": "single",
+      "question": "Which sysfs file holds the MAC address of the network interface enp3s0?",
+      "choices": [
+        "/sys/class/net/enp3s0/mac_id",
+        "/sys/bus/net/enp3s0/hwaddr",
+        "/sys/devices/enp3s0/ip",
+        "/sys/class/net/enp3s0/address"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Mỗi giao diện mạng là một thư mục trong **`/sys/class/net/<if>/`** với các tệp như `address` (MAC), `operstate`, `mtu`, `speed`. `cat /sys/class/net/enp3s0/address` in MAC.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "net"
+      ]
+    },
+    {
+      "id": "sy_block",
+      "type": "single",
+      "question": "Which sysfs directory contains an entry for every block device, such as sda or nvme0n1?",
+      "choices": [
+        "/sys/disk",
+        "/sys/dev/blocks2",
+        "/sys/block",
+        "/sys/storage"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`/sys/block/`** có thư mục cho mỗi ổ khối (`sda`, `nvme0n1`, `loop0`...) kèm `size` (đơn vị sector 512 byte), `queue/rotational`, `removable`...",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "block"
+      ]
+    },
+    {
+      "id": "sy_firmware",
+      "type": "single",
+      "question": "Which sysfs directory exposes firmware-related data such as EFI variables, ACPI tables and DMI information?",
+      "choices": [
+        "/sys/hardware",
+        "/sys/bios",
+        "/sys/boot",
+        "/sys/firmware"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**`/sys/firmware/`** gồm `efi`, `acpi`, `dmi`... Sự tồn tại của `/sys/firmware/efi` cho biết máy boot bằng UEFI.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "firmware"
+      ]
+    },
+    {
+      "id": "sy_auth",
+      "type": "single",
+      "question": "How can a USB device be disabled temporarily through sysfs?",
+      "choices": [
+        "Write 0 to its `authorized` attribute, e.g. /sys/bus/usb/devices/1-1/authorized",
+        "Delete its directory under /sys",
+        "Write 1 to /proc/usb/disable",
+        "Run `lsusb -d`"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Mỗi thiết bị USB có thuộc tính **`authorized`**: ghi `0` để huỷ cấp phép (kernel ngắt thiết bị, driver bị gỡ), ghi `1` để cho phép lại. Đây là cơ sở cho các công cụ như USBGuard. Không thể xoá thư mục trong sysfs.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "usb"
+      ]
+    },
+    {
+      "id": "sy_cat",
+      "type": "command",
+      "question": "Type the command that prints whether /dev/sda is rotational using sysfs.",
+      "answer": [
+        "cat /sys/block/sda/queue/rotational"
+      ],
+      "match": "normalized",
+      "explanation": "`cat /sys/block/sda/queue/rotational` → `1` HDD, `0` SSD/NVMe. Các tệp sysfs là văn bản nhỏ nên `cat` đọc được ngay.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys"
+      ]
+    },
+    {
+      "id": "sy_udev",
+      "type": "fill",
+      "question": "The /sys filesystem is read by [___] to learn about devices and manage device files.",
+      "answer": [
+        "udev"
+      ],
+      "match": "normalized",
+      "explanation": "Daemon **udev** (`systemd-udevd`) đọc thuộc tính trong sysfs để áp dụng rule và tạo tệp thiết bị.",
+      "topic": "6. /sys (sysfs)",
+      "tags": [
+        "lpic-101.1",
+        "sys",
+        "udev"
+      ]
+    },
+    {
+      "id": "dv_def",
+      "type": "single",
+      "question": "What does each file in /dev represent?",
+      "choices": [
+        "A mounted filesystem",
+        "A device (or special pseudo device) that programs can access like a file",
+        "A running process",
+        "A kernel module"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Triết lý Unix: **thiết bị = tệp**. Mỗi tệp trong `/dev` là giao diện tới driver (đĩa, tty, bộ sinh số ngẫu nhiên...). Đọc/ghi vào tệp này chính là giao tiếp với thiết bị.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev"
+      ]
+    },
+    {
+      "id": "dv_null",
+      "type": "single",
+      "question": "What happens to data written to `/dev/null`?",
+      "choices": [
+        "It is sent to the system log",
+        "It is stored in RAM until reboot",
+        "It is discarded",
+        "It is written to the first disk"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`/dev/null`** là 'hố đen': ghi vào bị bỏ đi, đọc ra ngay EOF. Hay dùng `command > /dev/null 2>&1` để im lặng mọi output.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "null"
+      ]
+    },
+    {
+      "id": "dv_zero",
+      "type": "single",
+      "question": "What does reading from `/dev/zero` return?",
+      "choices": [
+        "An endless stream of zero bytes (NUL)",
+        "End-of-file immediately",
+        "An endless stream of random bytes",
+        "The system uptime"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/dev/zero`** liên tục trả byte `0x00`; hay dùng tạo tệp rỗng: `dd if=/dev/zero of=file bs=1M count=10`. Byte ngẫu nhiên lấy từ `/dev/urandom`/`/dev/random`.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "zero"
+      ]
+    },
+    {
+      "id": "dv_random",
+      "type": "single",
+      "question": "Which device file provides cryptographically secure random bytes without blocking in normal operation?",
+      "choices": [
+        "/dev/urandom",
+        "/dev/null",
+        "/dev/full",
+        "/dev/zero"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`/dev/urandom`** (và `/dev/random` trên kernel hiện đại) trả byte ngẫu nhiên từ CSPRNG của kernel. `/dev/zero` toàn số 0, `/dev/null` bỏ dữ liệu, `/dev/full` luôn báo đầy khi ghi.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "random"
+      ]
+    },
+    {
+      "id": "dv_tty",
+      "type": "single",
+      "question": "Which device file always refers to the controlling terminal of the current process?",
+      "choices": [
+        "/dev/term",
+        "/dev/tty",
+        "/dev/ttyS0 only",
+        "/dev/console0"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`/dev/tty`** luôn trỏ tới terminal điều khiển của tiến trình đang chạy. `/dev/ttyS0` là cổng serial đầu, `/dev/tty1`... là console ảo, `/dev/pts/N` là pseudo-terminal (SSH, terminal emulator).",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "tty"
+      ]
+    },
+    {
+      "id": "dv_pts",
+      "type": "single",
+      "question": "What is stored in `/dev/pts/`?",
+      "choices": [
+        "Pseudo-terminal slave devices used by SSH sessions and terminal emulators",
+        "USB printers",
+        "Process IDs",
+        "Disk partitions"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Mỗi cửa sổ terminal/SSH có một **pseudo-terminal** `/dev/pts/0`, `/dev/pts/1`... Lệnh `tty` in ra thiết bị của phiên hiện tại.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "pts"
+      ]
+    },
+    {
+      "id": "dv_majmin",
+      "type": "single",
+      "question": "In `brw-rw---- 1 root disk 8, 1 Nov 4 10:00 /dev/sda1`, what do `8` and `1` mean?",
+      "choices": [
+        "The user and group IDs",
+        "The major number (driver) and the minor number (device instance)",
+        "The IRQ and DMA channel",
+        "The size in kilobytes and the inode"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Thay cho kích thước, tệp thiết bị hiện **major, minor**. Major (8) chọn driver (`sd`), minor (1) chọn thiết bị/phân vùng trong driver đó. Danh sách major trong `/proc/devices`.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "major"
+      ]
+    },
+    {
+      "id": "dv_mknod",
+      "type": "single",
+      "question": "Which command creates a device file manually by specifying type, major and minor numbers?",
+      "choices": [
+        "mknod",
+        "mkfifo -d",
+        "touch -d",
+        "mkdev"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`mknod /dev/name b|c MAJOR MINOR`**, ví dụ `mknod /dev/mydisk b 8 16`. Thực tế `udev`/devtmpfs tự tạo nên hiếm khi cần. `mkfifo` chỉ tạo named pipe.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "mknod"
+      ]
+    },
+    {
+      "id": "dv_byid",
+      "type": "single",
+      "question": "What are the entries in `/dev/disk/by-uuid/`, `/dev/disk/by-id/` and `/dev/disk/by-label/`?",
+      "choices": [
+        "Kernel modules for each disk",
+        "Separate copies of the disks",
+        "Files containing the partition tables",
+        "Persistent symbolic links to the real device files, created by udev"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Đây là **symlink ổn định** do udev tạo, trỏ về `/dev/sdXn`. Tên `sdX` có thể đổi giữa các lần boot, còn UUID/ID/label thì không, vì vậy `/etc/fstab` nên dùng `UUID=...`.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "udev"
+      ]
+    },
+    {
+      "id": "dv_devtmpfs",
+      "type": "single",
+      "question": "Which filesystem type is normally used by the kernel for /dev?",
+      "choices": [
+        "ext4",
+        "devtmpfs",
+        "iso9660",
+        "xfs"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**devtmpfs** là filesystem ảo trong RAM: kernel tạo sẵn node cho thiết bị đã phát hiện, rồi **udev** chỉnh quyền, tạo symlink và đặt tên. Không phải filesystem trên đĩa như ext4/xfs.",
+      "topic": "7. /dev & device files",
+      "tags": [
+        "lpic-101.1",
+        "dev",
+        "devtmpfs"
+      ]
+    },
+    {
+      "id": "ud_role",
+      "type": "single",
+      "question": "What is the main job of udev?",
+      "choices": [
+        "Partitioning disks",
+        "Managing device nodes in /dev dynamically in response to kernel events (naming, permissions, symlinks, running actions)",
+        "Mounting network shares",
+        "Compiling kernel modules"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**udev** là device manager ở user-space: nhận **uevent** từ kernel khi thiết bị xuất hiện/biến mất, đọc thuộc tính từ sysfs, áp dụng *rule* để đặt tên, quyền, tạo symlink, nạp module hoặc chạy chương trình.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev"
+      ]
+    },
+    {
+      "id": "ud_daemon",
+      "type": "single",
+      "question": "What is the name of the udev daemon on a systemd-based system?",
+      "choices": [
+        "udevd-sysd",
+        "hotplugd",
+        "systemd-udevd",
+        "devmanagerd"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Trên systemd daemon tên là **`systemd-udevd`** (service `systemd-udevd.service`), nhận uevent qua netlink socket từ kernel.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev"
+      ]
+    },
+    {
+      "id": "ud_dirs",
+      "type": "single",
+      "question": "Which directory is intended for local administrator udev rules that override vendor rules of the same file name?",
+      "choices": [
+        "/sys/udev/rules.d/",
+        "/usr/lib/udev/rules.d/",
+        "/etc/udev/rules.d/",
+        "/proc/udev/rules/"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Thứ tự ưu tiên: **`/etc/udev/rules.d/`** (admin) > `/run/udev/rules.d/` > `/usr/lib/udev/rules.d/` (hoặc `/lib/udev/rules.d/`, do gói cài đặt). Tệp cùng tên ở /etc che tệp của gói. Rule do distribution cung cấp là phần quan trọng nhất của hệ thống.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "rules"
+      ]
+    },
+    {
+      "id": "ud_order",
+      "type": "single",
+      "question": "The directory contains these files: `10-local.rules`, `99-custom.rules`, `50-default.rules`, `70-wifi.conf`. Which is processed first?",
+      "choices": [
+        "70-wifi.conf",
+        "99-custom.rules",
+        "50-default.rules",
+        "10-local.rules"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "udev chỉ đọc tệp kết thúc bằng **`.rules`** và xử lý theo **thứ tự từ điển**, nên tiền tố số nhỏ chạy trước. `70-wifi.conf` bị **bỏ qua** vì sai đuôi. Thứ tự: 10 → 50 → 99.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "rules"
+      ]
+    },
+    {
+      "id": "ud_op",
+      "type": "single",
+      "question": "In the udev rule `KERNEL==\"sd?\", SYMLINK+=\"backup\"`, what does `==` do?",
+      "choices": [
+        "It removes a value",
+        "It assigns a value",
+        "It appends a value",
+        "It tests whether the value matches (a match condition)"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "`==` và `!=` là toán tử **so khớp**; `=`, `+=`, `-=`, `:=` là toán tử **gán** (ghi đè, nối thêm, xoá, gán cuối cùng). Mọi khoá cách nhau dấu phẩy.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "rules"
+      ]
+    },
+    {
+      "id": "ud_symlink",
+      "type": "single",
+      "question": "Which udev rule creates an extra symlink /dev/mydisk when a block device named sdb appears?",
+      "choices": [
+        "SUBSYSTEM==\"block\" KERNEL==\"sdb\" ALIAS+=\"mydisk\"",
+        "SUBSYSTEM=\"block\" KERNEL=\"sdb\" SYMLINK=\"mydisk\"",
+        "SUBSYSTEM==\"block\", KERNEL==\"sdb\", SYMLINK+=\"mydisk\"",
+        "SUBSYSTEM==\"block\", KERNEL==\"sdb\", SYMLINK==\"mydisk\""
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Đúng: hai điều kiện khớp dùng `==`, hành động dùng `SYMLINK+=` (symlink dưới /dev), các khoá cách nhau **dấu phẩy**.\n\n- `SYMLINK==` sai vì là phép so sánh, không phải gán.\n- Dùng `=` ở điều kiện/không có dấu phẩy là sai cú pháp.\n- `ALIAS` không phải khoá udev để tạo symlink.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "rules"
+      ]
+    },
+    {
+      "id": "ud_info",
+      "type": "single",
+      "question": "Which command shows the attributes of /dev/sdb and its parent devices in a form suitable for writing udev rules?",
+      "choices": [
+        "udevadm trigger /dev/sdb",
+        "udevadm info -a -n /dev/sdb",
+        "lsusb -v /dev/sdb",
+        "udevadm monitor /dev/sdb"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`udevadm info -a -n /dev/sdb`** đi từ thiết bị lên các thiết bị cha, in các cặp `ATTR{...}==`, `KERNELS==`, `SUBSYSTEMS==` mà bạn có thể dán vào rule.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udevadm"
+      ]
+    },
+    {
+      "id": "ud_monitor",
+      "type": "single",
+      "question": "Which command lets you watch kernel uevents and udev events live while plugging in a device?",
+      "choices": [
+        "udevadm control --reload",
+        "udevadm settle",
+        "udevadm monitor",
+        "udevadm test"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**`udevadm monitor`** in sự kiện `KERNEL`/`UDEV` theo thời gian thực (add, remove, change). `settle` chờ hàng đợi sự kiện trống, `test` mô phỏng rule, `control --reload` nạp lại rule.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udevadm"
+      ]
+    },
+    {
+      "id": "ud_reload",
+      "type": "single",
+      "question": "After adding a new rule file, which sequence reloads the rules and applies them to already-present devices?",
+      "choices": [
+        "udevadm control --reload, then udevadm trigger",
+        "udevadm monitor, then udevadm info",
+        "systemctl stop udev, then rm /dev/*",
+        "modprobe -r udev, then modprobe udev"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`udevadm control --reload`** nạp lại rule; **`udevadm trigger`** phát lại sự kiện cho thiết bị đã có (còn gọi là *coldplug replay*) để rule mới có hiệu lực mà không cần cắm lại thiết bị.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udevadm"
+      ]
+    },
+    {
+      "id": "ud_test",
+      "type": "single",
+      "question": "Which command simulates the processing of udev rules for a given device path and prints the result without changing the system?",
+      "choices": [
+        "udevadm test",
+        "udevadm control",
+        "udevadm trigger",
+        "udevadm settle"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**`udevadm test /sys/class/block/sdb`** chạy mô phỏng và in từng rule được khớp - rất tiện debug rule viết sai.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udevadm"
+      ]
+    },
+    {
+      "id": "ud_hotcold",
+      "type": "single",
+      "question": "Which statement correctly distinguishes coldplug from hotplug?",
+      "choices": [
+        "Coldplug is for USB; hotplug is for PCI",
+        "Coldplug is only for disks; hotplug only for network cards",
+        "Coldplug needs a reboot; hotplug needs a shutdown",
+        "Coldplug devices are present at power-up; hotplug devices are detected while the system is running"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**Coldplug**: thiết bị có sẵn khi bật máy, được udev xử lý lúc khởi động (hoặc bằng `udevadm trigger`). **Hotplug**: thiết bị được thêm/bớt khi hệ thống đang chạy (hỗ trợ từ kernel 2.6), ví dụ cắm USB.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "hotplug",
+        "coldplug"
+      ]
+    },
+    {
+      "id": "ud_devtmpfs",
+      "type": "single",
+      "question": "Which statement best describes how device nodes in /dev are created on a modern Linux system?",
+      "choices": [
+        "Nodes are stored on the root filesystem and never change",
+        "The kernel creates basic nodes in devtmpfs and udev adjusts names, permissions and symlinks",
+        "They are created by the init script reading /etc/devices.conf",
+        "An administrator must create every node with mknod"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Hệ thống hiện đại dùng **devtmpfs** (kernel tạo node cơ bản) cộng **udev** (đặt tên bền, quyền, symlink theo rule). Không còn phải `mknod` thủ công như thời kernel 2.4.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "dev"
+      ]
+    },
+    {
+      "id": "ud_predict",
+      "type": "single",
+      "question": "On modern systemd systems an Ethernet interface may be named `enp0s3` instead of `eth0`. What provides this predictable naming?",
+      "choices": [
+        "udev (systemd's predictable network interface names)",
+        "The modprobe command",
+        "The BIOS",
+        "The /proc/net file system"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "udev đặt tên theo vị trí phần cứng: **`en`** = Ethernet, **`p0`** = bus PCI 0, **`s3`** = slot 3 (còn `wl` = WLAN, `eno1` = on-board). Tên không đổi khi thêm bớt card, khác với `eth0/eth1` đánh số theo thứ tự phát hiện.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "net"
+      ]
+    },
+    {
+      "id": "ud_settle",
+      "type": "single",
+      "question": "What does `udevadm settle` do?",
+      "choices": [
+        "Lists devices known to udev",
+        "Waits until the udev event queue is empty",
+        "Reloads all rules",
+        "Unloads unused modules"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "**`udevadm settle`** chặn đến khi mọi sự kiện udev đang chờ được xử lý xong, thường dùng trong script sau `trigger` để chắc chắn tệp thiết bị đã sẵn sàng.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udevadm"
+      ]
+    },
+    {
+      "id": "db_def",
+      "type": "single",
+      "question": "What is D-Bus?",
+      "choices": [
+        "A message bus system for inter-process communication between applications and system services",
+        "A kernel module loader",
+        "A filesystem for USB devices",
+        "A hardware bus connecting the CPU and RAM"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "**D-Bus** là hệ thống bus thông điệp (IPC) giúp chương trình và dịch vụ trao đổi lệnh/sự kiện, ví dụ NetworkManager, udisks, systemd-logind, desktop. Nó là phần mềm, **không** phải bus phần cứng.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "dbus"
+      ]
+    },
+    {
+      "id": "db_buses",
+      "type": "single",
+      "question": "What is the difference between the D-Bus system bus and the session bus?",
+      "choices": [
+        "The system bus is for USB; the session bus for PCI",
+        "There is no difference",
+        "The system bus serves system-wide services; each user login session has its own session bus",
+        "The session bus is only for root"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "**System bus**: một bus duy nhất cho dịch vụ toàn hệ thống (phần cứng, mạng, systemd). **Session bus**: mỗi phiên đăng nhập người dùng một bus riêng cho ứng dụng desktop của họ.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "dbus"
+      ]
+    },
+    {
+      "id": "db_tools",
+      "type": "multi",
+      "question": "Which of the following tools can be used to inspect or interact with D-Bus? (Choose all that apply.)",
+      "choices": [
+        "gdbus",
+        "udevadm trigger",
+        "lsmod",
+        "busctl",
+        "dbus-monitor",
+        "dbus-send"
+      ],
+      "answer": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Công cụ D-Bus: **`dbus-monitor`** (xem thông điệp), **`busctl`** (systemd), **`dbus-send`** (gửi), **`gdbus`** (GLib). `lsmod` và `udevadm trigger` không dính tới D-Bus.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "dbus"
+      ]
+    },
+    {
+      "id": "db_desk",
+      "type": "single",
+      "question": "How does a desktop typically learn that a USB flash drive was inserted?",
+      "choices": [
+        "Kernel uevent → udev → services such as udisks announce it over D-Bus → the desktop reacts",
+        "The desktop polls /etc/fstab every second",
+        "modprobe notifies the window manager",
+        "The BIOS sends a message to the desktop"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Chuỗi chuẩn: kernel phát *uevent*, **udev** tạo node, **udisks** (qua D-Bus) công bố thiết bị mới, môi trường desktop nhận tín hiệu và hiện biểu tượng/tự động mount. Bạn có thể thấy bằng `udevadm monitor` và `dbus-monitor --system`.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "dbus",
+        "udev"
+      ]
+    },
+    {
+      "id": "ud_sysfs",
+      "type": "single",
+      "question": "How do udev and sysfs relate?",
+      "choices": [
+        "sysfs is written by udev rules",
+        "udev replaces sysfs",
+        "sysfs only exists when udev is stopped",
+        "udev reads device attributes from sysfs to decide which rules apply"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "**sysfs** là nơi kernel công bố thông tin thiết bị; **udev** đọc nó (`ATTR{}`, `KERNELS`, `SUBSYSTEM`) để khớp rule. Hai thành phần bổ sung chứ không thay thế nhau.",
+      "topic": "8. udev, D-Bus & hotplug",
+      "tags": [
+        "lpic-101.1",
+        "udev",
+        "sys"
+      ]
+    }
+  ]
+}
